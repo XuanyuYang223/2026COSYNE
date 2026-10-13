@@ -1,0 +1,2882 @@
+[
+  {
+    "mode": "all",
+    "segment": "unseen_cross",
+    "model": "M0_old",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -5.545642665395638,
+      1.5500332857520098
+    ],
+    "rmse_improvement_95ci": [
+      -19.13581296926499,
+      7.114525716932498
+    ],
+    "mae_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -144.93329854878252,
+      52.358072925849484
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -526.2846239240995,
+      233.3521772932931
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "unseen_cross",
+    "model": "M0_old_CKA",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -23.63942261144139,
+      52.98612746229533
+    ],
+    "rmse_improvement_95ci": [
+      -101.17367614458752,
+      205.2315989774218
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -22.734099369927517,
+      56.53857281774359
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -101.64513811478167,
+      217.73838852195254
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -108.73754554201915,
+      119.1345761652654
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -408.4179823934419,
+      426.35604083085366
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "unseen_cross",
+    "model": "M0_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -1.550033285752014,
+      5.545642665395636
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -7.1145257169325,
+      19.135812969264986
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -139.93972909378863,
+      53.77393672266217
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -520.7547906799223,
+      233.73484769960857
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "unseen_cross",
+    "model": "M_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -42.559522955466775,
+      87.77730863856183
+    ],
+    "rmse_improvement_95ci": [
+      -172.43769316081128,
+      320.18671944185155
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -42.418882293200255,
+      89.53431801312125
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -162.9922986091632,
+      323.1477948718124
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -122.65613385312272,
+      135.96661818697058
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -425.9039252788619,
+      474.0873965204471
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "unseen_cross",
+    "model": "M_raw_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -14.926981044749056,
+      38.19852876542731
+    ],
+    "rmse_improvement_95ci": [
+      -57.23958334416661,
+      175.22322525783207
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -15.664541784959036,
+      39.868490090055566
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -55.25459683951675,
+      173.60134913494872
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -144.31045278249266,
+      69.96255506404249
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -592.7526491893934,
+      249.02436719585276
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "unseen_cross",
+    "model": "M_proc_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -27.33319749586679,
+      89.20091766057593
+    ],
+    "rmse_improvement_95ci": [
+      -109.68162772955998,
+      323.25271090231814
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -25.704464728784696,
+      92.30665386778871
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -104.69594989847847,
+      326.21378633227897
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -84.24768680496142,
+      120.25139692045666
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -390.23060015794715,
+      432.6361444951641
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "unseen_cross",
+    "model": "M_init_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -53.77393672266218,
+      139.9397290937885
+    ],
+    "rmse_improvement_95ci": [
+      -233.7348476996086,
+      520.7547906799223
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -52.35807292584954,
+      144.93329854878246
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -233.35217729329318,
+      526.2846239240995
+    ],
+    "mae_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "unseen_cross",
+    "model": "M_init_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -28.13767352744388,
+      117.71557239280156
+    ],
+    "rmse_improvement_95ci": [
+      -113.79288144837528,
+      461.5158989386201
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -24.802497418048848,
+      118.56239915711177
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -109.53844514138653,
+      450.8759708525281
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -37.7683292390621,
+      107.10608578689315
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -120.81697448094556,
+      409.5817066542039
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "unseen_same",
+    "model": "M0_old",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -5.923936798199371,
+      1.6484763666904205
+    ],
+    "rmse_improvement_95ci": [
+      -19.76308174321847,
+      7.27200397159696
+    ],
+    "mae_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -154.6086541967145,
+      55.81083858078968
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -543.5580359530226,
+      239.90806667855915
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "unseen_same",
+    "model": "M0_old_CKA",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -25.15974001486746,
+      56.5505036519409
+    ],
+    "rmse_improvement_95ci": [
+      -104.32386509618796,
+      211.95993503898424
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -24.20619911469503,
+      60.34788592514859
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -104.96850419750659,
+      224.8720915268153
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -115.88847775068672,
+      127.1394717220058
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -421.1349899320895,
+      440.30443398069366
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "unseen_same",
+    "model": "M0_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -1.6484763666904247,
+      5.92393679819937
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -7.272003971596965,
+      19.763081743218468
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -149.27118970317719,
+      57.3580936664013
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -537.8403454768422,
+      241.407260294959
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "unseen_same",
+    "model": "M_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -45.31175702553127,
+      93.60210637662678
+    ],
+    "rmse_improvement_95ci": [
+      -178.08540850267948,
+      330.63964174918146
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -45.17455994588991,
+      95.55186839163682
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -168.33024615386813,
+      333.6976482616172
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -130.76062871405873,
+      145.07352663451684
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -439.86711877759586,
+      489.6344536542408
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "unseen_same",
+    "model": "M_raw_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -15.921989070590513,
+      40.757495631751176
+    ],
+    "rmse_improvement_95ci": [
+      -59.10524383400168,
+      180.96123367763437
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -16.704367730955816,
+      42.54989329792801
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -57.055226905288215,
+      179.29363889237024
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -153.94805656178286,
+      74.64502268344152
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -612.1933698763545,
+      256.917579553054
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "unseen_same",
+    "model": "M_proc_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -29.112718449200234,
+      95.21358528789091
+    ],
+    "rmse_improvement_95ci": [
+      -113.27086347423925,
+      333.82016554253306
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -27.33765059829834,
+      98.53135942378796
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -108.09135833877215,
+      336.8781720549688
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -89.83276244231628,
+      128.11061852364844
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -403.0260768209176,
+      446.79400769009163
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "unseen_same",
+    "model": "M_init_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -57.3580936664013,
+      149.27118970317704
+    ],
+    "rmse_improvement_95ci": [
+      -241.40726029495903,
+      537.8403454768422
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -55.810838580789735,
+      154.6086541967144
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -239.90806667855927,
+      543.5580359530226
+    ],
+    "mae_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "unseen_same",
+    "model": "M_init_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -29.869984098225366,
+      125.52494492391314
+    ],
+    "rmse_improvement_95ci": [
+      -117.4052948098556,
+      476.6902476103206
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -26.30340589200004,
+      126.43272096802701
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -113.09582873890403,
+      465.70164918545976
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -40.2728293386387,
+      114.26295674838347
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -124.77052843126657,
+      422.99546844649666
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "seen_cross",
+    "model": "M0_old",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -4.602357481588384,
+      1.2873539862938694
+    ],
+    "rmse_improvement_95ci": [
+      -17.57871132722362,
+      6.472506789093259
+    ],
+    "mae_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -120.28547547949512,
+      43.40041127927382
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -483.41722174652904,
+      214.20331468629277
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "seen_cross",
+    "model": "M0_old_CKA",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -19.609911055409114,
+      43.978260162719316
+    ],
+    "rmse_improvement_95ci": [
+      -92.77381549332567,
+      188.50041800149006
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -18.84945254303571,
+      46.928947748026964
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -93.35110027997254,
+      199.97337503881408
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -90.25391686655254,
+      98.86646801338381
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -374.3116813006035,
+      391.6063101500835
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "seen_cross",
+    "model": "M0_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -1.287353986293873,
+      4.602357481588383
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -6.472506789093264,
+      17.578711327223616
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -116.14121126183804,
+      44.611201694859034
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -478.3088635532884,
+      214.70024788204984
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "seen_cross",
+    "model": "M_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -35.30911693352294,
+      71.33406067468069
+    ],
+    "rmse_improvement_95ci": [
+      -158.3658381495296,
+      285.0443627823204
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -35.19005238675336,
+      74.29860647114921
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -149.68894121456304,
+      287.6883756246315
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -101.79846586442531,
+      112.84402067252937
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -391.1607734649492,
+      435.4302402480357
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "seen_cross",
+    "model": "M_raw_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -12.37985769723605,
+      31.704772148855696
+    ],
+    "rmse_improvement_95ci": [
+      -52.57211024368863,
+      160.95553959382303
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -12.996410457490295,
+      33.09390393342371
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -50.750579371789755,
+      159.45715789980312
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -119.74753878240055,
+      58.02000840916188
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -544.4744126292991,
+      228.4031146883796
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "seen_cross",
+    "model": "M_proc_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -22.648942941081472,
+      73.86301529230792
+    ],
+    "rmse_improvement_95ci": [
+      -100.74000874190092,
+      296.78180889317963
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -21.339488615556547,
+      75.49555677262398
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -96.12983926725656,
+      291.25962517151794
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -69.93928167919677,
+      99.73435524186594
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -358.40664760140317,
+      397.26962905898057
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "seen_cross",
+    "model": "M_init_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -44.611201694859034,
+      116.14121126183792
+    ],
+    "rmse_improvement_95ci": [
+      -214.70024788204984,
+      478.30886355328835
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -43.40041127927386,
+      120.28547547949505
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -214.20331468629286,
+      483.417221746529
+    ],
+    "mae_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "seen_cross",
+    "model": "M_init_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -23.330844075085167,
+      95.89894252718362
+    ],
+    "rmse_improvement_95ci": [
+      -104.41606888975292,
+      423.9005842684567
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -20.562599837926722,
+      96.71372767829061
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -100.55201423147402,
+      414.12337362674486
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -31.29905359679667,
+      88.93173526618628
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -110.96375211055411,
+      376.19132227154324
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "seen_same",
+    "model": "M0_old",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -5.371417630036069,
+      1.502134687151394
+    ],
+    "rmse_improvement_95ci": [
+      -18.987815242880046,
+      7.009497662744356
+    ],
+    "mae_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -140.30262741268749,
+      50.688585900245904
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -522.1578446970645,
+      232.4464830235914
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "seen_same",
+    "model": "M0_old_CKA",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -22.9127267345994,
+      51.28331237009084
+    ],
+    "rmse_improvement_95ci": [
+      -100.30240430486703,
+      203.60846754086327
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -21.9916061526898,
+      54.72393541647289
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -100.83259998531133,
+      216.00208973038033
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -105.27820823292316,
+      115.37099412611394
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -404.2411188617839,
+      423.0261809534799
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "seen_same",
+    "model": "M0_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -1.502134687151398,
+      5.371417630036068
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -7.0094976627443595,
+      18.987815242880043
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -135.46620568923004,
+      52.068257407479614
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -516.6461448849155,
+      231.9068386573451
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "seen_same",
+    "model": "M_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -41.21520024642867,
+      83.16395668956024
+    ],
+    "rmse_improvement_95ci": [
+      -171.059371994671,
+      307.929490365401
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -41.03988528702595,
+      86.61180263742308
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -161.6874152948349,
+      310.78573306255055
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -118.69577011343674,
+      131.56069931631038
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -422.53987223224306,
+      470.3397686770569
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "seen_same",
+    "model": "M_raw_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -14.441354748470232,
+      37.011403221920425
+    ],
+    "rmse_improvement_95ci": [
+      -56.78665260372842,
+      173.85829051425694
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -15.165426621552777,
+      38.63302767333431
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -54.818335480636506,
+      172.23848048217312
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -139.68243890291336,
+      67.77503359944967
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -588.1094173963387,
+      247.08246824040145
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "seen_same",
+    "model": "M_proc_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -26.536186384684562,
+      86.06818820403902
+    ],
+    "rmse_improvement_95ci": [
+      -108.81647360423959,
+      320.58833323153726
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -24.944061973707782,
+      87.93276094675414
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -103.84759137960879,
+      314.6238486520695
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -81.49232786706555,
+      116.68061003632853
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -387.142149230089,
+      429.2864655320649
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "seen_same",
+    "model": "M_init_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -52.06825740747962,
+      135.46620568922992
+    ],
+    "rmse_improvement_95ci": [
+      -231.90683865734513,
+      516.6461448849154
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -50.688585900245954,
+      140.3026274126874
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -232.44648302359147,
+      522.1578446970644
+    ],
+    "mae_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "mode": "all",
+    "segment": "seen_same",
+    "model": "M_init_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -27.255811745556368,
+      111.73852894564165
+    ],
+    "rmse_improvement_95ci": [
+      -112.8283299152299,
+      457.87729072931313
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -24.026402373119435,
+      112.68632435482272
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -108.6359746446668,
+      447.31610102120896
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -36.57709722503607,
+      103.71520684171936
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -119.8631843083124,
+      406.33912383097356
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "unseen_cross",
+    "model": "M0_old",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -5.771737789709698,
+      1.5235225907023382
+    ],
+    "rmse_improvement_95ci": [
+      -19.782319764281766,
+      6.923202999639124
+    ],
+    "mae_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -144.08163797949055,
+      52.55482623244682
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -524.0356337384827,
+      234.72715968711915
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "unseen_cross",
+    "model": "M0_old_CKA",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -24.060406369006497,
+      54.88833374647412
+    ],
+    "rmse_improvement_95ci": [
+      -98.39892995170166,
+      210.9407037045315
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -23.051212313393247,
+      58.37498095813898
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -103.31657753933312,
+      220.89643420148846
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -109.05869421538873,
+      120.26840364106887
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -403.968697659746,
+      427.6673823588864
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "unseen_cross",
+    "model": "M0_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -1.5235225907023386,
+      5.7717377897096975
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -6.923202999639132,
+      19.782319764281755
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -139.0753760680103,
+      53.796770469640244
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -522.6050670487729,
+      236.19197163647254
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "unseen_cross",
+    "model": "M_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -42.350863883672766,
+      89.28615570854627
+    ],
+    "rmse_improvement_95ci": [
+      -177.27049806153886,
+      323.5943234505466
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -44.56627551697699,
+      91.4963456140892
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -167.1700919475969,
+      326.652230826015
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -123.75818018341253,
+      138.33795663860494
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -431.88300074196326,
+      479.7930153172414
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "unseen_cross",
+    "model": "M_raw_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -14.87092587050125,
+      36.53051217028294
+    ],
+    "rmse_improvement_95ci": [
+      -57.262218206135195,
+      176.99985293270927
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -15.620988531110193,
+      35.44515526898405
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -55.28689096851518,
+      171.8455705557446
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -145.85649283023363,
+      70.66158365625685
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -597.0330378516837,
+      252.9786131247925
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "unseen_cross",
+    "model": "M_proc_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -27.77121388551691,
+      92.1659190731142
+    ],
+    "rmse_improvement_95ci": [
+      -108.3870747794287,
+      326.6879050053654
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -25.96192131182421,
+      94.43792836942602
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -95.9732974779416,
+      329.2491133390517
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -85.20944912411379,
+      124.94602775753047
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -373.91278371422084,
+      438.3568724156966
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "unseen_cross",
+    "model": "M_init_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -53.79677046964026,
+      139.07537606801006
+    ],
+    "rmse_improvement_95ci": [
+      -236.1919716364726,
+      522.6050670487729
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -52.5548262324469,
+      144.08163797949032
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -234.7271596871193,
+      524.0356337384826
+    ],
+    "mae_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "unseen_cross",
+    "model": "M_init_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -26.92544471943545,
+      119.58279301484959
+    ],
+    "rmse_improvement_95ci": [
+      -110.63893330530547,
+      457.9141817992839
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -23.557664039637544,
+      120.60176767434939
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -102.79742951939811,
+      446.66562769890794
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -39.482886153172444,
+      108.55407852936575
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -119.74075742200966,
+      424.7520101563702
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "unseen_same",
+    "model": "M0_old",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -6.165388130504309,
+      1.6190723836881762
+    ],
+    "rmse_improvement_95ci": [
+      -20.430741222822956,
+      7.148520850992278
+    ],
+    "mae_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -153.70028318024157,
+      56.02127149183341
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -541.2347944781477,
+      242.44338117469485
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "unseen_same",
+    "model": "M0_old_CKA",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -25.6087960713843,
+      58.58549697564912
+    ],
+    "rmse_improvement_95ci": [
+      -101.00524744334682,
+      217.85607174227172
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -24.532099396549402,
+      62.312516885057995
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -106.6934059698714,
+      228.13287429952769
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -116.27402948665937,
+      128.34805052774783
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -417.2158350853032,
+      441.6638596293369
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "unseen_same",
+    "model": "M0_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -1.6190723836881764,
+      6.165388130504309
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -7.148520850992287,
+      20.430741222822945
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -148.34887188777952,
+      57.39026803751053
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -539.7507819458481,
+      243.9459205259802
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "unseen_same",
+    "model": "M_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -45.108971555927525,
+      95.20582202784242
+    ],
+    "rmse_improvement_95ci": [
+      -183.07636872235307,
+      334.15809036898287
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -47.46736062939194,
+      97.63837985323931
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -172.6448187887356,
+      337.31609649517435
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -131.93786615985394,
+      147.59465001363438
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -446.03589136528154,
+      495.525807438099
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "unseen_same",
+    "model": "M_raw_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -15.862222911632776,
+      38.971234898167765
+    ],
+    "rmse_improvement_95ci": [
+      -59.12833295172958,
+      182.79679002632417
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -16.657701573816325,
+      37.825911521084635
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -57.088422494251894,
+      177.48003887248004
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -155.59525723213747,
+      75.38868844540964
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -616.6126326095098,
+      260.98733925351104
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "unseen_same",
+    "model": "M_proc_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -29.5801025112461,
+      98.37474941338674
+    ],
+    "rmse_improvement_95ci": [
+      -111.9104549659545,
+      337.37902204435943
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -27.688620391594895,
+      100.72985137552375
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -98.98598958318989,
+      340.01232406830803
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -90.8427494925905,
+      133.0745123966623
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -386.1739922081312,
+      452.69029786388984
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "unseen_same",
+    "model": "M_init_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -57.390268037510545,
+      148.34887188777924
+    ],
+    "rmse_improvement_95ci": [
+      -243.94592052598026,
+      539.7507819458481
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -56.02127149183349,
+      153.70028318024134
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -242.44338117469502,
+      541.2347944781475
+    ],
+    "mae_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "unseen_same",
+    "model": "M_init_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -28.56844183927716,
+      127.57711354740795
+    ],
+    "rmse_improvement_95ci": [
+      -114.22693512388392,
+      472.9698893992089
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -24.966812300839567,
+      128.6685926806926
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -106.19290943119937,
+      461.35307672139567
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -42.101623702663424,
+      115.80592625213868
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -123.63993350149566,
+      438.66199318192554
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "seen_cross",
+    "model": "M0_old",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -4.7900336754451205,
+      1.2668235550603033
+    ],
+    "rmse_improvement_95ci": [
+      -18.172579964500116,
+      6.360631773152669
+    ],
+    "mae_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -119.57861322169053,
+      43.56419002171437
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -481.35108653979177,
+      215.59734444312718
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "seen_cross",
+    "model": "M0_old_CKA",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -19.95897503584225,
+      45.57179005915773
+    ],
+    "rmse_improvement_95ci": [
+      -90.1491890044297,
+      193.7439719107105
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -19.12924624462281,
+      48.466307056229134
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -94.8856734332139,
+      202.8727449679214
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -90.51485526575023,
+      99.80877621378694
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -371.0483512699643,
+      392.8044853759188
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "seen_cross",
+    "model": "M0_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -1.2668235550603035,
+      4.79003367544512
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -6.360631773152676,
+      18.172579964500105
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -115.4236047893755,
+      44.62657957319825
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -480.049408145913,
+      216.95859077688527
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "seen_cross",
+    "model": "M_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -35.135823273995754,
+      72.55639676672413
+    ],
+    "rmse_improvement_95ci": [
+      -162.8041332570085,
+      288.09052455527194
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -36.97209985155025,
+      75.92179447877382
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -153.52569327080636,
+      295.72221454697245
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -102.71237159286439,
+      114.80824969811329
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -396.6455200804249,
+      440.6700927087138
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "seen_cross",
+    "model": "M_raw_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -12.333480213801753,
+      30.335037403595027
+    ],
+    "rmse_improvement_95ci": [
+      -52.59268686428182,
+      162.58642056669964
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -12.960376070024074,
+      29.440054580031486
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -50.780326418718396,
+      157.8440757438424
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -121.03025807221057,
+      58.598375166602445
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -548.4052109450791,
+      231.9216424101564
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "seen_cross",
+    "model": "M_proc_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -23.01182306353077,
+      75.91079486548671
+    ],
+    "rmse_improvement_95ci": [
+      -99.3990215972431,
+      299.9535438369654
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -21.451345949888072,
+      76.7893839894987
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -88.05015575570444,
+      301.9589658228073
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -70.81354368096981,
+      103.60451215102209
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -343.41947184688803,
+      402.5180285793214
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "seen_cross",
+    "model": "M_init_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -44.62657957319826,
+      115.42360478937528
+    ],
+    "rmse_improvement_95ci": [
+      -216.95859077688533,
+      480.049408145913
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -43.56419002171443,
+      119.57861322169033
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -215.59734444312733,
+      481.3510865397916
+    ],
+    "mae_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "seen_cross",
+    "model": "M_init_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -22.338581391471685,
+      97.32259206375113
+    ],
+    "rmse_improvement_95ci": [
+      -101.5600891276387,
+      420.5916322450972
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -19.54295489920034,
+      98.15019256150583
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -94.42381211222848,
+      410.25624800084853
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -32.72275262846762,
+      90.13337838427026
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -109.96612856494843,
+      390.1243051081445
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "seen_same",
+    "model": "M0_old",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -5.590467181823198,
+      1.4758902878471987
+    ],
+    "rmse_improvement_95ci": [
+      -19.62928819393752,
+      6.871064056447031
+    ],
+    "mae_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -139.47794222031428,
+      50.879475990743195
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -519.9261283835565,
+      232.8821630944807
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "seen_same",
+    "model": "M0_old_CKA",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -23.32057456847886,
+      53.15422737300182
+    ],
+    "rmse_improvement_95ci": [
+      -96.9970426878118,
+      209.2722902784382
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -22.32328529455465,
+      56.53134257781614
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -102.48971835291879,
+      219.13377848564582
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -105.63180707422059,
+      116.46851027600131
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -400.78532039907265,
+      424.30958035565504
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "seen_same",
+    "model": "M0_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -1.4758902878471991,
+      5.590467181823198
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -6.871064056447039,
+      19.629288193937512
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -134.62925805700627,
+      52.08540154829533
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -518.5224068360003,
+      234.3458313444053
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "seen_same",
+    "model": "M_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -41.025549743141205,
+      84.58943688478627
+    ],
+    "rmse_improvement_95ci": [
+      -175.8534717664584,
+      311.2201614505196
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -43.11968284583789,
+      88.50522395648102
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -165.8317169213062,
+      319.424697220101
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -119.76288735721604,
+      133.85077269128962
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -428.468456473929,
+      475.9990729397153
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "seen_same",
+    "model": "M_raw_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -14.386991272065453,
+      35.40232709589655
+    ],
+    "rmse_improvement_95ci": [
+      -56.80890717563167,
+      175.61918361658684
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -15.123289985138788,
+      34.34905238189634
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -54.85049568694632,
+      170.49609907600464
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -141.17835375882066,
+      68.45023117481355
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -592.3553999791711,
+      251.83240789019308
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "seen_same",
+    "model": "M_proc_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -26.96087883784926,
+      88.41800413079072
+    ],
+    "rmse_improvement_95ci": [
+      -107.39770339966365,
+      324.01449005102666
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -25.125925216611957,
+      89.44198596795448
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -95.14726238984285,
+      326.1638363473047
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -82.5167795242315,
+      121.1905913784806
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -370.9525489150099,
+      434.94686936001347
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "seen_same",
+    "model": "M_init_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -52.08540154829535,
+      134.629258057006
+    ],
+    "rmse_improvement_95ci": [
+      -234.34583134440535,
+      518.5224068360003
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -50.879475990743266,
+      139.47794222031405
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -232.88216309448083,
+      519.9261283835564
+    ],
+    "mae_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "mode": "rec",
+    "segment": "seen_same",
+    "model": "M_init_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -26.09774956080719,
+      113.39746866596904
+    ],
+    "rmse_improvement_95ci": [
+      -109.72611854394968,
+      454.3032827355877
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -22.836744992480874,
+      114.36030166379624
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -102.00055203541972,
+      443.13902303949544
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -38.23727978413716,
+      105.1165655527562
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -118.78815503295195,
+      421.38869418934013
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "unseen_cross",
+    "model": "M0_old",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -5.454126792934138,
+      1.5147406961015144
+    ],
+    "rmse_improvement_95ci": [
+      -18.75158809715838,
+      6.768916830448745
+    ],
+    "mae_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -142.838417386508,
+      53.25830340897812
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -522.7408932124106,
+      235.85190763778198
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "unseen_cross",
+    "model": "M0_old_CKA",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -23.311744057316663,
+      53.90722859517798
+    ],
+    "rmse_improvement_95ci": [
+      -95.20256288337619,
+      210.75323516862093
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -23.010299625179098,
+      58.239011695361405
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -100.40498470546947,
+      219.0956423737939
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -109.81262828770807,
+      120.48259262359416
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -401.2132528964271,
+      427.07038848709374
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "unseen_cross",
+    "model": "M0_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -1.514740696101519,
+      5.4541267929341375
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -6.768916830448751,
+      18.751588097158372
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -138.21003060490122,
+      53.99480038661305
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -521.8374432721615,
+      237.52538314849272
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "unseen_cross",
+    "model": "M_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -43.0633391370169,
+      88.96925050798663
+    ],
+    "rmse_improvement_95ci": [
+      -175.12534781861802,
+      323.9251251075262
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -44.53686986700489,
+      89.93178547448939
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -165.94558468003245,
+      326.8112476636514
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -125.12521816928972,
+      137.9454244828437
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -435.4588271424517,
+      481.05118251143585
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "unseen_cross",
+    "model": "M_raw_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -14.677433290298593,
+      37.30664922470366
+    ],
+    "rmse_improvement_95ci": [
+      -56.543211394854715,
+      181.3485544264472
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -15.801329069265051,
+      36.26560024622669
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -54.70997042095123,
+      176.06205669144134
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -146.88253477470062,
+      71.11112529339172
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -601.2719713714974,
+      248.7039039272458
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "unseen_cross",
+    "model": "M_proc_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -27.619330287217643,
+      91.42057296296262
+    ],
+    "rmse_improvement_95ci": [
+      -110.32055311189835,
+      326.76586748102443
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -25.302141920911755,
+      94.3049102504279
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -100.1180064186366,
+      330.00968953392515
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -84.66641723147438,
+      122.027138316163
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -378.75053190504406,
+      433.89690056697026
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "unseen_cross",
+    "model": "M_init_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -53.994800386613086,
+      138.21003060490082
+    ],
+    "rmse_improvement_95ci": [
+      -237.52538314849275,
+      521.8374432721613
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -53.258303408978165,
+      142.83841738650767
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -235.85190763778218,
+      522.7408932124101
+    ],
+    "mae_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "unseen_cross",
+    "model": "M_init_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -26.83312606150859,
+      119.93213186960517
+    ],
+    "rmse_improvement_95ci": [
+      -111.91546051872585,
+      460.1935686785052
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -24.24951713853633,
+      120.90292830132293
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -104.58674905605926,
+      449.2954564519035
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -39.84998778139478,
+      107.45179688329868
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -119.75104764452993,
+      425.80682461911255
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "unseen_same",
+    "model": "M0_old",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -5.826021663354912,
+      1.6117799453458566
+    ],
+    "rmse_improvement_95ci": [
+      -19.366729355456545,
+      6.990697145620101
+    ],
+    "mae_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -152.37289598314953,
+      56.78011498584004
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -539.8933411857438,
+      243.599969352673
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "unseen_same",
+    "model": "M0_old_CKA",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -24.81118089722245,
+      57.537110241695146
+    ],
+    "rmse_improvement_95ci": [
+      -98.31458075247016,
+      217.6626308061945
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -24.490998893882836,
+      62.19726308847256
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -103.67513438241039,
+      226.27336734440985
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -117.06150659750253,
+      128.57742465141635
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -414.3721318879389,
+      441.0586910545527
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "unseen_same",
+    "model": "M0_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -1.6117799453458612,
+      5.826021663354911
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -6.990697145620106,
+      19.36672935545654
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -147.4251539938589,
+      57.59236839354248
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -538.9604457668976,
+      245.32317070939712
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "unseen_same",
+    "model": "M_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -45.87062060772355,
+      94.86914186831487
+    ],
+    "rmse_improvement_95ci": [
+      -180.8610861109159,
+      334.5006210042043
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -47.4732309800085,
+      95.99997085535692
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -171.3802949374189,
+      337.4812227679054
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -133.397444629524,
+      147.1788890404392
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -449.73562549135806,
+      496.8279601878484
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "unseen_same",
+    "model": "M_raw_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -15.655931735000808,
+      39.798957216069624
+    ],
+    "rmse_improvement_95ci": [
+      -58.3800701895993,
+      187.28895085219537
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -16.850703270680413,
+      38.70145932903081
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -56.50013341329709,
+      181.83498626752697
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -156.69364613222456,
+      75.8714666650727
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -620.9931953274414,
+      256.7543017957469
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "unseen_same",
+    "model": "M_proc_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -29.420020491743234,
+      97.57377535439966
+    ],
+    "rmse_improvement_95ci": [
+      -113.9296754723122,
+      337.46005332504916
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -26.977735275076935,
+      100.65538814340849
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -103.23398728978951,
+      340.8224146506711
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -90.26843219023687,
+      130.0160218292532
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -391.1657051891224,
+      448.17902601276427
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "unseen_same",
+    "model": "M_init_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -57.59236839354252,
+      147.4251539938585
+    ],
+    "rmse_improvement_95ci": [
+      -245.32317070939715,
+      538.9604457668975
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -56.78011498584008,
+      152.37289598314916
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -243.5999693526732,
+      539.8933411857435
+    ],
+    "mae_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "unseen_same",
+    "model": "M_init_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -28.474001401976935,
+      127.94374273069677
+    ],
+    "rmse_improvement_95ci": [
+      -115.59287327875302,
+      475.32497955944456
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -25.83361789194862,
+      128.98291036274136
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -108.02495366675551,
+      464.0697291585913
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -42.43485118053933,
+      114.62696911963783
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -123.65628447065328,
+      439.72328347155974
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "seen_cross",
+    "model": "M0_old",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -4.528956675591477,
+      1.2583723910279345
+    ],
+    "rmse_improvement_95ci": [
+      -17.224931906744988,
+      6.21937069131079
+    ],
+    "mae_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -118.54537821609306,
+      44.152187605727086
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -480.12839176073817,
+      216.62479692989626
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "seen_cross",
+    "model": "M0_old_CKA",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -19.338248218150124,
+      44.75622363002777
+    ],
+    "rmse_improvement_95ci": [
+      -87.42488060822703,
+      193.5719276251946
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -19.095032045538126,
+      48.340351036503996
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -92.21033002681352,
+      201.2190059000859
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -91.12294702139596,
+      99.98700606964178
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -368.5184691382461,
+      392.2614000015827
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "seen_cross",
+    "model": "M0_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -1.2583723910279383,
+      4.528956675591476
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -6.219370691310794,
+      17.22493190674498
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -114.70428661335247,
+      44.763727869998455
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -479.3449478778376,
+      218.18345543182667
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "seen_cross",
+    "model": "M_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -35.727037492714594,
+      72.30101182141462
+    ],
+    "rmse_improvement_95ci": [
+      -160.83412133876874,
+      288.40697678961317
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -36.94653062479156,
+      74.58795027796748
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -152.40128043413213,
+      298.38905350736684
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -103.8458313935815,
+      114.48490820867897
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -399.9349103096244,
+      441.8537378485696
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "seen_cross",
+    "model": "M_raw_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -12.172413658441473,
+      30.97941241568774
+    ],
+    "rmse_improvement_95ci": [
+      -51.93163481419506,
+      166.58149461867256
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -13.110111668103745,
+      30.121319857506
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -50.25148254370572,
+      161.71730774699094
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -121.88066564759826,
+      58.97379203712665
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -552.3000126869267,
+      228.1239022300082
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "seen_cross",
+    "model": "M_proc_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -22.885961626778574,
+      75.70278101508997
+    ],
+    "rmse_improvement_95ci": [
+      -101.32639180011928,
+      300.025372334415
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -20.99507661755119,
+      76.85859231900537
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -91.82293956792432,
+      303.09731993014424
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -70.36584218742135,
+      101.20564479250092
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -347.8396647499596,
+      397.91762810827856
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "seen_cross",
+    "model": "M_init_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -44.76372786999848,
+      114.70428661335212
+    ],
+    "rmse_improvement_95ci": [
+      -218.1834554318267,
+      479.34494787783746
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -44.15218760572712,
+      118.54537821609277
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -216.62479692989643,
+      480.12839176073777
+    ],
+    "mae_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "seen_cross",
+    "model": "M_init_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -22.261496104425916,
+      97.60729806962097
+    ],
+    "rmse_improvement_95ci": [
+      -102.73228183473431,
+      422.68682788086574
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -20.23337564063481,
+      98.39564683655414
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -95.99687656009311,
+      412.6725065598421
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -32.94361002214327,
+      89.21939311941696
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -109.98028311682748,
+      391.1099024442735
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "seen_same",
+    "model": "M0_old",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -5.28227418973728,
+      1.437005301990287
+    ],
+    "rmse_improvement_95ci": [
+      -18.604636279771455,
+      6.71801155418537
+    ],
+    "mae_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -138.27736764675805,
+      51.56360922195075
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -518.6111337237032,
+      233.99847443751304
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "seen_same",
+    "model": "M0_old_CKA",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -22.59634007425119,
+      52.20326389979382
+    ],
+    "rmse_improvement_95ci": [
+      -94.43357079364962,
+      209.08645902633992
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -22.28355852373292,
+      56.369592809522416
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -99.60171779026334,
+      217.34748226066634
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -106.33386669146775,
+      116.67653632947737
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -398.05264221119086,
+      423.7217053813286
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "seen_same",
+    "model": "M0_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_95ci": [
+      0.0,
+      0.0
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -1.4370053019902882,
+      5.282274189737279
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -6.718011554185375,
+      18.604636279771448
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -133.7952543839349,
+      52.26430924756496
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -517.7611449476241,
+      235.66886020261433
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "seen_same",
+    "model": "M_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -41.71567569238148,
+      84.2908817569495
+    ],
+    "rmse_improvement_95ci": [
+      -173.72553309691324,
+      311.5619392950253
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -43.10531274532305,
+      86.97109064527841
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -164.61713259842216,
+      322.30527989813226
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -121.08678116601764,
+      133.47246981939958
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -432.0193152609658,
+      477.2686874108648
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "seen_same",
+    "model": "M_raw_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -14.199063124634383,
+      36.15465906490447
+    ],
+    "rmse_improvement_95ci": [
+      -56.09371563294293,
+      179.93461714354117
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -15.298240045446,
+      35.14354247842437
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -54.28483608215844,
+      174.67976636034038
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -142.17181100757392,
+      68.88576674875455
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -596.5621473379417,
+      247.32935734216437
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "seen_same",
+    "model": "M_proc_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -26.8141262125193,
+      88.21156570274715
+    ],
+    "rmse_improvement_95ci": [
+      -109.4496444994904,
+      324.0920796767679
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -24.511852622737454,
+      89.51949185332316
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -99.24465502558832,
+      327.3935456901052
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -81.99104554923893,
+      118.41751410000876
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -375.70562527632546,
+      431.7805814432634
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "seen_same",
+    "model": "M_init_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -52.264309247564995,
+      133.7952543839345
+    ],
+    "rmse_improvement_95ci": [
+      -235.66886020261433,
+      517.7611449476238
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -51.56360922195079,
+      138.2773676467577
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -233.99847443751324,
+      518.6111337237028
+    ],
+    "mae_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "mode": "both",
+    "segment": "seen_same",
+    "model": "M_init_CKA_v13",
+    "replicates": 999,
+    "mae_improvement_95ci": [
+      -26.00877573844049,
+      113.72771955993717
+    ],
+    "rmse_improvement_95ci": [
+      -110.9839193519355,
+      456.5662116831213
+    ],
+    "mae_improvement_vs_old_95ci": [
+      -23.662700306526595,
+      114.64564087360733
+    ],
+    "rmse_improvement_vs_old_95ci": [
+      -103.70688955588784,
+      445.74890853000346
+    ],
+    "mae_improvement_vs_init_95ci": [
+      -38.45706800961421,
+      104.04952686173125
+    ],
+    "rmse_improvement_vs_init_95ci": [
+      -118.80182836480951,
+      422.43425829352134
+    ]
+  }
+]

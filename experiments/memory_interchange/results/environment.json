@@ -1,0 +1,13 @@
+{
+  "python": "3.13.13",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.4.4",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.2",
+  "pyyaml": "6.0.3",
+  "cuda_available": true,
+  "torch_cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "gpu_total_bytes": 12820480000
+}

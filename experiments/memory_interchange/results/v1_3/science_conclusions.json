@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "H1": "content-matched versus wrong-content intervention relation supported within tested model/task/quality scope",
+  "H2": "no stable incremental CKA prediction support under the prespecified ridge/LOSO test",
+  "H3": "no stable incremental CKA prediction support jointly across held model seed and unseen history pairs",
+  "primary_baseline_MAE_nat": 2.684753345208782,
+  "primary_CKA_MAE_nat": 2.699646760579946,
+  "MAE_improvement_nat": -0.014893415371163954,
+  "MAE_improvement_95ci": [
+    -42.559522955466775,
+    87.77730863856183
+  ],
+  "counterexample_labels": 288,
+  "some_native_B_conditions_insufficient": true,
+  "no_p_values_from_query_pseudoreplication": true
+}

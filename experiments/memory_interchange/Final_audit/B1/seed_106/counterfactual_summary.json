@@ -1,0 +1,8 @@
+{
+  "status": "EXPLORATORY",
+  "seed": 106,
+  "query_rows": 38556,
+  "mapping_rows": 12852,
+  "source": "all original stored matched/wrong log-probabilities; no content selection",
+  "wrong_initial_column": "blank: only receiver/donor rule candidates defined for wrong content"
+}

@@ -1,0 +1,2 @@
+step,train_loss,validation_accuracy,validation_ce,elapsed_seconds,updates_per_second,peak_gpu_mb
+20,1.9517791271209717,0.142578125,1.9467014521360397,1.25155811701552,15.980080931193376,310.5615234375

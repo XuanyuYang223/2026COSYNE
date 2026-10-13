@@ -1,0 +1,8 @@
+{
+  "gpu_seconds": 4043.450573375856,
+  "inherited_gpu_seconds": 3313.146958759462,
+  "final_audit_gpu_seconds": 730.303614616394,
+  "limit_seconds": 43200,
+  "timed_evaluation_windows_seconds": 274.5069645777112,
+  "accounting_basis": "inclusive conservative GPU-resident process windows; see cost_windows.json"
+}

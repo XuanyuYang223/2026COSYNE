@@ -1,0 +1,12 @@
+{
+  "status": "BLOCKED",
+  "reason": "pilot_stage_budget_exhausted",
+  "failed_stage": 7,
+  "stage_cap": 50000,
+  "pilot_total_updates": 78500,
+  "formal_seeds_executed": [],
+  "formal_G_B_opened": false,
+  "H1": "not_tested",
+  "H2": "not_tested",
+  "H3": "not_tested"
+}

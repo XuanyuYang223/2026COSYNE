@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/yangx/2026COSYNE/experiments/memory_interchange/v1_3/science.py", line 83, in <module>
+    if __name__=='__main__':exploratory()
+                            ~~~~~~~~~~~^^
+  File "/home/yangx/2026COSYNE/experiments/memory_interchange/v1_3/science.py", line 81, in exploratory
+    measure(RUNS/'pilot_seed0/selected.pt',BASE/'runs/v1_2/candidate_A_seed0/initial.pt',RESULTS/'V_exploration',0,True)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yangx/2026COSYNE/experiments/memory_interchange/v1_3/science.py", line 50, in measure
+    evaluate(model,behavior,cfg,out,seed,exploratory)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yangx/2026COSYNE/experiments/memory_interchange/v1_3/intervene.py", line 30, in evaluate
+    baseline_controls(model,cache,cfg,out)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yangx/2026COSYNE/experiments/memory_interchange/v1_3/controls.py", line 65, in baseline_controls
+    cpu_error=cpu_strict_control(model,cache,cfg)
+  File "/home/yangx/miniforge3/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/yangx/2026COSYNE/experiments/memory_interchange/v1_3/controls.py", line 38, in cpu_strict_control
+    torch.testing.assert_close(cont,natural,atol=2e-7,rtol=2e-6)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yangx/miniforge3/lib/python3.13/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 1 / 21 (4.8%)
+Greatest absolute difference: 5.245208740234375e-06 at index (0, 6) (up to 2e-07 allowed)
+Greatest relative difference: 0.00016840577882248908 at index (0, 6) (up to 2e-06 allowed)

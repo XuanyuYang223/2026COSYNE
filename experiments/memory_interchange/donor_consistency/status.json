@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETED",
+  "complete_scope": "existing-output pairing, consistency/distributions/full-vectors/donor-errors/strata/fixed-model orbit intervals/controls/hash checks",
+  "missing_primary_queries": 0,
+  "missing_probability_queries": 0,
+  "network_forward_calls": 0,
+  "network_training_updates": 0,
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106
+  ],
+  "new_confirmation": false,
+  "external_publication": false
+}

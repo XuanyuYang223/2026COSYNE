@@ -1,0 +1,151 @@
+{
+  "original_V": {
+    "n": 8192,
+    "accuracy": 0.986083984375,
+    "cross_entropy": 0.04276732423957348,
+    "strata": {
+      "context": {
+        "0": {
+          "n": 3998,
+          "accuracy": 0.987743871935968,
+          "cross_entropy": 0.03359361069871712
+        },
+        "1": {
+          "n": 4194,
+          "accuracy": 0.9845016690510253,
+          "cross_entropy": 0.05151231869268358
+        }
+      },
+      "true_operation_sequence": {
+        "C": {
+          "n": 982,
+          "accuracy": 0.9959266802443992,
+          "cross_entropy": 0.009944197665004298
+        },
+        "CC": {
+          "n": 521,
+          "accuracy": 0.9961612284069098,
+          "cross_entropy": 0.01931138343824098
+        },
+        "CCC": {
+          "n": 274,
+          "accuracy": 0.9890510948905109,
+          "cross_entropy": 0.04521979902196366
+        },
+        "CCI": {
+          "n": 264,
+          "accuracy": 0.9772727272727273,
+          "cross_entropy": 0.06463590192998893
+        },
+        "CI": {
+          "n": 523,
+          "accuracy": 0.9904397705544933,
+          "cross_entropy": 0.04287769091327435
+        },
+        "CIC": {
+          "n": 247,
+          "accuracy": 0.9109311740890689,
+          "cross_entropy": 0.2845676975966662
+        },
+        "CII": {
+          "n": 263,
+          "accuracy": 0.9543726235741445,
+          "cross_entropy": 0.1379125093828826
+        },
+        "I": {
+          "n": 1023,
+          "accuracy": 0.9970674486803519,
+          "cross_entropy": 0.009551391670905797
+        },
+        "IC": {
+          "n": 509,
+          "accuracy": 0.9744597249508841,
+          "cross_entropy": 0.06992910325519755
+        },
+        "ICC": {
+          "n": 256,
+          "accuracy": 0.96484375,
+          "cross_entropy": 0.10075464669335496
+        },
+        "ICI": {
+          "n": 266,
+          "accuracy": 0.9398496240601504,
+          "cross_entropy": 0.19491497776962827
+        },
+        "II": {
+          "n": 491,
+          "accuracy": 0.9918533604887984,
+          "cross_entropy": 0.020614395224476844
+        },
+        "IIC": {
+          "n": 260,
+          "accuracy": 0.9730769230769231,
+          "cross_entropy": 0.07705823607789848
+        },
+        "III": {
+          "n": 274,
+          "accuracy": 0.9708029197080292,
+          "cross_entropy": 0.05986407572087226
+        },
+        "KEEP": {
+          "n": 2039,
+          "accuracy": 1.0,
+          "cross_entropy": 0.0012359066059504863
+        }
+      },
+      "delay": {
+        "0": {
+          "n": 4148,
+          "accuracy": 0.9869816779170685,
+          "cross_entropy": 0.03834879381222355
+        },
+        "10": {
+          "n": 4044,
+          "accuracy": 0.9851632047477745,
+          "cross_entropy": 0.04729948650778504
+        }
+      },
+      "query_type": {
+        "0": {
+          "n": 4019,
+          "accuracy": 0.9858173675043543,
+          "cross_entropy": 0.04189513649883838
+        },
+        "1": {
+          "n": 4173,
+          "accuracy": 0.9863407620416966,
+          "cross_entropy": 0.04360732484585539
+        }
+      },
+      "non_N": {
+        "0": {
+          "n": 2039,
+          "accuracy": 1.0,
+          "cross_entropy": 0.0012359066059504863
+        },
+        "1": {
+          "n": 2005,
+          "accuracy": 0.9965087281795512,
+          "cross_entropy": 0.009743778447067756
+        },
+        "2": {
+          "n": 2044,
+          "accuracy": 0.9882583170254403,
+          "cross_entropy": 0.038259219535753286
+        },
+        "3": {
+          "n": 2104,
+          "accuracy": 0.9605513307984791,
+          "cross_entropy": 0.11886491734011521
+        }
+      }
+    }
+  },
+  "coarse_gate_passed": true,
+  "old_fine_gate_passed": false,
+  "checkpoint": "runs/v1_3/seed_105/selected_stage7.pt",
+  "checkpoint_sha256": "19b33dfa65ff86b6f8b1c72680d6f84e0eccd011cde01f5fcc27ef4fe4f0c49b",
+  "selected_stage": 7,
+  "selected_stage_step": 26000,
+  "curriculum_passed": true
+}

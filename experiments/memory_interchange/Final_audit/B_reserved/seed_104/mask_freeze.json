@@ -1,0 +1,79 @@
+{
+  "time": 1791869992.8403587,
+  "patch_outputs_not_yet_computed": true,
+  "natural_outputs_define_masks": true,
+  "files": [
+    {
+      "d": 0,
+      "S": "NN",
+      "path": "B_reserved/seed_104/masks_d0_SNN.npz",
+      "sha256": "a67935d1d5e2e688eb04430a8432d3a844175c4adb31cc08765e4b0f963b26d2",
+      "coverage": {
+        "all": 1.0,
+        "rec": 0.9911646058054898,
+        "both": 0.9831282216180927,
+        "E_sem": 0.9831282216180927
+      }
+    },
+    {
+      "d": 0,
+      "S": "NA",
+      "path": "B_reserved/seed_104/masks_d0_SNA.npz",
+      "sha256": "20b729c01e75a99ac1b01871409403d77f3d22163dceec8c7a1d178fa99dc21e",
+      "coverage": {
+        "all": 1.0,
+        "rec": 0.9653271069016925,
+        "both": 0.9345463425804126,
+        "E_sem": 0.9375834332095843
+      }
+    },
+    {
+      "d": 0,
+      "S": "NB",
+      "path": "B_reserved/seed_104/masks_d0_SNB.npz",
+      "sha256": "bace5d656159bc5d512c8c0e2e283cf577e16381ecc0a03eef19ac5e97db20ad",
+      "coverage": {
+        "all": 1.0,
+        "rec": 0.9704902218714373,
+        "both": 0.9442690520038587,
+        "E_sem": 0.9422623919631287
+      }
+    },
+    {
+      "d": 10,
+      "S": "NN",
+      "path": "B_reserved/seed_104/masks_d10_SNN.npz",
+      "sha256": "5b467ba81cd86396048519bd98194761c0bebcc630d4124a17d56e6c4cc5567c",
+      "coverage": {
+        "all": 1.0,
+        "rec": 0.9913619223011488,
+        "both": 0.9835033665604568,
+        "E_sem": 0.9835033665604568
+      }
+    },
+    {
+      "d": 10,
+      "S": "NA",
+      "path": "B_reserved/seed_104/masks_d10_SNA.npz",
+      "sha256": "cb1bc9ac7003e7260269232674a9c58f4ae1cafb6b0a2b024c57e84401935c3d",
+      "coverage": {
+        "all": 1.0,
+        "rec": 0.965031132158204,
+        "both": 0.9339830161653366,
+        "E_sem": 0.9372661434125522
+      }
+    },
+    {
+      "d": 10,
+      "S": "NB",
+      "path": "B_reserved/seed_104/masks_d10_SNB.npz",
+      "sha256": "487abd676f0a3709a9a9994c89d8dc61d97d9276f5f183fd5c1d535da9a5d98d",
+      "coverage": {
+        "all": 1.0,
+        "rec": 0.9706546522844866,
+        "both": 0.944575379773354,
+        "E_sem": 0.9423372991512955
+      }
+    }
+  ]
+}

@@ -1,0 +1,1186 @@
+{
+  "candidate": "A",
+  "seed": 106,
+  "passed": true,
+  "failed_stage": null,
+  "total_updates": 48500,
+  "stage_summaries": [
+    {
+      "candidate": "A",
+      "stage": 1,
+      "timing": "short",
+      "passed": true,
+      "updates": 5500,
+      "total_updates": 5500,
+      "best_validation": {
+        "accuracy": 0.99853515625,
+        "cross_entropy": 0.02273734205164779,
+        "step": 5500
+      },
+      "last_validation": {
+        "n": 4096,
+        "accuracy": 0.99853515625,
+        "cross_entropy": 0.02273734205164779,
+        "strata": {
+          "context": {
+            "0": {
+              "n": 4096,
+              "accuracy": 0.99853515625,
+              "cross_entropy": 0.02273734205164779
+            }
+          },
+          "true_operation_sequence": {
+            "KEEP": {
+              "n": 4096,
+              "accuracy": 0.99853515625,
+              "cross_entropy": 0.02273734205164779
+            }
+          },
+          "delay": {
+            "0": {
+              "n": 4096,
+              "accuracy": 0.99853515625,
+              "cross_entropy": 0.02273734205164779
+            }
+          },
+          "query_type": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.99853515625,
+              "cross_entropy": 0.02342015391669927
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.99853515625,
+              "cross_entropy": 0.02205453018659631
+            }
+          },
+          "non_N": {
+            "0": {
+              "n": 4096,
+              "accuracy": 0.99853515625,
+              "cross_entropy": 0.02273734205164779
+            }
+          }
+        }
+      },
+      "last_training_evaluation": {
+        "n": 4096,
+        "accuracy": 0.999755859375,
+        "cross_entropy": 0.013036501683261953,
+        "strata": {
+          "context": {
+            "0": {
+              "n": 4096,
+              "accuracy": 0.999755859375,
+              "cross_entropy": 0.013036501683261953
+            }
+          },
+          "true_operation_sequence": {
+            "KEEP": {
+              "n": 4096,
+              "accuracy": 0.999755859375,
+              "cross_entropy": 0.013036501683261953
+            }
+          },
+          "delay": {
+            "0": {
+              "n": 4096,
+              "accuracy": 0.999755859375,
+              "cross_entropy": 0.013036501683261953
+            }
+          },
+          "query_type": {
+            "0": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.011430738153861697
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.99951171875,
+              "cross_entropy": 0.014642265212662209
+            }
+          },
+          "non_N": {
+            "0": {
+              "n": 4096,
+              "accuracy": 0.999755859375,
+              "cross_entropy": 0.013036501683261953
+            }
+          }
+        }
+      },
+      "elapsed_seconds": 27.757874838018324,
+      "peak_gpu_mb": 122.8134765625
+    },
+    {
+      "candidate": "A",
+      "stage": 2,
+      "timing": "mid",
+      "passed": true,
+      "updates": 1000,
+      "total_updates": 6500,
+      "best_validation": {
+        "accuracy": 1.0,
+        "cross_entropy": 0.007508436440610073,
+        "step": 1000
+      },
+      "last_validation": {
+        "n": 4096,
+        "accuracy": 1.0,
+        "cross_entropy": 0.007508436440610073,
+        "strata": {
+          "context": {
+            "0": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.007583555721515405
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.007433317159704741
+            }
+          },
+          "true_operation_sequence": {
+            "KEEP": {
+              "n": 4096,
+              "accuracy": 1.0,
+              "cross_entropy": 0.007508436440610073
+            }
+          },
+          "delay": {
+            "0": {
+              "n": 4096,
+              "accuracy": 1.0,
+              "cross_entropy": 0.007508436440610073
+            }
+          },
+          "query_type": {
+            "0": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.0077158086819065184
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.007301064199313628
+            }
+          },
+          "non_N": {
+            "0": {
+              "n": 4096,
+              "accuracy": 1.0,
+              "cross_entropy": 0.007508436440610073
+            }
+          }
+        }
+      },
+      "last_training_evaluation": {
+        "n": 4096,
+        "accuracy": 1.0,
+        "cross_entropy": 0.003775735556530529,
+        "strata": {
+          "context": {
+            "0": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.003897347123897388
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.00365412398916367
+            }
+          },
+          "true_operation_sequence": {
+            "KEEP": {
+              "n": 4096,
+              "accuracy": 1.0,
+              "cross_entropy": 0.003775735556530529
+            }
+          },
+          "delay": {
+            "0": {
+              "n": 4096,
+              "accuracy": 1.0,
+              "cross_entropy": 0.003775735556530529
+            }
+          },
+          "query_type": {
+            "0": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.0032261995773302035
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.004325271535730854
+            }
+          },
+          "non_N": {
+            "0": {
+              "n": 4096,
+              "accuracy": 1.0,
+              "cross_entropy": 0.003775735556530529
+            }
+          }
+        }
+      },
+      "elapsed_seconds": 6.578415841970127,
+      "peak_gpu_mb": 197.12353515625
+    },
+    {
+      "candidate": "A",
+      "stage": 3,
+      "timing": "original",
+      "passed": true,
+      "updates": 1000,
+      "total_updates": 7500,
+      "best_validation": {
+        "accuracy": 0.999755859375,
+        "cross_entropy": 0.0037710316230231463,
+        "step": 1000
+      },
+      "last_validation": {
+        "n": 4096,
+        "accuracy": 0.999755859375,
+        "cross_entropy": 0.0037710316230231463,
+        "strata": {
+          "context": {
+            "0": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.0035212032684779036
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.99951171875,
+              "cross_entropy": 0.004020859977568389
+            }
+          },
+          "true_operation_sequence": {
+            "KEEP": {
+              "n": 4096,
+              "accuracy": 0.999755859375,
+              "cross_entropy": 0.0037710316230231463
+            }
+          },
+          "delay": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.99951171875,
+              "cross_entropy": 0.004382641214956313
+            },
+            "10": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.00315942203108998
+            }
+          },
+          "query_type": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.99951171875,
+              "cross_entropy": 0.0040388294798104005
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.003503233766235892
+            }
+          },
+          "non_N": {
+            "0": {
+              "n": 4096,
+              "accuracy": 0.999755859375,
+              "cross_entropy": 0.0037710316230231463
+            }
+          }
+        }
+      },
+      "last_training_evaluation": {
+        "n": 4096,
+        "accuracy": 1.0,
+        "cross_entropy": 0.0014451892727594274,
+        "strata": {
+          "context": {
+            "0": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.001367531760442322
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.0015228467850765329
+            }
+          },
+          "true_operation_sequence": {
+            "KEEP": {
+              "n": 4096,
+              "accuracy": 1.0,
+              "cross_entropy": 0.0014451892727594274
+            }
+          },
+          "delay": {
+            "0": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.0015032882514729798
+            },
+            "10": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.001387090294045875
+            }
+          },
+          "query_type": {
+            "0": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.0012508909067587143
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.0016394876387601405
+            }
+          },
+          "non_N": {
+            "0": {
+              "n": 4096,
+              "accuracy": 1.0,
+              "cross_entropy": 0.0014451892727594274
+            }
+          }
+        }
+      },
+      "elapsed_seconds": 7.037839992030058,
+      "peak_gpu_mb": 319.97119140625
+    },
+    {
+      "candidate": "A",
+      "stage": 4,
+      "timing": "original",
+      "passed": true,
+      "updates": 4500,
+      "total_updates": 12000,
+      "best_validation": {
+        "accuracy": 0.995361328125,
+        "cross_entropy": 0.03098137321587606,
+        "step": 4500
+      },
+      "last_validation": {
+        "n": 4096,
+        "accuracy": 0.995361328125,
+        "cross_entropy": 0.03098137321587606,
+        "strata": {
+          "context": {
+            "0": {
+              "n": 4096,
+              "accuracy": 0.995361328125,
+              "cross_entropy": 0.03098137321587606
+            }
+          },
+          "true_operation_sequence": {
+            "C": {
+              "n": 1024,
+              "accuracy": 0.990234375,
+              "cross_entropy": 0.02886840414621572
+            },
+            "I": {
+              "n": 1024,
+              "accuracy": 0.9931640625,
+              "cross_entropy": 0.07187813036781865
+            },
+            "KEEP": {
+              "n": 2048,
+              "accuracy": 0.9990234375,
+              "cross_entropy": 0.011589479174734935
+            }
+          },
+          "delay": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.9951171875,
+              "cross_entropy": 0.030265649859522153
+            },
+            "10": {
+              "n": 2048,
+              "accuracy": 0.99560546875,
+              "cross_entropy": 0.031697096572229966
+            }
+          },
+          "query_type": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.9951171875,
+              "cross_entropy": 0.02936596314492687
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.99560546875,
+              "cross_entropy": 0.03259678328682525
+            }
+          },
+          "non_N": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.9990234375,
+              "cross_entropy": 0.011589479174734935
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.99169921875,
+              "cross_entropy": 0.050373267257017185
+            }
+          }
+        }
+      },
+      "last_training_evaluation": {
+        "n": 4096,
+        "accuracy": 0.995849609375,
+        "cross_entropy": 0.02760109074688198,
+        "strata": {
+          "context": {
+            "0": {
+              "n": 4096,
+              "accuracy": 0.995849609375,
+              "cross_entropy": 0.02760109074688198
+            }
+          },
+          "true_operation_sequence": {
+            "C": {
+              "n": 1024,
+              "accuracy": 0.9951171875,
+              "cross_entropy": 0.02097997844870663
+            },
+            "I": {
+              "n": 1024,
+              "accuracy": 0.98828125,
+              "cross_entropy": 0.07246071893068962
+            },
+            "KEEP": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.008481832804065836
+            }
+          },
+          "delay": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.99609375,
+              "cross_entropy": 0.0261257850184009
+            },
+            "10": {
+              "n": 2048,
+              "accuracy": 0.99560546875,
+              "cross_entropy": 0.02907639647536306
+            }
+          },
+          "query_type": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.99462890625,
+              "cross_entropy": 0.026015893979211165
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.9970703125,
+              "cross_entropy": 0.029186287514552794
+            }
+          },
+          "non_N": {
+            "0": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.008481832804065836
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.99169921875,
+              "cross_entropy": 0.04672034868969813
+            }
+          }
+        }
+      },
+      "elapsed_seconds": 30.75318227801472,
+      "peak_gpu_mb": 319.97119140625
+    },
+    {
+      "candidate": "A",
+      "stage": 5,
+      "timing": "original",
+      "passed": true,
+      "updates": 3000,
+      "total_updates": 15000,
+      "best_validation": {
+        "accuracy": 0.990234375,
+        "cross_entropy": 0.04298617625514373,
+        "step": 3000
+      },
+      "last_validation": {
+        "n": 4096,
+        "accuracy": 0.990234375,
+        "cross_entropy": 0.04298617625514373,
+        "strata": {
+          "context": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.99755859375,
+              "cross_entropy": 0.014944431976702317
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.98291015625,
+              "cross_entropy": 0.07102792053358513
+            }
+          },
+          "true_operation_sequence": {
+            "C": {
+              "n": 1007,
+              "accuracy": 0.9692154915590864,
+              "cross_entropy": 0.12154504651235316
+            },
+            "I": {
+              "n": 1041,
+              "accuracy": 0.9913544668587896,
+              "cross_entropy": 0.04062799376847891
+            },
+            "KEEP": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.005557507124093031
+            }
+          },
+          "delay": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.9892578125,
+              "cross_entropy": 0.04476083208602403
+            },
+            "10": {
+              "n": 2048,
+              "accuracy": 0.9912109375,
+              "cross_entropy": 0.041211520424263424
+            }
+          },
+          "query_type": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.9921875,
+              "cross_entropy": 0.04224785757727979
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.98828125,
+              "cross_entropy": 0.04372449493300766
+            }
+          },
+          "non_N": {
+            "0": {
+              "n": 2048,
+              "accuracy": 1.0,
+              "cross_entropy": 0.005557507124093031
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.98046875,
+              "cross_entropy": 0.08041484538619442
+            }
+          }
+        }
+      },
+      "last_training_evaluation": {
+        "n": 4096,
+        "accuracy": 0.9921875,
+        "cross_entropy": 0.0379090274141188,
+        "strata": {
+          "context": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.99658203125,
+              "cross_entropy": 0.017239403979602608
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.98779296875,
+              "cross_entropy": 0.058578650848635
+            }
+          },
+          "true_operation_sequence": {
+            "C": {
+              "n": 982,
+              "accuracy": 0.9735234215885947,
+              "cross_entropy": 0.1137519081169146
+            },
+            "I": {
+              "n": 1066,
+              "accuracy": 0.9962476547842402,
+              "cross_entropy": 0.030426576959990192
+            },
+            "KEEP": {
+              "n": 2048,
+              "accuracy": 0.9990234375,
+              "cross_entropy": 0.005437632557651825
+            }
+          },
+          "delay": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.99267578125,
+              "cross_entropy": 0.03797864251559234
+            },
+            "10": {
+              "n": 2048,
+              "accuracy": 0.99169921875,
+              "cross_entropy": 0.037839412312645274
+            }
+          },
+          "query_type": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.994140625,
+              "cross_entropy": 0.036301706087880144
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.990234375,
+              "cross_entropy": 0.03951634874035746
+            }
+          },
+          "non_N": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.9990234375,
+              "cross_entropy": 0.005437632557651825
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.9853515625,
+              "cross_entropy": 0.07038042227058577
+            }
+          }
+        }
+      },
+      "elapsed_seconds": 20.809424881008454,
+      "peak_gpu_mb": 319.97119140625
+    },
+    {
+      "candidate": "A",
+      "stage": 6,
+      "timing": "original",
+      "passed": true,
+      "updates": 10500,
+      "total_updates": 25500,
+      "best_validation": {
+        "accuracy": 0.991455078125,
+        "cross_entropy": 0.03256348639002269,
+        "step": 10500
+      },
+      "last_validation": {
+        "n": 4096,
+        "accuracy": 0.991455078125,
+        "cross_entropy": 0.03256348639002269,
+        "strata": {
+          "context": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.9951171875,
+              "cross_entropy": 0.019853377197416255
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.98779296875,
+              "cross_entropy": 0.045273595582629125
+            }
+          },
+          "true_operation_sequence": {
+            "C": {
+              "n": 700,
+              "accuracy": 0.9957142857142857,
+              "cross_entropy": 0.023659808197893387
+            },
+            "CC": {
+              "n": 341,
+              "accuracy": 0.9970674486803519,
+              "cross_entropy": 0.03598658436005682
+            },
+            "CI": {
+              "n": 314,
+              "accuracy": 0.9617834394904459,
+              "cross_entropy": 0.13189255400317162
+            },
+            "I": {
+              "n": 665,
+              "accuracy": 0.9954887218045113,
+              "cross_entropy": 0.010527316842489007
+            },
+            "IC": {
+              "n": 368,
+              "accuracy": 0.967391304347826,
+              "cross_entropy": 0.11836389006671333
+            },
+            "II": {
+              "n": 343,
+              "accuracy": 0.9883381924198251,
+              "cross_entropy": 0.03441768566154411
+            },
+            "KEEP": {
+              "n": 1365,
+              "accuracy": 1.0,
+              "cross_entropy": 0.0005631090582541989
+            }
+          },
+          "delay": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.99072265625,
+              "cross_entropy": 0.03506594351491511
+            },
+            "10": {
+              "n": 2048,
+              "accuracy": 0.9921875,
+              "cross_entropy": 0.03006102926513027
+            }
+          },
+          "query_type": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.990234375,
+              "cross_entropy": 0.033635123260577035
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.99267578125,
+              "cross_entropy": 0.031491849519468346
+            }
+          },
+          "non_N": {
+            "0": {
+              "n": 1365,
+              "accuracy": 1.0,
+              "cross_entropy": 0.0005631090582541989
+            },
+            "1": {
+              "n": 1365,
+              "accuracy": 0.9956043956043956,
+              "cross_entropy": 0.01726192779397843
+            },
+            "2": {
+              "n": 1366,
+              "accuracy": 0.9787701317715959,
+              "cross_entropy": 0.07983079425346662
+            }
+          }
+        }
+      },
+      "last_training_evaluation": {
+        "n": 4096,
+        "accuracy": 0.992431640625,
+        "cross_entropy": 0.02787172697145494,
+        "strata": {
+          "context": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.99462890625,
+              "cross_entropy": 0.018590992709908754
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.990234375,
+              "cross_entropy": 0.03715246123300113
+            }
+          },
+          "true_operation_sequence": {
+            "C": {
+              "n": 666,
+              "accuracy": 0.993993993993994,
+              "cross_entropy": 0.026467567944051935
+            },
+            "CC": {
+              "n": 348,
+              "accuracy": 0.9913793103448276,
+              "cross_entropy": 0.02999902514372588
+            },
+            "CI": {
+              "n": 345,
+              "accuracy": 0.9594202898550724,
+              "cross_entropy": 0.11214030573063152
+            },
+            "I": {
+              "n": 700,
+              "accuracy": 0.9971428571428571,
+              "cross_entropy": 0.012757794743996768
+            },
+            "IC": {
+              "n": 338,
+              "accuracy": 0.9792899408284024,
+              "cross_entropy": 0.09107689741080396
+            },
+            "II": {
+              "n": 334,
+              "accuracy": 0.9970059880239521,
+              "cross_entropy": 0.017329165147264805
+            },
+            "KEEP": {
+              "n": 1365,
+              "accuracy": 1.0,
+              "cross_entropy": 0.001395412741699962
+            }
+          },
+          "delay": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.9921875,
+              "cross_entropy": 0.02973412897042154
+            },
+            "10": {
+              "n": 2048,
+              "accuracy": 0.99267578125,
+              "cross_entropy": 0.026009324972488344
+            }
+          },
+          "query_type": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.9912109375,
+              "cross_entropy": 0.02984683160958317
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.99365234375,
+              "cross_entropy": 0.025896622333326715
+            }
+          },
+          "non_N": {
+            "0": {
+              "n": 1365,
+              "accuracy": 1.0,
+              "cross_entropy": 0.001395412741699962
+            },
+            "1": {
+              "n": 1366,
+              "accuracy": 0.9956076134699854,
+              "cross_entropy": 0.01944206191181283
+            },
+            "2": {
+              "n": 1365,
+              "accuracy": 0.9816849816849816,
+              "cross_entropy": 0.06278388183965031
+            }
+          }
+        }
+      },
+      "elapsed_seconds": 75.84525177499745,
+      "peak_gpu_mb": 320.3056640625
+    },
+    {
+      "candidate": "A",
+      "stage": 7,
+      "timing": "original",
+      "passed": true,
+      "updates": 23000,
+      "total_updates": 48500,
+      "best_validation": {
+        "accuracy": 0.9854736328125,
+        "cross_entropy": 0.03858562145937042,
+        "step": 23000
+      },
+      "last_validation": {
+        "n": 8192,
+        "accuracy": 0.9854736328125,
+        "cross_entropy": 0.03858562145937042,
+        "strata": {
+          "context": {
+            "0": {
+              "n": 3998,
+              "accuracy": 0.9907453726863432,
+              "cross_entropy": 0.023653150494712314
+            },
+            "1": {
+              "n": 4194,
+              "accuracy": 0.9804482594182165,
+              "cross_entropy": 0.052820246856772196
+            }
+          },
+          "true_operation_sequence": {
+            "C": {
+              "n": 982,
+              "accuracy": 0.9979633401221996,
+              "cross_entropy": 0.005376133984326595
+            },
+            "CC": {
+              "n": 521,
+              "accuracy": 0.9961612284069098,
+              "cross_entropy": 0.009416856783763522
+            },
+            "CCC": {
+              "n": 274,
+              "accuracy": 0.9963503649635036,
+              "cross_entropy": 0.033931973280593164
+            },
+            "CCI": {
+              "n": 264,
+              "accuracy": 0.9924242424242424,
+              "cross_entropy": 0.029523290149277293
+            },
+            "CI": {
+              "n": 523,
+              "accuracy": 0.9789674952198852,
+              "cross_entropy": 0.06124083693275958
+            },
+            "CIC": {
+              "n": 247,
+              "accuracy": 0.8299595141700404,
+              "cross_entropy": 0.44688406642325623
+            },
+            "CII": {
+              "n": 263,
+              "accuracy": 0.9771863117870723,
+              "cross_entropy": 0.04583686575178711
+            },
+            "I": {
+              "n": 1023,
+              "accuracy": 0.9990224828934506,
+              "cross_entropy": 0.003117738750398378
+            },
+            "IC": {
+              "n": 509,
+              "accuracy": 0.9823182711198428,
+              "cross_entropy": 0.05186904029382099
+            },
+            "ICC": {
+              "n": 256,
+              "accuracy": 0.98828125,
+              "cross_entropy": 0.020086416367551374
+            },
+            "ICI": {
+              "n": 266,
+              "accuracy": 0.8984962406015038,
+              "cross_entropy": 0.2506675350629397
+            },
+            "II": {
+              "n": 491,
+              "accuracy": 1.0,
+              "cross_entropy": 0.006722736081586967
+            },
+            "IIC": {
+              "n": 260,
+              "accuracy": 0.9576923076923077,
+              "cross_entropy": 0.09198737967052387
+            },
+            "III": {
+              "n": 274,
+              "accuracy": 0.9927007299270073,
+              "cross_entropy": 0.016650906785583956
+            },
+            "KEEP": {
+              "n": 2039,
+              "accuracy": 1.0,
+              "cross_entropy": 0.0005696577671067661
+            }
+          },
+          "delay": {
+            "0": {
+              "n": 4148,
+              "accuracy": 0.9845708775313404,
+              "cross_entropy": 0.03868147654902484
+            },
+            "10": {
+              "n": 4044,
+              "accuracy": 0.9863996043521266,
+              "cross_entropy": 0.03848730125366158
+            }
+          },
+          "query_type": {
+            "0": {
+              "n": 4019,
+              "accuracy": 0.9885543667579,
+              "cross_entropy": 0.02897316167179793
+            },
+            "1": {
+              "n": 4173,
+              "accuracy": 0.9825065899832255,
+              "cross_entropy": 0.04784334393391003
+            }
+          },
+          "non_N": {
+            "0": {
+              "n": 2039,
+              "accuracy": 1.0,
+              "cross_entropy": 0.0005696577671067661
+            },
+            "1": {
+              "n": 2005,
+              "accuracy": 0.9985037406483791,
+              "cross_entropy": 0.004223845543274941
+            },
+            "2": {
+              "n": 2044,
+              "accuracy": 0.9892367906066536,
+              "cross_entropy": 0.03260144081496484
+            },
+            "3": {
+              "n": 2104,
+              "accuracy": 0.9553231939163498,
+              "cross_entropy": 0.11398561001329723
+            }
+          }
+        }
+      },
+      "last_training_evaluation": {
+        "n": 8192,
+        "accuracy": 0.9884033203125,
+        "cross_entropy": 0.03352527136021981,
+        "strata": {
+          "context": {
+            "0": {
+              "n": 4096,
+              "accuracy": 0.993896484375,
+              "cross_entropy": 0.018908585598676454
+            },
+            "1": {
+              "n": 4096,
+              "accuracy": 0.98291015625,
+              "cross_entropy": 0.04814195712176316
+            }
+          },
+          "true_operation_sequence": {
+            "C": {
+              "n": 1034,
+              "accuracy": 1.0,
+              "cross_entropy": 0.003493928988023373
+            },
+            "CC": {
+              "n": 525,
+              "accuracy": 0.9942857142857143,
+              "cross_entropy": 0.01579082355818767
+            },
+            "CCC": {
+              "n": 242,
+              "accuracy": 0.987603305785124,
+              "cross_entropy": 0.06834207665760451
+            },
+            "CCI": {
+              "n": 270,
+              "accuracy": 0.9962962962962963,
+              "cross_entropy": 0.006808909752615056
+            },
+            "CI": {
+              "n": 519,
+              "accuracy": 0.9826589595375722,
+              "cross_entropy": 0.04737712296039512
+            },
+            "CIC": {
+              "n": 266,
+              "accuracy": 0.8721804511278195,
+              "cross_entropy": 0.3585784417542526
+            },
+            "CII": {
+              "n": 259,
+              "accuracy": 0.9691119691119691,
+              "cross_entropy": 0.07156522270006108
+            },
+            "I": {
+              "n": 1014,
+              "accuracy": 0.9980276134122288,
+              "cross_entropy": 0.005540071137262309
+            },
+            "IC": {
+              "n": 504,
+              "accuracy": 0.9920634920634921,
+              "cross_entropy": 0.02480275877639466
+            },
+            "ICC": {
+              "n": 253,
+              "accuracy": 0.9920948616600791,
+              "cross_entropy": 0.02489859360270876
+            },
+            "ICI": {
+              "n": 246,
+              "accuracy": 0.9146341463414634,
+              "cross_entropy": 0.23751502696882754
+            },
+            "II": {
+              "n": 500,
+              "accuracy": 1.0,
+              "cross_entropy": 0.002618396846783753
+            },
+            "IIC": {
+              "n": 242,
+              "accuracy": 0.9834710743801653,
+              "cross_entropy": 0.05275646122804028
+            },
+            "III": {
+              "n": 270,
+              "accuracy": 0.9925925925925926,
+              "cross_entropy": 0.021449189937359794
+            },
+            "KEEP": {
+              "n": 2048,
+              "accuracy": 0.9990234375,
+              "cross_entropy": 0.0015327823039790016
+            }
+          },
+          "delay": {
+            "0": {
+              "n": 4096,
+              "accuracy": 0.9892578125,
+              "cross_entropy": 0.03109811573346194
+            },
+            "10": {
+              "n": 4096,
+              "accuracy": 0.987548828125,
+              "cross_entropy": 0.035952426986977676
+            }
+          },
+          "query_type": {
+            "0": {
+              "n": 4096,
+              "accuracy": 0.9912109375,
+              "cross_entropy": 0.024956520290337056
+            },
+            "1": {
+              "n": 4096,
+              "accuracy": 0.985595703125,
+              "cross_entropy": 0.04209402243010256
+            }
+          },
+          "non_N": {
+            "0": {
+              "n": 2048,
+              "accuracy": 0.9990234375,
+              "cross_entropy": 0.0015327823039790016
+            },
+            "1": {
+              "n": 2048,
+              "accuracy": 0.9990234375,
+              "cross_entropy": 0.00450700913417976
+            },
+            "2": {
+              "n": 2048,
+              "accuracy": 0.9921875,
+              "cross_entropy": 0.0227972158355412
+            },
+            "3": {
+              "n": 2048,
+              "accuracy": 0.96337890625,
+              "cross_entropy": 0.10526407816717927
+            }
+          }
+        }
+      },
+      "elapsed_seconds": 176.93713090196252,
+      "peak_gpu_mb": 320.3056640625
+    }
+  ],
+  "initial_checkpoint": "runs/v1_3/seed_106/initial.pt",
+  "scratch_weights_used": false,
+  "selected_step_in_stage7": 23000,
+  "selected_checkpoint": "runs/v1_3/seed_106/selected_stage7.pt"
+}

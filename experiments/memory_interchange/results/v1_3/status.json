@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETED",
+  "reason": "all_v13_prespecified_formal_computations_complete",
+  "formal_G_B_opened": true,
+  "formal_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106
+  ],
+  "formal_new_gate_all_passed": true,
+  "old_fine_gate_all_passed": false,
+  "failed_seeds_retained": true,
+  "extension_executed": false,
+  "science_support_is_not_a_completion_condition": true
+}

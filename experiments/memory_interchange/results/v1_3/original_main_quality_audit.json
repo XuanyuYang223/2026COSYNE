@@ -1,0 +1,26 @@
+[
+  {
+    "seed": 101,
+    "original_main_group_min_accuracy": 0.9716891731817104
+  },
+  {
+    "seed": 102,
+    "original_main_group_min_accuracy": 0.9697938877043355
+  },
+  {
+    "seed": 103,
+    "original_main_group_min_accuracy": 0.9699123430466714
+  },
+  {
+    "seed": 104,
+    "original_main_group_min_accuracy": 0.962923477848851
+  },
+  {
+    "seed": 105,
+    "original_main_group_min_accuracy": 0.9664771381189292
+  },
+  {
+    "seed": 106,
+    "original_main_group_min_accuracy": 0.9482350153991945
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "main_all": "six seeds equal, ordered directions equal, d/S equal; every content has 7 item and 7 position queries, hence query types equal by design",
+  "conditional": "each directional d/S cell pools all queries retained by its fixed native mask before equal cell/seed averaging; mask selection naturally changes query-type counts; no separate treatment-dependent selection",
+  "old_metrics": "no old v1.3 values changed; old all/rec/both masks identical on B1; new seed/direction means explicitly labelled",
+  "detailed_query_type_tables": "each per-seed translation CSV additionally saves query_type 0 and 1, their n/coverage and paired differences"
+}

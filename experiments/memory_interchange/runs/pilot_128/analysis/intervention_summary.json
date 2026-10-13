@@ -1,0 +1,18 @@
+{
+  "seed": 0,
+  "pilot": true,
+  "contents": 34,
+  "orbits": 6,
+  "elapsed_seconds": 3.914923793025082,
+  "sham_max_logp_error": 0.0,
+  "peak_gpu_mb": 692.91015625,
+  "full_max_logp_error": 2.384185791015625e-07,
+  "native_min_stratum_accuracy": 0.20168067226890757,
+  "native_strata_passed": false,
+  "compatibility_ceiling": true,
+  "loss_iqr": 1.0268027041138721e-08,
+  "label_variance": 4.3192512046568276e-17,
+  "mean_matched_accuracy": 0.2142857142857143,
+  "mean_wrong_accuracy": 0.2142857142857143,
+  "mean_wrong_counterfactual_accuracy": 0.2142857142857143
+}

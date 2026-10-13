@@ -1,0 +1,17 @@
+{
+  "python": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:00:33) [GCC 14.3.0]",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "numpy": "2.4.4",
+  "torch": "2.11.0+cu128",
+  "torch_build_cuda": "12.8",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.2",
+  "PyYAML": "6.0.3",
+  "registered_execution": {
+    "threads": 4,
+    "deterministic": true,
+    "TF32": false,
+    "evaluation_batch_size": 4096,
+    "cache_batch_size": 1024
+  }
+}

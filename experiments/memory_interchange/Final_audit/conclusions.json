@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETED",
+  "three_finite_audits_complete": true,
+  "old_CKA_main_test_unchanged": true,
+  "B1_new_hypothesis_exploratory": true,
+  "B_reserved_translation_direction_confirmed": true,
+  "cross_primary_accuracy_gain": 0.5579073164631789,
+  "same_context_control_accuracy_change": -0.5579072910881152,
+  "cross_primary_95ci": [
+    0.5421566787090887,
+    0.5718614535403629
+  ],
+  "source_rule_CF_three_distinct_B1": 0.9663825306465955,
+  "fixed_MAE_improvement": -0.014893415371164065,
+  "retraining": false,
+  "all_6_seeds_retained": true,
+  "CPU_float32_strict_tolerance_failure_retained": true,
+  "stop_after_requested_scope": true
+}

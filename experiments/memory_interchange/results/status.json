@@ -1,0 +1,13 @@
+{
+  "status": "BLOCKED",
+  "reason": "both_prespecified_pilots_failed_task_gate",
+  "formal_seeds_executed": [],
+  "formal_G_B_evaluated": false,
+  "pilot_runs": [
+    "pilot_128",
+    "pilot_256"
+  ],
+  "H1": "inconclusive",
+  "H2": "not_tested",
+  "H3": "not_tested"
+}

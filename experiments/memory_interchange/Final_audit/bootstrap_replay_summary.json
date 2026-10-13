@@ -1,0 +1,23 @@
+{
+  "replicate_ids": [
+    0,
+    164,
+    285,
+    991
+  ],
+  "typical": 164,
+  "minimum": 991,
+  "maximum": 285,
+  "fold_fits": 72,
+  "all_original_seed_copies_excluded": true,
+  "paired_same_resampling_labels_test_units": true,
+  "all_predictions_finite": true,
+  "max_absolute_prediction": 87359.89409060134,
+  "max_test_abs_z": 342629.28437622194,
+  "max_MAE_replay_difference": 0.0,
+  "implementation_error_found": false,
+  "large_extrapolation_is_not_automatically_a_bug": true,
+  "no_clipping_no_alpha_change_no_variance_floor_change": true,
+  "original_bootstrap_sha256": "78427c22e95de697bc83bfacfa435a9b2ca532ea5aaaa4ff3b5c4907966c7ba4",
+  "original_intervals_sha256": "5375f645dd7cfc9e25d90923ace7eac9073271fae5dba0e5106c31a490ea711d"
+}

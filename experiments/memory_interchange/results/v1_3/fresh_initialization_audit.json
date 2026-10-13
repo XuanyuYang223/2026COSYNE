@@ -1,0 +1,44 @@
+[
+  {
+    "seed": 101,
+    "stage": 0,
+    "step": 0,
+    "model_sha256": "aa2ae858c773c84873db5964fc6a27ac01eb73c8c8068d49d927f83c56af6817",
+    "checkpoint_sha256": "318294158a737f9d65d8f667b40adccad1fbcbda6d18157f16fa3f3a01608595"
+  },
+  {
+    "seed": 102,
+    "stage": 0,
+    "step": 0,
+    "model_sha256": "4a620b878aa8b3124f5219fc8a43d928b9978b1f7ab6cedd8f8e4638266a2888",
+    "checkpoint_sha256": "47b366516188bc0d2b6f22d47f275f68ca5f9cfc123988e5352fb9e997d48b2d"
+  },
+  {
+    "seed": 103,
+    "stage": 0,
+    "step": 0,
+    "model_sha256": "0d63666524da776a96d8c11ed3c81ca770fe6237feef8ac32ccbe69697795994",
+    "checkpoint_sha256": "90fe24b6f5f755d57fb50cef27dcb85d8dfb0a905d98c2fa4dd042505e9fac45"
+  },
+  {
+    "seed": 104,
+    "stage": 0,
+    "step": 0,
+    "model_sha256": "7cfc98916fd94bfb7b59ea0f4c67010fa46a6104c61fad71b69d3740363f103f",
+    "checkpoint_sha256": "3ec631d07ee581f03f2b94716d4495cd2f9185ec0b98b0faf392f861bcc4ec06"
+  },
+  {
+    "seed": 105,
+    "stage": 0,
+    "step": 0,
+    "model_sha256": "3cc89cda7f424de69e7bad2185264528ee024c5a5563c1c59ca39be73f7361b2",
+    "checkpoint_sha256": "fe7c528ccf0374745def2d1a4437e72313e45d6915b6b626548eee6e129d5ca9"
+  },
+  {
+    "seed": 106,
+    "stage": 0,
+    "step": 0,
+    "model_sha256": "3fc5077083aaa556bc0a1a2472aaedb92e29986c4776b006da330b88083cff86",
+    "checkpoint_sha256": "626b9e76adc314ae198dd43bb73c3796415feffe01fbbc204b21aad424a5807c"
+  }
+]

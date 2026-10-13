@@ -1,0 +1,194 @@
+[
+  {
+    "dataset": "B1",
+    "seed": 101,
+    "d": 0,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B1",
+    "seed": 101,
+    "d": 10,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B1",
+    "seed": 102,
+    "d": 0,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B1",
+    "seed": 102,
+    "d": 10,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B1",
+    "seed": 103,
+    "d": 0,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B1",
+    "seed": 103,
+    "d": 10,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B1",
+    "seed": 104,
+    "d": 0,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B1",
+    "seed": 104,
+    "d": 10,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B1",
+    "seed": 105,
+    "d": 0,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B1",
+    "seed": 105,
+    "d": 10,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B1",
+    "seed": 106,
+    "d": 0,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B1",
+    "seed": 106,
+    "d": 10,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B_reserved",
+    "seed": 101,
+    "d": 0,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B_reserved",
+    "seed": 101,
+    "d": 10,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B_reserved",
+    "seed": 102,
+    "d": 0,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B_reserved",
+    "seed": 102,
+    "d": 10,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B_reserved",
+    "seed": 103,
+    "d": 0,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B_reserved",
+    "seed": 103,
+    "d": 10,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B_reserved",
+    "seed": 104,
+    "d": 0,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B_reserved",
+    "seed": 104,
+    "d": 10,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B_reserved",
+    "seed": 105,
+    "d": 0,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B_reserved",
+    "seed": 105,
+    "d": 10,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B_reserved",
+    "seed": 106,
+    "d": 0,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  },
+  {
+    "dataset": "B_reserved",
+    "seed": 106,
+    "d": 10,
+    "same_native_source": true,
+    "all_324_patch_directions_identical": true,
+    "all_main_comparisons_identical": true
+  }
+]

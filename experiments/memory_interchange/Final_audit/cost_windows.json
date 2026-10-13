@@ -1,0 +1,11 @@
+{
+  "native_log_birth_unix": 1791869935.859521,
+  "native_all_masks_saved_unix": 1791870020.2461157,
+  "patch_log_birth_unix": 1791870171.203447,
+  "patch_completion_observed_unix": 1791870817.120467,
+  "native_inclusive_window_seconds": 84.38659477233887,
+  "patch_inclusive_window_seconds": 645.9170198440552,
+  "timed_evaluation_windows_seconds": 274.5069645777112,
+  "conservative_full_process_windows_seconds": 730.303614616394,
+  "note": "Conservative GPU-resident process windows include CUDA initialization, caching, evaluations, saving and CPU reductions/I/O plus observation lag; actual busy GPU time is smaller. CPU-only probes/statistics/report work is not separately added."
+}

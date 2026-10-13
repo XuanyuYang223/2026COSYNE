@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETED",
+  "finite_audits": 3,
+  "training_updates": 0,
+  "models": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106
+  ],
+  "independent_confirmatory_contents": 362,
+  "independent_confirmatory_orbits": 51,
+  "old_primary_results_unchanged": true,
+  "all_checks_required_for_new_implementation_passed": true,
+  "old_CPU_float32_strict_precision_failure_retained": true,
+  "no_external_publication": true
+}

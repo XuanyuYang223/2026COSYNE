@@ -1,0 +1,10 @@
+{
+  "unix_time": 1791908545.130736,
+  "analysis_plan_sha256": "30fefee76e7fbb269dcb62986fe0b10bb14abb30ba856fdb6682414c14493dfc",
+  "no_consistency_metrics_read_yet": true,
+  "preservation": {
+    "files": 2055,
+    "mismatches": [],
+    "all_unchanged": true
+  }
+}

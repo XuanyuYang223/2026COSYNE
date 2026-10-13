@@ -1,0 +1,59 @@
+protocol_version: '1.0'
+protocol_date: '2026-10-12'
+n: 7
+split_seed: 20261012
+split_fractions: [0.65, 0.15, 0.10, 0.10]
+behavior_min_permutations: 128
+seeds: [101, 102, 103, 104, 105, 106]
+pilot_seed: 0
+model:
+  memory_dim: 128
+  fallback_memory_dim: 256
+  control_dim: 32
+  readout_dim: 64
+training:
+  max_updates: 20000
+  validation_every: 1000
+  validation_size: 8192
+  batch_size: 128
+  learning_rate: 0.001
+  gradient_clip: 1.0
+  weight_decay: 0.0
+  validation_seed: 20261013
+  validation_target: 0.97
+  early_stopping: false
+timing:
+  context: 3
+  stimulus: 5
+  initial_delay: 5
+  rule_cue: 1
+  rule_blank: 3
+  delays: [0, 10]
+  final_delay: 5
+  query: 3
+histories: [NN, NA, AN, NB, BN, AA, BB, AB, BA]
+suffixes: [NN, NA, NB]
+analysis:
+  ridge_alpha: 1.0
+  probe_alpha: 1.0
+  probe_train_per_condition_delay: 512
+  probe_seed: 20261015
+  primary_metric: centered_linear_cka
+  primary_test: held_seed_unseen_pair_cross_context
+  probe_covariate: probe_item_acc
+  missing_value_rule: training_fold_median_all_missing_zero
+  counterexample_rule: within_seed_d_S_context_cka_and_R_at_or_above_q75_R_at_least_0.005
+  native_stratum_target: 0.95
+  counterexample_quantile: 0.75
+  bootstrap_replicates: 1000
+  bootstrap_seed: 20261016
+  mismatch_seed: 20261014
+  ceiling_new_error: 0.005
+  ceiling_loss_iqr: 0.01
+  negligible_variance: 1.0e-12
+execution:
+  gpu_hour_budget: 12.0
+  evaluation_batch_size: 4096
+  cache_batch_size: 1024
+  cpu_threads: 4
+  deterministic: true

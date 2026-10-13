@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-12",
+  "status": "pilot_failure",
+  "selected_memory_dim": null,
+  "sha256": {
+    "__init__.py": "4f52e3a313d3aaa18dc0d850e706e62496c4dd874d2d80fb10917da6db9458cf",
+    "cache.py": "31b26933df8e0612f99ad789e3ed35a3c9b733b20bb43fa50325e249f1037577",
+    "common.py": "5e17a4e5c77f60a101c2659595877588fb7c8579505323aa8136ac9de7ed115f",
+    "config.yaml": "e132b4bfcb4a5b9755939417ca68683b44d8f0795665835f30f9f3f094665b00",
+    "diagnose.py": "c54ce8293264b144e81bd4d8dad20f49971ae426d01f930a5282eaa9819dbcf6",
+    "extension.py": "1aa260d503bb4ffb093b763dada02c152e4f3586a2f6c46107d42f4fad79c373",
+    "figures.py": "b56042a3e67178820b22996d40f9655c4e53d52d2dd53ccc418baef92833c595",
+    "geometry.py": "1a6f4b3c36168a67d454fc4656ec567ee056777b6ec096b14a49e8f0ce8294c9",
+    "intervene.py": "efcae852d72d75ae151980359313d3f577543a3dfc624af713eaa9f600f7c265",
+    "model.py": "d40e1574cc0907c349f4d752152cbc4b1b3d7606c09f0ccc4596c3c9274b36a3",
+    "predict.py": "719a153d7b297be350a4e007b27a8a0169195fccc18b0b9937d9ec1855aea20c",
+    "protocol_v1.txt": "a79fe58a1c96d967d92762a2ba535f383d802be99c936e9c6ad9fca030972ae7",
+    "report.py": "00ed58076c1fc115ba3c486257ab659278f7a6b29209cecf679311ee87d2177b",
+    "requirements.txt": "dea9ff0d39eab8b77c085cfd2ba276130785f8403d8a86bf8b39adb719b11606",
+    "run.py": "209a3812df805bf40cd77964b654f42c2daec09c1e97917e3186764deefec5df",
+    "split_manifest.json": "a53ec093b315c53fd7b6066ff5ca5c17508195d3035b85c37cb2ccec7448ef8c",
+    "task.py": "e673cd67d29759aacbd22a9d11d1ffc00f3ba569f4a6557cb4b8e81065e107a4",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/test_analysis.py": "85a9da89c98fa0b8517626c369700bb2e0d8de1e206577fef2904e4bc59c822f",
+    "tests/test_design.py": "d316e241dca8f4b09ad3ca253bc37f4a2e936d5113cb2ce8f762b42b95cbf53f",
+    "tests/test_geometry.py": "71aafc339899344c837aef16de72490619bee79ec707712877ee9e63f9e768b4",
+    "train.py": "126888368a772ffd1d20aea846bc6e72a63b3253f057023805adcbb9bd62119a",
+    "truth.py": "ef41c644e1deb5d1fc0b2afd3734b8b2575860d17bd6151ebf102bb6964ec2a4"
+  }
+}

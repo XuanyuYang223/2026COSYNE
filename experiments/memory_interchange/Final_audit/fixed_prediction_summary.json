@@ -1,0 +1,69 @@
+{
+  "folds": [
+    {
+      "seed": 101,
+      "n_pairs_d_S": 192,
+      "M0_MAE": 2.464630209158418,
+      "M_CKA_MAE": 2.517088969643888,
+      "paired_MAE_improvement": -0.05245876048547027,
+      "paired_RMSE_improvement": -0.06394986694229843
+    },
+    {
+      "seed": 102,
+      "n_pairs_d_S": 192,
+      "M0_MAE": 2.442087388152632,
+      "M_CKA_MAE": 2.4927099190505273,
+      "paired_MAE_improvement": -0.050622530897895146,
+      "paired_RMSE_improvement": -0.02285059843444648
+    },
+    {
+      "seed": 103,
+      "n_pairs_d_S": 192,
+      "M0_MAE": 1.9526264171718772,
+      "M_CKA_MAE": 2.0256939127661795,
+      "paired_MAE_improvement": -0.07306749559430226,
+      "paired_RMSE_improvement": -0.06176420752473133
+    },
+    {
+      "seed": 104,
+      "n_pairs_d_S": 192,
+      "M0_MAE": 2.8571892706910624,
+      "M_CKA_MAE": 2.6660060575853946,
+      "paired_MAE_improvement": 0.19118321310566788,
+      "paired_RMSE_improvement": 0.04457927492086222
+    },
+    {
+      "seed": 105,
+      "n_pairs_d_S": 192,
+      "M0_MAE": 2.425070869411916,
+      "M_CKA_MAE": 2.5225130390132393,
+      "paired_MAE_improvement": -0.09744216960132324,
+      "paired_RMSE_improvement": -0.09385756496677056
+    },
+    {
+      "seed": 106,
+      "n_pairs_d_S": 192,
+      "M0_MAE": 3.9669159166667876,
+      "M_CKA_MAE": 3.973868665420449,
+      "paired_MAE_improvement": -0.006952748753661364,
+      "paired_RMSE_improvement": 0.012195530622354234
+    }
+  ],
+  "mean_MAE_improvement": -0.014893415371164065,
+  "range": [
+    -0.09744216960132324,
+    0.19118321310566788
+  ],
+  "positive_seeds": 1,
+  "negative_seeds": 5,
+  "zero_seeds": 0,
+  "conditional_empirical_95ci": [
+    -0.0740167702957694,
+    0.0735117724139283
+  ],
+  "replicates": 100000,
+  "fixed_objects": "original six LOSO fitters and original test predictions/labels",
+  "conditioning": "six observed trained networks, predictors and original test data; no training/refitting uncertainty or unknown-model population inference",
+  "original_prediction_sha256": "06530e6b72b1eca679c8320a353859961521f040095adb6619c0c5b0be44c835",
+  "not_replacement_for_refitting_bootstrap": true
+}

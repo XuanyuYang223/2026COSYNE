@@ -1,0 +1,2 @@
+# Preserve audited files byte-for-byte, including historical CSV/CRLF endings.
+* -text

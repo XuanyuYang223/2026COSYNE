@@ -1,0 +1,112 @@
+{
+  "block_point_estimate_max_rounding_delta_nat": 2.619045883278659e-06,
+  "natural_vs_cached_argmax_changes": 0,
+  "replayed_extreme_replicate": 285,
+  "selected_seeds": [
+    106,
+    106,
+    106,
+    101,
+    101,
+    105
+  ],
+  "frozen_fit_rule_unchanged": true,
+  "fold_diagnostics": [
+    {
+      "held_seed": 105,
+      "model": "M0_v13",
+      "fitting_seeds": [
+        106,
+        106,
+        106,
+        101,
+        101
+      ],
+      "target_min": 5.72917777453311e-05,
+      "target_max": 24.278245697610625,
+      "prediction_min": -13.325166848486877,
+      "prediction_max": 14.239015782648174,
+      "max_abs_standardized_test_feature": 16.300693637581062,
+      "dominant_feature_index": 5
+    },
+    {
+      "held_seed": 105,
+      "model": "M_CKA_v13",
+      "fitting_seeds": [
+        106,
+        106,
+        106,
+        101,
+        101
+      ],
+      "target_min": 5.72917777453311e-05,
+      "target_max": 24.278245697610625,
+      "prediction_min": -11.988743734186311,
+      "prediction_max": 14.676952728792049,
+      "max_abs_standardized_test_feature": 16.300693637581062,
+      "dominant_feature_index": 5
+    },
+    {
+      "held_seed": 106,
+      "model": "M0_v13",
+      "fitting_seeds": [
+        101,
+        101,
+        105
+      ],
+      "target_min": 6.209421906038731e-05,
+      "target_max": 20.072077532351276,
+      "prediction_min": -9.600324586456058,
+      "prediction_max": 87359.89409060134,
+      "max_abs_standardized_test_feature": 342629.28437622194,
+      "dominant_feature_index": 7
+    },
+    {
+      "held_seed": 106,
+      "model": "M_CKA_v13",
+      "fitting_seeds": [
+        101,
+        101,
+        105
+      ],
+      "target_min": 6.209421906038731e-05,
+      "target_max": 20.072077532351276,
+      "prediction_min": -11.931818923924745,
+      "prediction_max": 38877.52292504469,
+      "max_abs_standardized_test_feature": 342629.28437622194,
+      "dominant_feature_index": 7
+    },
+    {
+      "held_seed": 101,
+      "model": "M0_v13",
+      "fitting_seeds": [
+        106,
+        106,
+        106,
+        105
+      ],
+      "target_min": 5.72917777453311e-05,
+      "target_max": 24.278245697610625,
+      "prediction_min": -9.389938968381543,
+      "prediction_max": 15.850868345065603,
+      "max_abs_standardized_test_feature": 15.848864697524812,
+      "dominant_feature_index": 5
+    },
+    {
+      "held_seed": 101,
+      "model": "M_CKA_v13",
+      "fitting_seeds": [
+        106,
+        106,
+        106,
+        105
+      ],
+      "target_min": 5.72917777453311e-05,
+      "target_max": 24.278245697610625,
+      "prediction_min": -10.007802283448317,
+      "prediction_max": 15.638372373381703,
+      "max_abs_standardized_test_feature": 15.848864697524812,
+      "dominant_feature_index": 5
+    }
+  ]
+}

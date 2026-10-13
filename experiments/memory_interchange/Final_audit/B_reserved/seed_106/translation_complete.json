@@ -1,0 +1,44 @@
+{
+  "seed": 106,
+  "cohort": "B_reserved",
+  "controls": [
+    {
+      "d": 0,
+      "S": "NN",
+      "NN_max_logp_difference": 0.0,
+      "stored_B1_translated_source_max_difference": null
+    },
+    {
+      "d": 0,
+      "S": "NA",
+      "NN_max_logp_difference": null,
+      "stored_B1_translated_source_max_difference": null
+    },
+    {
+      "d": 0,
+      "S": "NB",
+      "NN_max_logp_difference": null,
+      "stored_B1_translated_source_max_difference": null
+    },
+    {
+      "d": 10,
+      "S": "NN",
+      "NN_max_logp_difference": 0.0,
+      "stored_B1_translated_source_max_difference": null
+    },
+    {
+      "d": 10,
+      "S": "NA",
+      "NN_max_logp_difference": null,
+      "stored_B1_translated_source_max_difference": null
+    },
+    {
+      "d": 10,
+      "S": "NB",
+      "NN_max_logp_difference": null,
+      "stored_B1_translated_source_max_difference": null
+    }
+  ],
+  "mask_receipt_sha256": "e3caa47931f1c839288fb8ebf9b714a213e8f17c8452d9bcd0d6adf109df7a22",
+  "completed_time": 1791870607.0063694
+}

@@ -1,0 +1,6 @@
+{
+  "independent_reference": "v1.0 point_metrics + row_metrics on frozen V d0 SNA, all153 pairs",
+  "max_L_absolute_difference_nat": 2.0958441382390447e-06,
+  "max_R_absolute_difference": 0.0,
+  "explanation": "float32 reduction versus reference float64 reduction; same per-query max-positive CE and native-correct new-error definition; frozen estimator unchanged"
+}

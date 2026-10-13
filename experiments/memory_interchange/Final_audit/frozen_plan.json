@@ -1,0 +1,246 @@
+{
+  "version": "v1.3 Final audit",
+  "date": "2026-10-12",
+  "network_training": false,
+  "preserved_versions": [
+    "v1.0",
+    "v1.1",
+    "v1.2",
+    "v1.3"
+  ],
+  "checkpoints": [
+    {
+      "seed": 101,
+      "path": "runs/v1_3/seed_101/selected_stage7.pt",
+      "sha256": "7d2d1e3cf60c94e80c1bc254df633d2a5ec7b3a1e771c6016c969f95252081e2",
+      "stage7_step": 13500
+    },
+    {
+      "seed": 102,
+      "path": "runs/v1_3/seed_102/selected_stage7.pt",
+      "sha256": "53b5751a8728919042eb0f3660c6036bb6c68fa4a860d94fdf2108eea1fa7109",
+      "stage7_step": 32500
+    },
+    {
+      "seed": 103,
+      "path": "runs/v1_3/seed_103/selected_stage7.pt",
+      "sha256": "2f879d7b568faea91b164a3fa4f2367030572407fddf4f7deef3ccb328644cbd",
+      "stage7_step": 16500
+    },
+    {
+      "seed": 104,
+      "path": "runs/v1_3/seed_104/selected_stage7.pt",
+      "sha256": "dcf5e758c955846c917826596ff27da54da3bec740a8f2145d2fbf608ffffb99",
+      "stage7_step": 21000
+    },
+    {
+      "seed": 105,
+      "path": "runs/v1_3/seed_105/selected_stage7.pt",
+      "sha256": "19b33dfa65ff86b6f8b1c72680d6f84e0eccd011cde01f5fcc27ef4fe4f0c49b",
+      "stage7_step": 26000
+    },
+    {
+      "seed": 106,
+      "path": "runs/v1_3/seed_106/selected_stage7.pt",
+      "sha256": "5ad670aff11654c7c82975d5cfa55cb1c4c18d2ce60a814b3a385f9c390642d8",
+      "stage7_step": 23000
+    }
+  ],
+  "B1_status": "EXPLORATORY: new donor-rule hypothesis on already opened B1",
+  "B_reserved_status": "independent confirmation for the frozen translation contrast",
+  "reserved_manifest_sha256": "4678f1012ac96ff56c64705a10540b07c362b80202362f5947ca4db5e256e395",
+  "coverage": {
+    "conditions": [
+      [
+        0,
+        "NN"
+      ],
+      [
+        0,
+        "NA"
+      ],
+      [
+        0,
+        "AN"
+      ],
+      [
+        0,
+        "NB"
+      ],
+      [
+        0,
+        "BN"
+      ],
+      [
+        0,
+        "AA"
+      ],
+      [
+        0,
+        "BB"
+      ],
+      [
+        0,
+        "AB"
+      ],
+      [
+        0,
+        "BA"
+      ],
+      [
+        1,
+        "NN"
+      ],
+      [
+        1,
+        "NA"
+      ],
+      [
+        1,
+        "AN"
+      ],
+      [
+        1,
+        "NB"
+      ],
+      [
+        1,
+        "BN"
+      ],
+      [
+        1,
+        "AA"
+      ],
+      [
+        1,
+        "BB"
+      ],
+      [
+        1,
+        "AB"
+      ],
+      [
+        1,
+        "BA"
+      ]
+    ],
+    "directions": "all 306 ordered non-self pairs",
+    "delays": [
+      0,
+      10
+    ],
+    "suffixes": [
+      "NN",
+      "NA",
+      "NB"
+    ],
+    "queries": "all 7 item + 7 position"
+  },
+  "translation": {
+    "NN": "NN",
+    "NA": "NB",
+    "NB": "NA"
+  },
+  "targets": [
+    "F_b(S)(q)",
+    "F_b(swap(S))(q)"
+  ],
+  "primary": "cross-context accuracy(patch+swapS, original target) minus accuracy(patch+S, original target)",
+  "aggregation": "equal seeds; equal ordered directions (therefore equal both directions within each pair); equal d,S,query type; within each direction/mask all retained content-query observations pooled. Main all includes NN. Conditional masks use the SAME observations for both treatments.",
+  "masks": {
+    "all": "all observations",
+    "rec": "receiver native original S correct",
+    "both": "rec and donor native same visible original S correct in its own semantics",
+    "E_sem": "rec and donor native swap(S) if cross, original S if same, equals receiver original semantic target"
+  },
+  "mask_freeze": "all natural/native outputs and mask files saved before new memory patches",
+  "CF": [
+    "F_b(q)",
+    "F_b(G_b(p_a))",
+    "F_a(q)"
+  ],
+  "CF_subsets": [
+    "all",
+    "receiver_initial_distinct",
+    "receiver_donor_distinct",
+    "initial_donor_distinct",
+    "all_three_distinct"
+  ],
+  "controls": [
+    "native original",
+    "native translated",
+    "patch original",
+    "patch translated",
+    "sham",
+    "NN exact replay",
+    "native translation literal target",
+    "same-context translation original target"
+  ],
+  "block_uncertainty": {
+    "replicates": 2000,
+    "seed": 20261018,
+    "units": "resample 6 seeds and whole reserved orbits; all directions/queries retained; no RNN/probe refitting"
+  },
+  "context_probes": {
+    "alpha": 1,
+    "target": [
+      -1,
+      1
+    ],
+    "threshold": 0,
+    "fit": "T fixed 512 contents; exclude AB/BA; balanced r,H,d; c one row per unique (r,H,d)",
+    "variants": [
+      "pooled d",
+      "fit d=0, test both d",
+      "fit d=10, test both d"
+    ],
+    "scaling": "T fit-only coordinate mean/std; exactly zero std replaced by 1; no score selection",
+    "tests": [
+      "T nonmixed descriptive",
+      "T AB/BA history holdout",
+      "G nonmixed content holdout",
+      "G AB/BA both holdouts"
+    ]
+  },
+  "geometry": "G only; deduplicate (seed,a,b,d); original raw denominator epsilon=1e-12; no transformations of intervention states",
+  "bootstrap_replay": {
+    "replicate_ids": [
+      0,
+      164,
+      285,
+      991
+    ],
+    "typical": 164,
+    "minimum": 991,
+    "maximum": 285,
+    "models": [
+      "M0_v13",
+      "M_CKA_v13"
+    ],
+    "modes": [
+      "all",
+      "rec",
+      "both"
+    ],
+    "original_rng_seed": 20261016,
+    "all_held_original_seed_copies_excluded": true
+  },
+  "fixed_predictions": {
+    "folds": 6,
+    "mode": "all",
+    "segment": "unseen_cross",
+    "models": [
+      "M0_v13",
+      "M_CKA_v13"
+    ],
+    "replicates": 100000,
+    "seed": 20261017,
+    "conditional_only": true,
+    "no_refit": true
+  },
+  "budget": {
+    "inherited_gpu_seconds": 3313.146958759462,
+    "limit_seconds": 43200
+  },
+  "stop": "finish these three audits; no models/adapters/parameter scans/ablations/four-step extension/publishing"
+}

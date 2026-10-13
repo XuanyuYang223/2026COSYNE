@@ -1,0 +1,23 @@
+{
+  "scope": "V_ONLY_IMPLEMENTATION_AUDIT",
+  "models": {
+    "pilot_128": {
+      "labels_recomputed_from_raw_and_orbits": 918,
+      "max_absolute_reconstruction_error": 3.308722450212111e-24,
+      "initial_step": 0,
+      "selected_step": 10000,
+      "latest_step": 20000,
+      "all_checks_passed": true
+    },
+    "pilot_256": {
+      "labels_recomputed_from_raw_and_orbits": 918,
+      "max_absolute_reconstruction_error": 2.6469779601696886e-23,
+      "initial_step": 0,
+      "selected_step": 11000,
+      "latest_step": 20000,
+      "all_checks_passed": true
+    }
+  },
+  "formal_seed_directories_present": [],
+  "frozen_source_hashes_verified": 23
+}

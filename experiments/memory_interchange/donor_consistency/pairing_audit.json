@@ -1,0 +1,41 @@
+{
+  "status": "COMPLETED",
+  "native_keys_unique": "uniqueness proven from independent condition, content, d/effective_suffix and query factor keys; field dimensions validated in plan",
+  "patch_keys_unique": "additional recipient, original_S and treatment make every Cartesian observation unique",
+  "expected_primary_queries": {
+    "B1": 41332032,
+    "B_reserved": 111658176
+  },
+  "paired_primary_queries": {
+    "B1": 41332032,
+    "B_reserved": 111658176
+  },
+  "missing_primary_queries": 0,
+  "probability_missing_queries": 0,
+  "unique_native_keys_expected": {
+    "B1": 1215648,
+    "B_reserved": 3284064
+  },
+  "controlled_native_multiplicity_complete": 34,
+  "each_native_key_expands_to": "17 nonself recipients × 2 treatments",
+  "diagonal_control_multiplicity": 2,
+  "diagonal_expected_queries": {
+    "B1": 2431296,
+    "B_reserved": 6568128
+  },
+  "self_pairs_retained_as_controls": true,
+  "accidental_many_to_many": false,
+  "complete_original_grid": "6 seeds × 18 donor/recipient conditions × 2 delays × 3 original S × 2 treatments × all content × 14 queries",
+  "same_context_same_history_nonself": "EMPTY by design, not missing",
+  "future_inputs_identical": true,
+  "external_context_after_swap": false,
+  "input_exclusions": [],
+  "native_vs_sham_uninterrupted_fullstate_argmax_checks_passed": true,
+  "fullstate_control_available": "B1 only; B_reserved did not save this optional control",
+  "NN_entries_checked": 24,
+  "NN_all_identical": true,
+  "independent_direct_sample_checked": 864,
+  "normalization_bad_query_records": 0,
+  "checkpoints_and_members_unchanged": true,
+  "old_precision_note": "GPU registered controls passed. CPU float32 original strict-logit check FAILED for all six; same coefficients float64 passed; argmax unchanged. New P thresholds do not replace old logit checks."
+}

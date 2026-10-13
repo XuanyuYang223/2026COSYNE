@@ -1,0 +1,646 @@
+{
+  "seed_diagnostic": 20261013,
+  "seed_stage_validation": 20261014,
+  "original_V_source_sha256": "63f91ca8987b73620640eef09abf139b981e956f1c6fb7b672120bcc7eea486e",
+  "split_sha256": "a53ec093b315c53fd7b6066ff5ca5c17508195d3035b85c37cb2ccec7448ef8c",
+  "datasets": {
+    "diagnostic_T": {
+      "path": "results/v1_1/datasets/diagnostic_T.npz",
+      "sha256": "13204920cb553f3d25cee5698ddd74c334319bf169aec6cb8e386c44feeb2a95",
+      "trials": 8192,
+      "lengths": {
+        "37": 4096,
+        "47": 4096
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 4096,
+          "1": 4096
+        },
+        "true_operation_sequence": {
+          "C": 1034,
+          "CC": 525,
+          "CCC": 242,
+          "CCI": 270,
+          "CI": 519,
+          "CIC": 266,
+          "CII": 259,
+          "I": 1014,
+          "IC": 504,
+          "ICC": 253,
+          "ICI": 246,
+          "II": 500,
+          "IIC": 242,
+          "III": 270,
+          "KEEP": 2048
+        },
+        "delay": {
+          "0": 4096,
+          "10": 4096
+        },
+        "query_type": {
+          "0": 4096,
+          "1": 4096
+        },
+        "non_N": {
+          "0": 2048,
+          "1": 2048,
+          "2": 2048,
+          "3": 2048
+        }
+      }
+    },
+    "diagnostic_V": {
+      "path": "results/v1_1/datasets/diagnostic_V.npz",
+      "sha256": "8b45b2708b7b5b1f89dc0f5670e503af54833e25f6ba4c9f31977e3003a131e0",
+      "trials": 8192,
+      "lengths": {
+        "37": 4096,
+        "47": 4096
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 4096,
+          "1": 4096
+        },
+        "true_operation_sequence": {
+          "C": 1034,
+          "CC": 525,
+          "CCC": 242,
+          "CCI": 270,
+          "CI": 519,
+          "CIC": 266,
+          "CII": 259,
+          "I": 1014,
+          "IC": 504,
+          "ICC": 253,
+          "ICI": 246,
+          "II": 500,
+          "IIC": 242,
+          "III": 270,
+          "KEEP": 2048
+        },
+        "delay": {
+          "0": 4096,
+          "10": 4096
+        },
+        "query_type": {
+          "0": 4096,
+          "1": 4096
+        },
+        "non_N": {
+          "0": 2048,
+          "1": 2048,
+          "2": 2048,
+          "3": 2048
+        }
+      }
+    },
+    "original_V": {
+      "path": "results/v1_1/datasets/original_V.npz",
+      "sha256": "6dd768f93656fa7e85a1940685f0a5d00811d338d620a4b3e3ce6effadfbad7e",
+      "trials": 8192,
+      "lengths": {
+        "37": 4148,
+        "47": 4044
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 3998,
+          "1": 4194
+        },
+        "true_operation_sequence": {
+          "C": 982,
+          "CC": 521,
+          "CCC": 274,
+          "CCI": 264,
+          "CI": 523,
+          "CIC": 247,
+          "CII": 263,
+          "I": 1023,
+          "IC": 509,
+          "ICC": 256,
+          "ICI": 266,
+          "II": 491,
+          "IIC": 260,
+          "III": 274,
+          "KEEP": 2039
+        },
+        "delay": {
+          "0": 4148,
+          "10": 4044
+        },
+        "query_type": {
+          "0": 4019,
+          "1": 4173
+        },
+        "non_N": {
+          "0": 2039,
+          "1": 2005,
+          "2": 2044,
+          "3": 2104
+        }
+      }
+    },
+    "stage1_T": {
+      "path": "results/v1_1/datasets/stage1_T.npz",
+      "sha256": "77e6c87b23ed9fccf28fece9c1be0b8ca49ae772f53616037865462fbaf92ce2",
+      "trials": 4096,
+      "lengths": {
+        "9": 4096
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 4096
+        },
+        "true_operation_sequence": {
+          "KEEP": 4096
+        },
+        "delay": {
+          "0": 4096
+        },
+        "query_type": {
+          "0": 2048,
+          "1": 2048
+        },
+        "non_N": {
+          "0": 4096
+        }
+      }
+    },
+    "stage1_V": {
+      "path": "results/v1_1/datasets/stage1_V.npz",
+      "sha256": "e1c1f4ffb3be74d497c7e3fcaee46ecef3ec40ef993997fcd4ef5b160a5f1b24",
+      "trials": 4096,
+      "lengths": {
+        "9": 4096
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 4096
+        },
+        "true_operation_sequence": {
+          "KEEP": 4096
+        },
+        "delay": {
+          "0": 4096
+        },
+        "query_type": {
+          "0": 2048,
+          "1": 2048
+        },
+        "non_N": {
+          "0": 4096
+        }
+      }
+    },
+    "stage2_T": {
+      "path": "results/v1_1/datasets/stage2_T.npz",
+      "sha256": "34a9d85f3556bafcad21b971a9b659d13d594183b6960a8cb32a802d5dd9d3a2",
+      "trials": 4096,
+      "lengths": {
+        "23": 4096
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 2048,
+          "1": 2048
+        },
+        "true_operation_sequence": {
+          "KEEP": 4096
+        },
+        "delay": {
+          "0": 4096
+        },
+        "query_type": {
+          "0": 2048,
+          "1": 2048
+        },
+        "non_N": {
+          "0": 4096
+        }
+      }
+    },
+    "stage2_V": {
+      "path": "results/v1_1/datasets/stage2_V.npz",
+      "sha256": "2902fdc0e2d2b87d35f70f1b47bebee058d8f33e1f315526877b82e67853e5a1",
+      "trials": 4096,
+      "lengths": {
+        "23": 4096
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 2048,
+          "1": 2048
+        },
+        "true_operation_sequence": {
+          "KEEP": 4096
+        },
+        "delay": {
+          "0": 4096
+        },
+        "query_type": {
+          "0": 2048,
+          "1": 2048
+        },
+        "non_N": {
+          "0": 4096
+        }
+      }
+    },
+    "stage3_T": {
+      "path": "results/v1_1/datasets/stage3_T.npz",
+      "sha256": "ebd385ba1653c0dcd74d5f45537cdb2d7c1988dda850bc585eea58464b429d6b",
+      "trials": 4096,
+      "lengths": {
+        "37": 2048,
+        "47": 2048
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 2048,
+          "1": 2048
+        },
+        "true_operation_sequence": {
+          "KEEP": 4096
+        },
+        "delay": {
+          "0": 2048,
+          "10": 2048
+        },
+        "query_type": {
+          "0": 2048,
+          "1": 2048
+        },
+        "non_N": {
+          "0": 4096
+        }
+      }
+    },
+    "stage3_V": {
+      "path": "results/v1_1/datasets/stage3_V.npz",
+      "sha256": "08efad53660cef1299543e4be2e12c706c3abdd9a7ec79f94409a6a0064d998e",
+      "trials": 4096,
+      "lengths": {
+        "37": 2048,
+        "47": 2048
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 2048,
+          "1": 2048
+        },
+        "true_operation_sequence": {
+          "KEEP": 4096
+        },
+        "delay": {
+          "0": 2048,
+          "10": 2048
+        },
+        "query_type": {
+          "0": 2048,
+          "1": 2048
+        },
+        "non_N": {
+          "0": 4096
+        }
+      }
+    },
+    "stage4_T": {
+      "path": "results/v1_1/datasets/stage4_T.npz",
+      "sha256": "9100ba4ced3b551d72a3bb01bcbf5aa23331d0f81058d21b4a631092054c7631",
+      "trials": 4096,
+      "lengths": {
+        "37": 2048,
+        "47": 2048
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 4096
+        },
+        "true_operation_sequence": {
+          "C": 1024,
+          "I": 1024,
+          "KEEP": 2048
+        },
+        "delay": {
+          "0": 2048,
+          "10": 2048
+        },
+        "query_type": {
+          "0": 2048,
+          "1": 2048
+        },
+        "non_N": {
+          "0": 2048,
+          "1": 2048
+        }
+      }
+    },
+    "stage4_V": {
+      "path": "results/v1_1/datasets/stage4_V.npz",
+      "sha256": "dc27623aad24f850eafd07d7a2d0a2c58afd190602330f1c6a4e5fa2c24a9e8a",
+      "trials": 4096,
+      "lengths": {
+        "37": 2048,
+        "47": 2048
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 4096
+        },
+        "true_operation_sequence": {
+          "C": 1024,
+          "I": 1024,
+          "KEEP": 2048
+        },
+        "delay": {
+          "0": 2048,
+          "10": 2048
+        },
+        "query_type": {
+          "0": 2048,
+          "1": 2048
+        },
+        "non_N": {
+          "0": 2048,
+          "1": 2048
+        }
+      }
+    },
+    "stage5_T": {
+      "path": "results/v1_1/datasets/stage5_T.npz",
+      "sha256": "ff87bd84ff9fe6c81f64d0942a26cb47eac8d3caf659d7218a9711043446342a",
+      "trials": 4096,
+      "lengths": {
+        "37": 2048,
+        "47": 2048
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 2048,
+          "1": 2048
+        },
+        "true_operation_sequence": {
+          "C": 982,
+          "I": 1066,
+          "KEEP": 2048
+        },
+        "delay": {
+          "0": 2048,
+          "10": 2048
+        },
+        "query_type": {
+          "0": 2048,
+          "1": 2048
+        },
+        "non_N": {
+          "0": 2048,
+          "1": 2048
+        }
+      }
+    },
+    "stage5_V": {
+      "path": "results/v1_1/datasets/stage5_V.npz",
+      "sha256": "8bc3b32f56fac46e9d368f449c26048a19dbe21ba2f43ac895347bd2285af904",
+      "trials": 4096,
+      "lengths": {
+        "37": 2048,
+        "47": 2048
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 2048,
+          "1": 2048
+        },
+        "true_operation_sequence": {
+          "C": 1007,
+          "I": 1041,
+          "KEEP": 2048
+        },
+        "delay": {
+          "0": 2048,
+          "10": 2048
+        },
+        "query_type": {
+          "0": 2048,
+          "1": 2048
+        },
+        "non_N": {
+          "0": 2048,
+          "1": 2048
+        }
+      }
+    },
+    "stage6_T": {
+      "path": "results/v1_1/datasets/stage6_T.npz",
+      "sha256": "66b7be0908211f5af17596cbd6d3ce6d6c9e13fe099366c55b8bb83f13351567",
+      "trials": 4096,
+      "lengths": {
+        "37": 2048,
+        "47": 2048
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 2048,
+          "1": 2048
+        },
+        "true_operation_sequence": {
+          "C": 666,
+          "CC": 348,
+          "CI": 345,
+          "I": 700,
+          "IC": 338,
+          "II": 334,
+          "KEEP": 1365
+        },
+        "delay": {
+          "0": 2048,
+          "10": 2048
+        },
+        "query_type": {
+          "0": 2048,
+          "1": 2048
+        },
+        "non_N": {
+          "0": 1365,
+          "1": 1366,
+          "2": 1365
+        }
+      }
+    },
+    "stage6_V": {
+      "path": "results/v1_1/datasets/stage6_V.npz",
+      "sha256": "10e177f3daf1ac4961d1d79c43c23d359628902cf050ab00681de285ab278ac9",
+      "trials": 4096,
+      "lengths": {
+        "37": 2048,
+        "47": 2048
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 2048,
+          "1": 2048
+        },
+        "true_operation_sequence": {
+          "C": 700,
+          "CC": 341,
+          "CI": 314,
+          "I": 665,
+          "IC": 368,
+          "II": 343,
+          "KEEP": 1365
+        },
+        "delay": {
+          "0": 2048,
+          "10": 2048
+        },
+        "query_type": {
+          "0": 2048,
+          "1": 2048
+        },
+        "non_N": {
+          "0": 1365,
+          "1": 1365,
+          "2": 1366
+        }
+      }
+    },
+    "stage7_T": {
+      "path": "results/v1_1/datasets/stage7_T.npz",
+      "sha256": "13204920cb553f3d25cee5698ddd74c334319bf169aec6cb8e386c44feeb2a95",
+      "trials": 8192,
+      "lengths": {
+        "37": 4096,
+        "47": 4096
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 4096,
+          "1": 4096
+        },
+        "true_operation_sequence": {
+          "C": 1034,
+          "CC": 525,
+          "CCC": 242,
+          "CCI": 270,
+          "CI": 519,
+          "CIC": 266,
+          "CII": 259,
+          "I": 1014,
+          "IC": 504,
+          "ICC": 253,
+          "ICI": 246,
+          "II": 500,
+          "IIC": 242,
+          "III": 270,
+          "KEEP": 2048
+        },
+        "delay": {
+          "0": 4096,
+          "10": 4096
+        },
+        "query_type": {
+          "0": 4096,
+          "1": 4096
+        },
+        "non_N": {
+          "0": 2048,
+          "1": 2048,
+          "2": 2048,
+          "3": 2048
+        }
+      }
+    },
+    "stage7_V": {
+      "path": "results/v1_1/datasets/stage7_V.npz",
+      "sha256": "6dd768f93656fa7e85a1940685f0a5d00811d338d620a4b3e3ce6effadfbad7e",
+      "trials": 8192,
+      "lengths": {
+        "37": 4148,
+        "47": 4044
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 3998,
+          "1": 4194
+        },
+        "true_operation_sequence": {
+          "C": 982,
+          "CC": 521,
+          "CCC": 274,
+          "CCI": 264,
+          "CI": 523,
+          "CIC": 247,
+          "CII": 263,
+          "I": 1023,
+          "IC": 509,
+          "ICC": 256,
+          "ICI": 266,
+          "II": 491,
+          "IIC": 260,
+          "III": 274,
+          "KEEP": 2039
+        },
+        "delay": {
+          "0": 4148,
+          "10": 4044
+        },
+        "query_type": {
+          "0": 4019,
+          "1": 4173
+        },
+        "non_N": {
+          "0": 2039,
+          "1": 2005,
+          "2": 2044,
+          "3": 2104
+        }
+      }
+    },
+    "scratch": {
+      "path": "results/v1_1/datasets/scratch.npz",
+      "sha256": "b75830039f1e446b89f44e1b509e9413ba247d65965b857e282a40901640d871",
+      "trials": 224,
+      "lengths": {
+        "9": 224
+      },
+      "oracle_accuracy": 1.0,
+      "factor_counts": {
+        "context": {
+          "0": 224
+        },
+        "true_operation_sequence": {
+          "KEEP": 224
+        },
+        "delay": {
+          "0": 224
+        },
+        "query_type": {
+          "0": 112,
+          "1": 112
+        },
+        "non_N": {
+          "0": 224
+        }
+      }
+    }
+  }
+}

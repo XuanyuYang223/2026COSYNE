@@ -1,0 +1,151 @@
+{
+  "original_V": {
+    "n": 8192,
+    "accuracy": 0.9854736328125,
+    "cross_entropy": 0.03858562145937042,
+    "strata": {
+      "context": {
+        "0": {
+          "n": 3998,
+          "accuracy": 0.9907453726863432,
+          "cross_entropy": 0.023653150494712314
+        },
+        "1": {
+          "n": 4194,
+          "accuracy": 0.9804482594182165,
+          "cross_entropy": 0.052820246856772196
+        }
+      },
+      "true_operation_sequence": {
+        "C": {
+          "n": 982,
+          "accuracy": 0.9979633401221996,
+          "cross_entropy": 0.005376133984326595
+        },
+        "CC": {
+          "n": 521,
+          "accuracy": 0.9961612284069098,
+          "cross_entropy": 0.009416856783763522
+        },
+        "CCC": {
+          "n": 274,
+          "accuracy": 0.9963503649635036,
+          "cross_entropy": 0.033931973280593164
+        },
+        "CCI": {
+          "n": 264,
+          "accuracy": 0.9924242424242424,
+          "cross_entropy": 0.029523290149277293
+        },
+        "CI": {
+          "n": 523,
+          "accuracy": 0.9789674952198852,
+          "cross_entropy": 0.06124083693275958
+        },
+        "CIC": {
+          "n": 247,
+          "accuracy": 0.8299595141700404,
+          "cross_entropy": 0.44688406642325623
+        },
+        "CII": {
+          "n": 263,
+          "accuracy": 0.9771863117870723,
+          "cross_entropy": 0.04583686575178711
+        },
+        "I": {
+          "n": 1023,
+          "accuracy": 0.9990224828934506,
+          "cross_entropy": 0.003117738750398378
+        },
+        "IC": {
+          "n": 509,
+          "accuracy": 0.9823182711198428,
+          "cross_entropy": 0.05186904029382099
+        },
+        "ICC": {
+          "n": 256,
+          "accuracy": 0.98828125,
+          "cross_entropy": 0.020086416367551374
+        },
+        "ICI": {
+          "n": 266,
+          "accuracy": 0.8984962406015038,
+          "cross_entropy": 0.2506675350629397
+        },
+        "II": {
+          "n": 491,
+          "accuracy": 1.0,
+          "cross_entropy": 0.006722736081586967
+        },
+        "IIC": {
+          "n": 260,
+          "accuracy": 0.9576923076923077,
+          "cross_entropy": 0.09198737967052387
+        },
+        "III": {
+          "n": 274,
+          "accuracy": 0.9927007299270073,
+          "cross_entropy": 0.016650906785583956
+        },
+        "KEEP": {
+          "n": 2039,
+          "accuracy": 1.0,
+          "cross_entropy": 0.0005696577671067661
+        }
+      },
+      "delay": {
+        "0": {
+          "n": 4148,
+          "accuracy": 0.9845708775313404,
+          "cross_entropy": 0.03868147654902484
+        },
+        "10": {
+          "n": 4044,
+          "accuracy": 0.9863996043521266,
+          "cross_entropy": 0.03848730125366158
+        }
+      },
+      "query_type": {
+        "0": {
+          "n": 4019,
+          "accuracy": 0.9885543667579,
+          "cross_entropy": 0.02897316167179793
+        },
+        "1": {
+          "n": 4173,
+          "accuracy": 0.9825065899832255,
+          "cross_entropy": 0.04784334393391003
+        }
+      },
+      "non_N": {
+        "0": {
+          "n": 2039,
+          "accuracy": 1.0,
+          "cross_entropy": 0.0005696577671067661
+        },
+        "1": {
+          "n": 2005,
+          "accuracy": 0.9985037406483791,
+          "cross_entropy": 0.004223845543274941
+        },
+        "2": {
+          "n": 2044,
+          "accuracy": 0.9892367906066536,
+          "cross_entropy": 0.03260144081496484
+        },
+        "3": {
+          "n": 2104,
+          "accuracy": 0.9553231939163498,
+          "cross_entropy": 0.11398561001329723
+        }
+      }
+    }
+  },
+  "coarse_gate_passed": true,
+  "old_fine_gate_passed": false,
+  "checkpoint": "runs/v1_3/seed_106/selected_stage7.pt",
+  "checkpoint_sha256": "5ad670aff11654c7c82975d5cfa55cb1c4c18d2ce60a814b3a385f9c390642d8",
+  "selected_stage": 7,
+  "selected_stage_step": 23000,
+  "curriculum_passed": true
+}

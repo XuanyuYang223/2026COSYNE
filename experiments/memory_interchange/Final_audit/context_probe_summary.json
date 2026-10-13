@@ -1,0 +1,15 @@
+{
+  "alpha": 1,
+  "threshold": 0,
+  "training_split": "T only, 512 fixed original contents",
+  "history_holdout": [
+    "AB",
+    "BA"
+  ],
+  "c_no_content_replication": true,
+  "no_probe_selection": true,
+  "standardization": "T-only; tiny nonzero signals are scaled too; decoding is not a causal-use test",
+  "fit_count": 36,
+  "result_rows": 1584,
+  "no_patches_or_B_labels_used": true
+}

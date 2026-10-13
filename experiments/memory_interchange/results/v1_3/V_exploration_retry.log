@@ -1,0 +1,6 @@
+{"intervention_seed": 0, "d": 0, "S": "NN", "native": 0.9926470588235294, "matched": 0.9926470588235294}
+{"intervention_seed": 0, "d": 0, "S": "NA", "native": 0.9715219421101774, "matched": 0.5221274784423574}
+{"intervention_seed": 0, "d": 0, "S": "NB", "native": 0.9742063492063492, "matched": 0.5224638875157908}
+{"intervention_seed": 0, "d": 10, "S": "NN", "native": 0.9926470588235294, "matched": 0.9926470588235294}
+{"intervention_seed": 0, "d": 10, "S": "NA", "native": 0.9715219421101774, "matched": 0.5220038995990554}
+{"intervention_seed": 0, "d": 10, "S": "NB", "native": 0.9739729225023342, "matched": 0.5224158290767288}

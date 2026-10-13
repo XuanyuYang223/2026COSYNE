@@ -1,0 +1,95 @@
+{
+  "old_version": {
+    "files_checked": 101,
+    "all_unchanged": true,
+    "original_split_sha256": "a53ec093b315c53fd7b6066ff5ca5c17508195d3035b85c37cb2ccec7448ef8c",
+    "original_behavior_content_count": 134
+  },
+  "fixed_datasets_verified": 18,
+  "candidates": {
+    "A": {
+      "from_new_prespecified_initialization": true,
+      "stages": [
+        {
+          "stage": 1,
+          "total_updates": 4500,
+          "optimizer_step_matched": true,
+          "raw_trace_verified": true
+        },
+        {
+          "stage": 2,
+          "total_updates": 5500,
+          "optimizer_step_matched": true,
+          "raw_trace_verified": true
+        },
+        {
+          "stage": 3,
+          "total_updates": 6500,
+          "optimizer_step_matched": true,
+          "raw_trace_verified": true
+        },
+        {
+          "stage": 4,
+          "total_updates": 10500,
+          "optimizer_step_matched": true,
+          "raw_trace_verified": true
+        },
+        {
+          "stage": 5,
+          "total_updates": 13500,
+          "optimizer_step_matched": true,
+          "raw_trace_verified": true
+        },
+        {
+          "stage": 6,
+          "total_updates": 18500,
+          "optimizer_step_matched": true,
+          "raw_trace_verified": true
+        }
+      ],
+      "failed_stage": 6
+    },
+    "B": {
+      "from_new_prespecified_initialization": true,
+      "stages": [
+        {
+          "stage": 1,
+          "total_updates": 5000,
+          "optimizer_step_matched": true,
+          "raw_trace_verified": true
+        },
+        {
+          "stage": 2,
+          "total_updates": 6000,
+          "optimizer_step_matched": true,
+          "raw_trace_verified": true
+        },
+        {
+          "stage": 3,
+          "total_updates": 7000,
+          "optimizer_step_matched": true,
+          "raw_trace_verified": true
+        },
+        {
+          "stage": 4,
+          "total_updates": 10000,
+          "optimizer_step_matched": true,
+          "raw_trace_verified": true
+        },
+        {
+          "stage": 5,
+          "total_updates": 11500,
+          "optimizer_step_matched": true,
+          "raw_trace_verified": true
+        },
+        {
+          "stage": 6,
+          "total_updates": 16500,
+          "optimizer_step_matched": true,
+          "raw_trace_verified": true
+        }
+      ],
+      "failed_stage": 6
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version": "1.3",
+  "source_sha256": {
+    "v1_3/run.py": "e98d694c1f8bca847936095fe02c705c3c65a518bd4b9309bffb467917e10534",
+    "v1_3/protocol_v1_3.txt": "bddff3c8cfd1efa2afa5fbc85027905dd6cb5ad15868e2cd6f875347359efbdd",
+    "v1_3/revision_v1_3.yaml": "097ef8d6b71497b6418b69fc6773f06315ca416e92ae4329ada3513b3fbeb4b9",
+    "v1_3/README.md": "e238ebb478364c46cd9325a4a1e8bf2c04776791699f7f3e23bf18763b143ef9",
+    "v1_3/train.py": "9f030ce70a272efd7f2b82d26061cf77ca8db592ffc1ff1c953c64121d9f98cb",
+    "v1_3/common.py": "3fc4184686d4dc6e3cda4a0174efca222ceeb469fe323cf5f462f212ca021952",
+    "v1_3/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "v1_3/prepare.py": "272b0b6caefb9aa0fd4d711ff7895dbe6e741eeef0c07101d3b1dac643f01f17",
+    "v1_3/intervene.py": "2a381c093afdf1bbbe346f3d17ab52b0699f45e9b130db7fc9da2a3f1d7288dd",
+    "v1_3/controls.py": "12e157c3e9b97c133bdb43672964951a09ef3f578d9b7296c7b06a260b5f61c0",
+    "v1_3/report.py": "e3cf82cee99c124ea55c8878060acf064bdc739de5de13bfe968408160e3afda",
+    "v1_3/science.py": "c3f329bea4614b554d3b4bdb83b836a6e36ef12c51efe203b2af2c25419d7d0b",
+    "v1_3/CHANGES.md": "c96c898e3f3cbe0af7668656165ad2ca9edef557f1be9377226d0f956b9353cb",
+    "v1_3/extension.py": "b4a229f55c470a2236d5d2519502017c4f00be958748607d04a8a9392717300b",
+    "v1_3/predict.py": "6c1d32a7dfd34987322dd8e64e2e892ea875a5a666385dea1f0f584fd29e9f56",
+    "v1_3/figures.py": "0d1c52c844ffd16797219b49350ca94cdb513b90fba5280fd78eccc67a4fdfbe",
+    "v1_3/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "v1_3/tests/test_design.py": "eb608f76a5505bbcfb659c6471c5ca6926070afe00a1ef114b916111565e4ca6"
+  },
+  "split_sha256": "a53ec093b315c53fd7b6066ff5ca5c17508195d3035b85c37cb2ccec7448ef8c",
+  "old_versions_manifest_sha256": "6d68c156c74ee2d5284f34439a53e7cb1723c00479b50204e2c3fb086fdfc6ac",
+  "datasets_manifest_sha256": "9e35d28078fa2c9d76b727e78e84253af54c392652651d11430f578c1ae25a75",
+  "pilot_checkpoint_sha256": "da26c47754975bac62579b477eec95fcec5599fdbaa786687463a5ca6560df02",
+  "V_not_a_confirmatory_dataset": true,
+  "formal_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106
+  ],
+  "primary_estimand": "L_all; M_CKA_v13 versus M0_old+D_input on LOSO unseen_cross",
+  "masks_from_natural_outputs_before_patch": true
+}

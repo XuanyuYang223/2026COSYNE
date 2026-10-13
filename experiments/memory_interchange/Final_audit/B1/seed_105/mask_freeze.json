@@ -1,0 +1,79 @@
+{
+  "time": 1791870006.6161542,
+  "patch_outputs_not_yet_computed": true,
+  "natural_outputs_define_masks": true,
+  "files": [
+    {
+      "d": 0,
+      "S": "NN",
+      "path": "B1/seed_105/masks_d0_SNN.npz",
+      "sha256": "e476c195b29641a548b238aaa2bd3d03ab6e4a884805cf2960de8f0bc439ad0e",
+      "coverage": {
+        "all": 1.0,
+        "rec": 0.9922411750769959,
+        "both": 0.9851996630603596,
+        "E_sem": 0.9851996630603596
+      }
+    },
+    {
+      "d": 0,
+      "S": "NA",
+      "path": "B1/seed_105/masks_d0_SNA.npz",
+      "sha256": "93576df2deff10f0a1408a4ed41821caeb60b2ef58824369eb011a8fd5a0a44b",
+      "coverage": {
+        "all": 1.0,
+        "rec": 0.9732883203032456,
+        "both": 0.949245176235226,
+        "E_sem": 0.9498374529469057
+      }
+    },
+    {
+      "d": 0,
+      "S": "NB",
+      "path": "B1/seed_105/masks_d0_SNB.npz",
+      "sha256": "5d039bcf687a941b578c9cb021e079a4a46fdf3550b2c6a76b3b302b8e355b71",
+      "coverage": {
+        "all": 1.0,
+        "rec": 0.9736436863302534,
+        "both": 0.9502981126115454,
+        "E_sem": 0.9503902445444734
+      }
+    },
+    {
+      "d": 10,
+      "S": "NN",
+      "path": "B1/seed_105/masks_d10_SNN.npz",
+      "sha256": "c0bd7e549ba4f8da314da339bb664b766540ca4ee8eb0d7370b18d78a690cd22",
+      "coverage": {
+        "all": 1.0,
+        "rec": 0.9919746505567401,
+        "both": 0.9847011634946958,
+        "E_sem": 0.9847011634946958
+      }
+    },
+    {
+      "d": 10,
+      "S": "NA",
+      "path": "B1/seed_105/masks_d10_SNA.npz",
+      "sha256": "d3727597830c5217f620a0e44b2a2441bdc2d2137f11ad28df4dd49b3a044435",
+      "coverage": {
+        "all": 1.0,
+        "rec": 0.9730810234541578,
+        "both": 0.9488552607333702,
+        "E_sem": 0.9495232172470979
+      }
+    },
+    {
+      "d": 10,
+      "S": "NB",
+      "path": "B1/seed_105/masks_d10_SNB.npz",
+      "sha256": "3d0c8314e489ca539e0600314bca555b3f4f20009a81d1c92505d44ffa9a7dc8",
+      "coverage": {
+        "all": 1.0,
+        "rec": 0.9735844586590855,
+        "both": 0.9501664955645055,
+        "E_sem": 0.9502026902524415
+      }
+    }
+  ]
+}

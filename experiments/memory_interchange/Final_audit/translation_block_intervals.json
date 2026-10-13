@@ -1,0 +1,24 @@
+{
+  "estimand": "cross-context patch translation minus original, original semantic target, all 3 suffixes",
+  "models_and_masks_fixed": true,
+  "paired_seed_whole_orbit_resampling": true,
+  "replicates": 2000,
+  "intervals": {
+    "all": [
+      0.5421566787090887,
+      0.5718614535403629
+    ],
+    "rec": [
+      0.5423398117249245,
+      0.5722198908927553
+    ],
+    "both": [
+      0.5443369782784885,
+      0.5749554325966855
+    ],
+    "E_sem": [
+      0.5596191700483903,
+      0.5897583672355553
+    ]
+  }
+}

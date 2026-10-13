@@ -1,0 +1,13 @@
+{
+  "all_5040_content_semantic_translation_checks": 30240,
+  "independent_truth_oracles_agree": true,
+  "frozen_mask_files_checked": 72,
+  "NN_masks_exactly_equal": true,
+  "no_reserved_B1_orbit_overlap": true,
+  "all_selected_checkpoints_match_frozen_hashes": true,
+  "paired_unequal_block_denominator_check": true,
+  "preservation": {
+    "files": 1319,
+    "mismatches": []
+  }
+}

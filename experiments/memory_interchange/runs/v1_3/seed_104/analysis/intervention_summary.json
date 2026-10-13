@@ -1,0 +1,64 @@
+{
+  "seed": 104,
+  "exploratory": false,
+  "contents": 134,
+  "orbits": 19,
+  "labels": 918,
+  "native_min_stratum_accuracy": 0.8646055437100213,
+  "native_strata_ge95": false,
+  "native_strata_passed": true,
+  "compatibility_ceiling": false,
+  "quality_bins": {
+    "0": 0,
+    "1": 91,
+    "2": 827
+  },
+  "mode_means": {
+    "all": {
+      "matched_L": 4.286072041975797,
+      "matched_R": 0.29296415912965523,
+      "wrong_L": 14.642497760797637,
+      "wrong_R": 0.7926352132892958,
+      "repair": 0.012373937966563074,
+      "matched_accuracy": 0.6980236539060067,
+      "wrong_accuracy": 0.19000962739988198,
+      "wrong_cf_agree": 0.6980236539060067
+    },
+    "rec": {
+      "matched_L": 4.289459540182054,
+      "matched_R": 0.3014388843712232,
+      "wrong_L": 14.666823888915816,
+      "wrong_R": 0.8099985916187091,
+      "repair": 0.0,
+      "matched_accuracy": 0.6985611156287769,
+      "wrong_accuracy": 0.19000140838129076,
+      "wrong_cf_agree": 0.698076729944983
+    },
+    "both": {
+      "matched_L": 4.3200462518094565,
+      "matched_R": 0.29080521377647994,
+      "wrong_L": 14.710890413629203,
+      "wrong_R": 0.809960085424342,
+      "repair": 0.0,
+      "matched_accuracy": 0.7091947862235201,
+      "wrong_accuracy": 0.19003991457565803,
+      "wrong_cf_agree": 0.6986150503197183
+    },
+    "three": {
+      "matched_L": 4.334681957786148,
+      "matched_R": 0.29054533729100207,
+      "wrong_L": 14.821495394821001,
+      "wrong_R": 0.809568315465178,
+      "repair": 0.0,
+      "matched_accuracy": 0.7094546627089979,
+      "wrong_accuracy": 0.19043168453482193,
+      "wrong_cf_agree": 0.7096977765462411
+    }
+  },
+  "coverage": {
+    "all": 1.0,
+    "rec": 0.978613875069099,
+    "both": 0.9586079871417887,
+    "three": 0.9391395032308113
+  }
+}

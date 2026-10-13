@@ -1,0 +1,1262 @@
+[
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_1/advance.pt",
+    "kind": "advance",
+    "stage": 1,
+    "step": 5500,
+    "total_updates": 5500,
+    "sha256": "1e36a14a1d8e70632e894ee830db20938e3f841baa3577a05b53ceec046699cc",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_1/best.pt",
+    "kind": "best",
+    "stage": 1,
+    "step": 5500,
+    "total_updates": 5500,
+    "sha256": "7b930905d7dac3871352c14cb8cbc2708663517d61f7b48f358ba90a2d7cd177",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_1/latest.pt",
+    "kind": "latest",
+    "stage": 1,
+    "step": 5500,
+    "total_updates": 5500,
+    "sha256": "17ed8b21bf1a17ffb00679c5b4cf63ef4b085fe71885a72aba1f1751f53b5408",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_2/advance.pt",
+    "kind": "advance",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 6500,
+    "sha256": "b63dbd649fb9fb93373a7d3199d1712b09d77c60bdb729a25d20dd5cfbd97702",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_2/best.pt",
+    "kind": "best",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 6500,
+    "sha256": "acf0ca75a2c53bc68a3ae4b071b3918677696d079970ed250adbca40d2447dda",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_2/latest.pt",
+    "kind": "latest",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 6500,
+    "sha256": "8f4b3e68e591aab173837ba8e02b433b602959020010c66605a92819571eb08f",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_3/advance.pt",
+    "kind": "advance",
+    "stage": 3,
+    "step": 1000,
+    "total_updates": 7500,
+    "sha256": "f3cde1730b2c7d0d3b643b07adf14bcb73cc2199d320e7392cc979955c431e65",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_3/best.pt",
+    "kind": "best",
+    "stage": 3,
+    "step": 1000,
+    "total_updates": 7500,
+    "sha256": "61cb49419516dcbb19b014b7a24c41fd241b43d3dacff675c03b947bb647e289",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_3/latest.pt",
+    "kind": "latest",
+    "stage": 3,
+    "step": 1000,
+    "total_updates": 7500,
+    "sha256": "6770b3ab13cb8833eba820d9ee61410c6ad7f346828538e4f0f66b15bd7dd6ca",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_4/advance.pt",
+    "kind": "advance",
+    "stage": 4,
+    "step": 3500,
+    "total_updates": 11000,
+    "sha256": "afc3ac757d47f2cf0cf86f7be647133f9a9a1e715134ec919d65fbf3067b352d",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_4/best.pt",
+    "kind": "best",
+    "stage": 4,
+    "step": 3500,
+    "total_updates": 11000,
+    "sha256": "d9a2c5ecf7895c7a9bb37a6e96aa4c081c4a3326fac47807a3a6b80f94988793",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_4/latest.pt",
+    "kind": "latest",
+    "stage": 4,
+    "step": 3500,
+    "total_updates": 11000,
+    "sha256": "c296fac2926a900445bf5809774b151ad020915a6ef49198f3d1c622cc6dd570",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_5/advance.pt",
+    "kind": "advance",
+    "stage": 5,
+    "step": 2500,
+    "total_updates": 13500,
+    "sha256": "acf959a927924fee9e79649575c665d507034beaf2f9b8a6a77092332c776511",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_5/best.pt",
+    "kind": "best",
+    "stage": 5,
+    "step": 2500,
+    "total_updates": 13500,
+    "sha256": "f0e7b9f98392031ee56aa1df733d3a1275bc8bfcd09d34942a89f21b214295dc",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_5/latest.pt",
+    "kind": "latest",
+    "stage": 5,
+    "step": 2500,
+    "total_updates": 13500,
+    "sha256": "6671875fdc3100e6e0f6cd1b6247c7038fd7a76e619d13e154df79658ad6ca13",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_6/advance.pt",
+    "kind": "advance",
+    "stage": 6,
+    "step": 9500,
+    "total_updates": 23000,
+    "sha256": "86681f495e65421792f4162c7f6a341b19d184d64d608c5fa7620ec23e561344",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_6/best.pt",
+    "kind": "best",
+    "stage": 6,
+    "step": 9000,
+    "total_updates": 22500,
+    "sha256": "2e04a18676df91f9f23f41583318e39e1fc327af6cd92a4d1ecd1b91c30e29f8",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_6/latest.pt",
+    "kind": "latest",
+    "stage": 6,
+    "step": 9500,
+    "total_updates": 23000,
+    "sha256": "021b4bd49bc2c5f8ff07f3406402f12541c2e65a42adc17e7c39341ed14cb845",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_7/advance.pt",
+    "kind": "advance",
+    "stage": 7,
+    "step": 14000,
+    "total_updates": 37000,
+    "sha256": "088da7a605603e28c2478eb4e6b64bc0e0db379f4f5213d03a7ba34c2e765607",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_7/best.pt",
+    "kind": "best",
+    "stage": 7,
+    "step": 13500,
+    "total_updates": 36500,
+    "sha256": "e836c8058a27442a6cb4711d930d0a6b6b16ae5accb22ffcb1c175afc9d443c9",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 101,
+    "checkpoint": "runs/v1_3/seed_101/stage_7/latest.pt",
+    "kind": "latest",
+    "stage": 7,
+    "step": 14000,
+    "total_updates": 37000,
+    "sha256": "f5bfb3708827978044695a124c14ef7fbf50541843d5d41d157228742ce17e47",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_1/advance.pt",
+    "kind": "advance",
+    "stage": 1,
+    "step": 5000,
+    "total_updates": 5000,
+    "sha256": "1b1505521b20eed6eab1ba4294beb1024d83cff8dc51bc2e5377fbacf915f30d",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_1/best.pt",
+    "kind": "best",
+    "stage": 1,
+    "step": 5000,
+    "total_updates": 5000,
+    "sha256": "304515502055e43f5d2a4820f674d2fb79edc30c1f1d4548c8c23d229c939ece",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_1/latest.pt",
+    "kind": "latest",
+    "stage": 1,
+    "step": 5000,
+    "total_updates": 5000,
+    "sha256": "e6c014fc2a5df34df96d1a7fdd9157f0ff4d83a47d83874de19f944f395d2151",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_2/advance.pt",
+    "kind": "advance",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 6000,
+    "sha256": "569c36763c1136aef6bc83b535940bebfd586d3be9d98ff4246354f4423a6c90",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_2/best.pt",
+    "kind": "best",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 6000,
+    "sha256": "2d360dda49c8e7987a451c0cffc6e128db74f19687eb98522eb6301869f28a23",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_2/latest.pt",
+    "kind": "latest",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 6000,
+    "sha256": "7e2f0c754aaf5e68ee02125de6deefac5ccc5be2dc17acdd9a2b6bd9124f120e",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_3/advance.pt",
+    "kind": "advance",
+    "stage": 3,
+    "step": 1000,
+    "total_updates": 7000,
+    "sha256": "17668bd94be6cbc15b276ad139e96cc25af79b1cfac84f793fc6e59ae0259199",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_3/best.pt",
+    "kind": "best",
+    "stage": 3,
+    "step": 500,
+    "total_updates": 6500,
+    "sha256": "a7ee497bf3bde42c82ab07810f1528128eb9020f446e50ded4af0b89a7c7c2dc",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_3/latest.pt",
+    "kind": "latest",
+    "stage": 3,
+    "step": 1000,
+    "total_updates": 7000,
+    "sha256": "6c213324d5436a1bc6a12bf6843595c0d787a69146b1eedb05772d5b37edd405",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_4/advance.pt",
+    "kind": "advance",
+    "stage": 4,
+    "step": 4000,
+    "total_updates": 11000,
+    "sha256": "9f503d5d6c622f1411e879326b3441ebc1611c77e8ef80245fd2615281403385",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_4/best.pt",
+    "kind": "best",
+    "stage": 4,
+    "step": 4000,
+    "total_updates": 11000,
+    "sha256": "af2e3326630a6d9c320e0a031193bc955e50b2c9d52e0362ce5b1c635368bb8d",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_4/latest.pt",
+    "kind": "latest",
+    "stage": 4,
+    "step": 4000,
+    "total_updates": 11000,
+    "sha256": "02fd6105f9fbf334f13dff077e809d5fce0380a45850919f8904d71efb0bacce",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_5/advance.pt",
+    "kind": "advance",
+    "stage": 5,
+    "step": 3000,
+    "total_updates": 14000,
+    "sha256": "fdb91f6ee3f1cca69bbdd9c6324756161d1254154eae7eca789f3691d7fa364f",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_5/best.pt",
+    "kind": "best",
+    "stage": 5,
+    "step": 3000,
+    "total_updates": 14000,
+    "sha256": "3f8e2c22b7d78556c10481107034b7654cda1770d777b6040784b67d9e7e64cf",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_5/latest.pt",
+    "kind": "latest",
+    "stage": 5,
+    "step": 3000,
+    "total_updates": 14000,
+    "sha256": "47fafcdc106b82964878f1bff547e04d5c3276c99c3ad05d3e2bae264942355e",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_6/advance.pt",
+    "kind": "advance",
+    "stage": 6,
+    "step": 11500,
+    "total_updates": 25500,
+    "sha256": "45999593c5d65b2a169ac2785458e0edb3e86032edef1048a1a32a0255993098",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_6/best.pt",
+    "kind": "best",
+    "stage": 6,
+    "step": 11500,
+    "total_updates": 25500,
+    "sha256": "b7474c0c478e91499935d02ce0a3878973fbb498a236e2babd73c0f388692220",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_6/latest.pt",
+    "kind": "latest",
+    "stage": 6,
+    "step": 11500,
+    "total_updates": 25500,
+    "sha256": "00719973ae60344ebb2de50dc687758985c8141a9b015f371a0d453a57a5600c",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_7/advance.pt",
+    "kind": "advance",
+    "stage": 7,
+    "step": 35500,
+    "total_updates": 61000,
+    "sha256": "2e6e13d56e383d97ba097e61edf2e5d690edc1a2defd4e2cbb4f3f128e89d36a",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_7/best.pt",
+    "kind": "best",
+    "stage": 7,
+    "step": 32500,
+    "total_updates": 58000,
+    "sha256": "17b786ee7e656993650f7c9fc7ef4c6a6a6dd3aef0b2d4f4f332d0c72de43478",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 102,
+    "checkpoint": "runs/v1_3/seed_102/stage_7/latest.pt",
+    "kind": "latest",
+    "stage": 7,
+    "step": 35500,
+    "total_updates": 61000,
+    "sha256": "d62034cc8fa8970697415d4100dec0da41e6f039093e28c390fabe2aa175ab3a",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_1/advance.pt",
+    "kind": "advance",
+    "stage": 1,
+    "step": 6000,
+    "total_updates": 6000,
+    "sha256": "babcb524c38767bf6d47c80428d86e542e518f5554fba5bd0b2fd8683e2f6792",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_1/best.pt",
+    "kind": "best",
+    "stage": 1,
+    "step": 6000,
+    "total_updates": 6000,
+    "sha256": "95a2c70c3caa3687826e0a21250a9547d4885cf3932ef7ee0da70db549d98944",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_1/latest.pt",
+    "kind": "latest",
+    "stage": 1,
+    "step": 6000,
+    "total_updates": 6000,
+    "sha256": "6e826a4492c402bd696ef4f46acaa4b0c52ef902ec97ac6c5f988b22e8e985d9",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_2/advance.pt",
+    "kind": "advance",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 7000,
+    "sha256": "8b445d441aaae739b3a96e2c584d31f8de089d7d9d726c5efe4eff9d78a8df2d",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_2/best.pt",
+    "kind": "best",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 7000,
+    "sha256": "bccc026313f9b6d1d6cb6a2cce8fb46c7021c7b045dc2d0ede2ed6a4114b2f4b",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_2/latest.pt",
+    "kind": "latest",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 7000,
+    "sha256": "d4c6b54cc9ccba9a6532c40c20057eeb2104ea34fca44bec566ed70a2d432ab9",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_3/advance.pt",
+    "kind": "advance",
+    "stage": 3,
+    "step": 1000,
+    "total_updates": 8000,
+    "sha256": "20bdec7d79f9bdf2213215494ce3c2f87274d55806a0a4bbc6962468dced62f4",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_3/best.pt",
+    "kind": "best",
+    "stage": 3,
+    "step": 1000,
+    "total_updates": 8000,
+    "sha256": "c9a0edbfe7fbfc35a5f364f06c8e00548d80e784b89dbe070060b01483f1ac02",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_3/latest.pt",
+    "kind": "latest",
+    "stage": 3,
+    "step": 1000,
+    "total_updates": 8000,
+    "sha256": "9c6b0af10c105fa0a59e4d3889a60debed9be1d933d101e40f1aa377d6459cb6",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_4/advance.pt",
+    "kind": "advance",
+    "stage": 4,
+    "step": 4000,
+    "total_updates": 12000,
+    "sha256": "7001b6c372023dab4fdd7e641f082beaeb4682618f87548f08faf23f9f324b6d",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_4/best.pt",
+    "kind": "best",
+    "stage": 4,
+    "step": 4000,
+    "total_updates": 12000,
+    "sha256": "b771a4fc6f4959f455bb56375e0980a8b76b4bca7edb1245023a9ae6e05bd155",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_4/latest.pt",
+    "kind": "latest",
+    "stage": 4,
+    "step": 4000,
+    "total_updates": 12000,
+    "sha256": "c3014fb208a898c2ad9a9a2fbeaed1250290e517eea70155b23e80498e0d6a80",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_5/advance.pt",
+    "kind": "advance",
+    "stage": 5,
+    "step": 2000,
+    "total_updates": 14000,
+    "sha256": "3d2c33d6091177913e5c4d0f11e37ab82adb2ed97629016bc4f5e9c7dd101af4",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_5/best.pt",
+    "kind": "best",
+    "stage": 5,
+    "step": 2000,
+    "total_updates": 14000,
+    "sha256": "63af811324dff4344498b73d5ca24b9a52a04622f3dede16fea5750cf502145c",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_5/latest.pt",
+    "kind": "latest",
+    "stage": 5,
+    "step": 2000,
+    "total_updates": 14000,
+    "sha256": "d58d85a0c0d0c5e0f6060f9d7806944535ba49f287a06c1099250b164f7fd75b",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_6/advance.pt",
+    "kind": "advance",
+    "stage": 6,
+    "step": 8000,
+    "total_updates": 22000,
+    "sha256": "3d587feab3cf312236650487a76d041b49c4b8d5bd74fcaa360f3d143e26dea3",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_6/best.pt",
+    "kind": "best",
+    "stage": 6,
+    "step": 8000,
+    "total_updates": 22000,
+    "sha256": "3fa8f0d0a2eeb595709d02e43b966e0d513e783f0faefb3aae7c26b6de266611",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_6/latest.pt",
+    "kind": "latest",
+    "stage": 6,
+    "step": 8000,
+    "total_updates": 22000,
+    "sha256": "b0f23a21589353f8833c484a6840ca52cb1e5c2d5b72baf0d44d4d797b224412",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_7/advance.pt",
+    "kind": "advance",
+    "stage": 7,
+    "step": 18000,
+    "total_updates": 40000,
+    "sha256": "b14f1535d506231686cbf6bafd924fa5ed6c018e3266dfd2ca0f3f45f259cf89",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_7/best.pt",
+    "kind": "best",
+    "stage": 7,
+    "step": 16500,
+    "total_updates": 38500,
+    "sha256": "94978435f73942c57390c8451edce8910a87fd3d6321270040c340052b218651",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 103,
+    "checkpoint": "runs/v1_3/seed_103/stage_7/latest.pt",
+    "kind": "latest",
+    "stage": 7,
+    "step": 18000,
+    "total_updates": 40000,
+    "sha256": "16e940527ea91cee8d1dac03219cab4de7cc3e483fd4b4db7eafad779d07d99f",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_1/advance.pt",
+    "kind": "advance",
+    "stage": 1,
+    "step": 5500,
+    "total_updates": 5500,
+    "sha256": "54309e45b924c9c97c13571dbe3db0ca7c3c131f3b0c915090bb8f687bd9a0d5",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_1/best.pt",
+    "kind": "best",
+    "stage": 1,
+    "step": 5500,
+    "total_updates": 5500,
+    "sha256": "c7fa9273e27fe2677be28eec08258a8c1265e8b464cd920d9e48f36c74051cb1",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_1/latest.pt",
+    "kind": "latest",
+    "stage": 1,
+    "step": 5500,
+    "total_updates": 5500,
+    "sha256": "c8c322e394b8852f4e475fc139899b35aef872eb00433398b6d45fa20c85d5a7",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_2/advance.pt",
+    "kind": "advance",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 6500,
+    "sha256": "081c452694082200d653dbc121f4c76c1dceec8b6e8d4f56e227f9e76a92d5fd",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_2/best.pt",
+    "kind": "best",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 6500,
+    "sha256": "d5682c7ba49762450e4f77a57e57c836500f499c5ca1c7010a8369c3e010cf44",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_2/latest.pt",
+    "kind": "latest",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 6500,
+    "sha256": "1bf4005bce587cf6da81c4b4c04a748258a72634ad99d98fa5dccfb887f52f1b",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_3/advance.pt",
+    "kind": "advance",
+    "stage": 3,
+    "step": 1000,
+    "total_updates": 7500,
+    "sha256": "f2ca00aed501390cc45ca7c5e960b6f36c4a88a4c21c0f57686e8521bbfc9fa5",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_3/best.pt",
+    "kind": "best",
+    "stage": 3,
+    "step": 1000,
+    "total_updates": 7500,
+    "sha256": "8d7e9fe704e7ea009d9f65dd817a0b462c07e9dafd876641d148c029e9dfbee2",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_3/latest.pt",
+    "kind": "latest",
+    "stage": 3,
+    "step": 1000,
+    "total_updates": 7500,
+    "sha256": "922ad77083e5616cde868a007e8dfa615e01483fbe223cd4fc044fd9ea99d6b0",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_4/advance.pt",
+    "kind": "advance",
+    "stage": 4,
+    "step": 5500,
+    "total_updates": 13000,
+    "sha256": "b0c69d14c76c3e1e53f27eb83335ccf226cd82cfae54d56f23ea8fde75722c7b",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_4/best.pt",
+    "kind": "best",
+    "stage": 4,
+    "step": 5500,
+    "total_updates": 13000,
+    "sha256": "8738283db71c8f2f974c9ef87b5d0ef02e35b076c3056a0c78e69495134205ca",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_4/latest.pt",
+    "kind": "latest",
+    "stage": 4,
+    "step": 5500,
+    "total_updates": 13000,
+    "sha256": "66aff60dcb7c6815d18eb4c52393c57941b358a06582a6bba7bb131a418af2f8",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_5/advance.pt",
+    "kind": "advance",
+    "stage": 5,
+    "step": 2500,
+    "total_updates": 15500,
+    "sha256": "673c6f5f1ba0bb62c90857a7a49dac1c42eb1ef475dbdd1a30e3c2d8330937ed",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_5/best.pt",
+    "kind": "best",
+    "stage": 5,
+    "step": 2500,
+    "total_updates": 15500,
+    "sha256": "64fe6d183d9a7a9b0c84fff9134a1a0bdf227f2fdbe3d2cc48b04ebea0dd3bf8",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_5/latest.pt",
+    "kind": "latest",
+    "stage": 5,
+    "step": 2500,
+    "total_updates": 15500,
+    "sha256": "28e6172a00092be3426663ccb5551339e7b49ab601a0b5871d4efaa867646dbb",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_6/advance.pt",
+    "kind": "advance",
+    "stage": 6,
+    "step": 10500,
+    "total_updates": 26000,
+    "sha256": "c64b748755b8967ef0903b043738c6dae1f06df78e662a76aa51f8763871d59b",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_6/best.pt",
+    "kind": "best",
+    "stage": 6,
+    "step": 10000,
+    "total_updates": 25500,
+    "sha256": "1520107a09c6405248f3f01403096c639bc3da828a09e643a61b0542097cf83c",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_6/latest.pt",
+    "kind": "latest",
+    "stage": 6,
+    "step": 10500,
+    "total_updates": 26000,
+    "sha256": "f2ca7c1296bd7840514b9664fab8ddf1959b346768c54e0ffd819b2c3213901c",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_7/advance.pt",
+    "kind": "advance",
+    "stage": 7,
+    "step": 21500,
+    "total_updates": 47500,
+    "sha256": "7fea61471607b4e2e4d453e0bd64cef58f11d1b3f0921fb24bc08236f4c41e06",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_7/best.pt",
+    "kind": "best",
+    "stage": 7,
+    "step": 21000,
+    "total_updates": 47000,
+    "sha256": "4aca429638dd4b539771235e98642066725f919be1e5663174b66d77feb389f8",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 104,
+    "checkpoint": "runs/v1_3/seed_104/stage_7/latest.pt",
+    "kind": "latest",
+    "stage": 7,
+    "step": 21500,
+    "total_updates": 47500,
+    "sha256": "85f253d40ac22e44b485b3a6cc1dc7b113ce1e8a69038e7bae9614ecc5d8e49e",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_1/advance.pt",
+    "kind": "advance",
+    "stage": 1,
+    "step": 4500,
+    "total_updates": 4500,
+    "sha256": "e221d4309e9f24ffd721e60b0e0b5ead22925943960071066d6b4b0177d8235a",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_1/best.pt",
+    "kind": "best",
+    "stage": 1,
+    "step": 4500,
+    "total_updates": 4500,
+    "sha256": "5b2b8fc536da67b18dc70deef5e07806c64706c4e110f7f01b9c7700c63b5144",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_1/latest.pt",
+    "kind": "latest",
+    "stage": 1,
+    "step": 4500,
+    "total_updates": 4500,
+    "sha256": "564a4b965bb59ab733456d62939a9dbf9ff75547e8ada3a9455fa5219ac8fcea",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_2/advance.pt",
+    "kind": "advance",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 5500,
+    "sha256": "1a12e44ea3d225a5bb3f79e2dc87f70bcbdf40cc1e9ebdf5ab65faf8668fb0ab",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_2/best.pt",
+    "kind": "best",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 5500,
+    "sha256": "6668590a3899ddc2fe133b1d5f681eec63b67d8f9d12d54242e5bde590e9b4bd",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_2/latest.pt",
+    "kind": "latest",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 5500,
+    "sha256": "1529c10831eafc406353b6f6b7dbf187c8a589ed872f100b7bb1a5a85c822489",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_3/advance.pt",
+    "kind": "advance",
+    "stage": 3,
+    "step": 1000,
+    "total_updates": 6500,
+    "sha256": "81f60594ca6638ab10073c3e1a66d43cd2c3bb945eaef74e8853177fd51c8806",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_3/best.pt",
+    "kind": "best",
+    "stage": 3,
+    "step": 1000,
+    "total_updates": 6500,
+    "sha256": "ae8ebcb5fcee03ca3afa691a477beef2aa4de436f635415906653bf61939aac2",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_3/latest.pt",
+    "kind": "latest",
+    "stage": 3,
+    "step": 1000,
+    "total_updates": 6500,
+    "sha256": "4f56dc25dc26ae21df195f602bb94b6424251a287ea82ea0545524879d0381c9",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_4/advance.pt",
+    "kind": "advance",
+    "stage": 4,
+    "step": 4000,
+    "total_updates": 10500,
+    "sha256": "ab0c77d2d17fcaa9d348481ea2c1384623d9e7137708be4731e4bdc636416213",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_4/best.pt",
+    "kind": "best",
+    "stage": 4,
+    "step": 4000,
+    "total_updates": 10500,
+    "sha256": "50aaf04804b466280cfaddfc0388905aecf0a25a38ce2e91ee02f279c4f0a82a",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_4/latest.pt",
+    "kind": "latest",
+    "stage": 4,
+    "step": 4000,
+    "total_updates": 10500,
+    "sha256": "7f44d43c1ce80ce33dc1bf3c16d9e3519663a00711fc4150260c67e83a4d0d64",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_5/advance.pt",
+    "kind": "advance",
+    "stage": 5,
+    "step": 2500,
+    "total_updates": 13000,
+    "sha256": "da8b5433b9acc5686a67220243dfa45daae52a7db1c5cc1adb1bfc0e3f45ec16",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_5/best.pt",
+    "kind": "best",
+    "stage": 5,
+    "step": 2500,
+    "total_updates": 13000,
+    "sha256": "9afc84ec614a4a4d3e3c5f86e11cd42f6937bc3620e44eacb0bbb95551e4d4d5",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_5/latest.pt",
+    "kind": "latest",
+    "stage": 5,
+    "step": 2500,
+    "total_updates": 13000,
+    "sha256": "24c1d67f88824a052af2a4e59d0961820dd7f8737649b25c7fed761da0b16e72",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_6/advance.pt",
+    "kind": "advance",
+    "stage": 6,
+    "step": 10500,
+    "total_updates": 23500,
+    "sha256": "bb313ca69c0d24ea8e276a12df04c427e00267ffd8bbd6014b427a2f76dd72ca",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_6/best.pt",
+    "kind": "best",
+    "stage": 6,
+    "step": 8000,
+    "total_updates": 21000,
+    "sha256": "8671cf6fb217799e938e1bdf2d7373767ff7231898fcd7409a91560186f0535c",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_6/latest.pt",
+    "kind": "latest",
+    "stage": 6,
+    "step": 10500,
+    "total_updates": 23500,
+    "sha256": "746e8149ec68b275bed7e004ea832db0fabf6f330b8589b442ac5ea13257583b",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_7/advance.pt",
+    "kind": "advance",
+    "stage": 7,
+    "step": 26000,
+    "total_updates": 49500,
+    "sha256": "a546b501d15d580e9932644cdbfe9361a99262383f4979777ed9da9d0be6e15b",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_7/best.pt",
+    "kind": "best",
+    "stage": 7,
+    "step": 26000,
+    "total_updates": 49500,
+    "sha256": "da95e53ff7883a3479362f9858153a0597943765d0b5137256bb0d8b94c90324",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 105,
+    "checkpoint": "runs/v1_3/seed_105/stage_7/latest.pt",
+    "kind": "latest",
+    "stage": 7,
+    "step": 26000,
+    "total_updates": 49500,
+    "sha256": "5241fe336ad800b97f3770b41eef2b7fbfd9ff9d8f37b07c928e0f40c24ca7c9",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_1/advance.pt",
+    "kind": "advance",
+    "stage": 1,
+    "step": 5500,
+    "total_updates": 5500,
+    "sha256": "ff6f086fa3ebd577777cd1b36e70a511d23f7b22d16ec0a976fde55245938b94",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_1/best.pt",
+    "kind": "best",
+    "stage": 1,
+    "step": 5500,
+    "total_updates": 5500,
+    "sha256": "1ce1cb28496c0e60c324576a4b8f6bad2f53af4139e591e28b937742aa491620",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_1/latest.pt",
+    "kind": "latest",
+    "stage": 1,
+    "step": 5500,
+    "total_updates": 5500,
+    "sha256": "f75d98faa92d6d9d9d311527ac4e1072eb2f0a828fa133d8cbaa04e3a21c0c94",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_2/advance.pt",
+    "kind": "advance",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 6500,
+    "sha256": "ce1f512d7736ea19446f26c99835ae7c413b49af24d56e1fa10a25b075905859",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_2/best.pt",
+    "kind": "best",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 6500,
+    "sha256": "16e626b11d016a16e236bebba5704380cea65a81d20177f8fa529da2dabae36b",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_2/latest.pt",
+    "kind": "latest",
+    "stage": 2,
+    "step": 1000,
+    "total_updates": 6500,
+    "sha256": "a277343ffb97b1bce352409ccad463f0bfad834aa40bd77b21f5007ca4c8ea76",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_3/advance.pt",
+    "kind": "advance",
+    "stage": 3,
+    "step": 1000,
+    "total_updates": 7500,
+    "sha256": "a924e6cd317b737777a15d84e8c3b37b5363a85a40942eeac05cc86a46170fc5",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_3/best.pt",
+    "kind": "best",
+    "stage": 3,
+    "step": 1000,
+    "total_updates": 7500,
+    "sha256": "5c71b7c3f96d058d5945557e21a6db9a5dabac461af32400cc5611912d76701c",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_3/latest.pt",
+    "kind": "latest",
+    "stage": 3,
+    "step": 1000,
+    "total_updates": 7500,
+    "sha256": "a1eee7710dfdb4cae85220babaf57ebf409edbda449609881f9fb83c2cda4096",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_4/advance.pt",
+    "kind": "advance",
+    "stage": 4,
+    "step": 4500,
+    "total_updates": 12000,
+    "sha256": "7ba255e2f1a5a7976f3e605768c4dc063489e7659894b20d6a961f1b7e1c03c3",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_4/best.pt",
+    "kind": "best",
+    "stage": 4,
+    "step": 4500,
+    "total_updates": 12000,
+    "sha256": "83e20bf8b32193144910825db3fe8292d46060432eca7fa75905f92dba2f5494",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_4/latest.pt",
+    "kind": "latest",
+    "stage": 4,
+    "step": 4500,
+    "total_updates": 12000,
+    "sha256": "024da237201c8e48350af7b7770ed866c9a499623c99fa999cecd03c97c05c80",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_5/advance.pt",
+    "kind": "advance",
+    "stage": 5,
+    "step": 3000,
+    "total_updates": 15000,
+    "sha256": "25e2dc04a4493bd6ebc4501628178ae84fdde7d8de48e0dee80e66ec2f8e0109",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_5/best.pt",
+    "kind": "best",
+    "stage": 5,
+    "step": 3000,
+    "total_updates": 15000,
+    "sha256": "03b0c09b50713f9bd1cef590e7c6dc60f89a8b2b70bcc05bf27dd7ca51cf5689",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_5/latest.pt",
+    "kind": "latest",
+    "stage": 5,
+    "step": 3000,
+    "total_updates": 15000,
+    "sha256": "78939fba9b839cafb894a6354f96ea9c89a9e242f702ce7fa2b7d2d802d06969",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_6/advance.pt",
+    "kind": "advance",
+    "stage": 6,
+    "step": 10500,
+    "total_updates": 25500,
+    "sha256": "8ea2f4cfaee2bb93b18aee7009009cb27883128af5649473b6c79106ce16ffcb",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_6/best.pt",
+    "kind": "best",
+    "stage": 6,
+    "step": 10500,
+    "total_updates": 25500,
+    "sha256": "90f24d645803fa727b63faf5ae30451d9e41017b714f4301efa1e6508fd72fa0",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_6/latest.pt",
+    "kind": "latest",
+    "stage": 6,
+    "step": 10500,
+    "total_updates": 25500,
+    "sha256": "3e1d0e5df4660714e668c27533461d487dd5590bf59cd1e8f0fad8f55f394ed0",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_7/advance.pt",
+    "kind": "advance",
+    "stage": 7,
+    "step": 23000,
+    "total_updates": 48500,
+    "sha256": "e8e98013192d84dc7853004f2e8fde56f6872e8c29ab89ec43af614dff03e61e",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_7/best.pt",
+    "kind": "best",
+    "stage": 7,
+    "step": 23000,
+    "total_updates": 48500,
+    "sha256": "c10266f940c49f4ac2b7d2a779d4587d6a433cbe032b5699e03852a02f632015",
+    "matching_Adam_and_RNG": true
+  },
+  {
+    "seed": 106,
+    "checkpoint": "runs/v1_3/seed_106/stage_7/latest.pt",
+    "kind": "latest",
+    "stage": 7,
+    "step": 23000,
+    "total_updates": 48500,
+    "sha256": "db5b1dd666722cb082786969a4e6208e3eee76798f3c778ed8e72f5c64bfbae1",
+    "matching_Adam_and_RNG": true
+  }
+]

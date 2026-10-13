@@ -1,0 +1,13 @@
+{
+  "benchmark_updates": 200,
+  "benchmark_seconds": 1.414320649986621,
+  "updates_per_second": 141.4106482867884,
+  "benchmark_changes_discarded_all_RNG_restored": true,
+  "pilot_max_additional_updates": 95000,
+  "pilot_training_seconds_estimate": 671.802308743645,
+  "formal_max_updates": 1200000,
+  "formal_training_seconds_estimate": 8485.923899919726,
+  "validation_save_cache_analysis_not_in_benchmark": true,
+  "inherited_gpu_seconds": 605.5145923811942,
+  "total_limit_seconds": 43200.0
+}

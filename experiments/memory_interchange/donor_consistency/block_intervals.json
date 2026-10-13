@@ -1,0 +1,872 @@
+{
+  "role": "conditional empirical interval for six fixed trained networks; not independent confirmation, no training or population uncertainty",
+  "seed_resampling": false,
+  "rng_seed": 20261013,
+  "replicates": 10000,
+  "intervals": [
+    {
+      "dataset": "B1",
+      "treatment": "original",
+      "context": "all",
+      "history": "all",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999971393786273,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "original",
+      "context": "all",
+      "history": "same",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        1.0,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "original",
+      "context": "all",
+      "history": "different",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999969605897915,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "original",
+      "context": "same",
+      "history": "all",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999969605897915,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "original",
+      "context": "same",
+      "history": "same",
+      "status": "EMPTY",
+      "95ci": null
+    },
+    {
+      "dataset": "B1",
+      "treatment": "original",
+      "context": "same",
+      "history": "different",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999969605897915,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "original",
+      "context": "cross",
+      "history": "all",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999972983020369,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "original",
+      "context": "cross",
+      "history": "same",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        1.0,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "original",
+      "context": "cross",
+      "history": "different",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999969605897915,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "translated",
+      "context": "all",
+      "history": "all",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999971393786273,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "translated",
+      "context": "all",
+      "history": "same",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        1.0,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "translated",
+      "context": "all",
+      "history": "different",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999969605897915,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "translated",
+      "context": "same",
+      "history": "all",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999969605897915,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "translated",
+      "context": "same",
+      "history": "same",
+      "status": "EMPTY",
+      "95ci": null
+    },
+    {
+      "dataset": "B1",
+      "treatment": "translated",
+      "context": "same",
+      "history": "different",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999969605897915,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "translated",
+      "context": "cross",
+      "history": "all",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999972983020369,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "translated",
+      "context": "cross",
+      "history": "same",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        1.0,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "translated",
+      "context": "cross",
+      "history": "different",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999969605897915,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "all",
+      "context": "all",
+      "history": "all",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999971393786273,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "all",
+      "context": "all",
+      "history": "same",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        1.0,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "all",
+      "context": "all",
+      "history": "different",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999969605897915,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "all",
+      "context": "same",
+      "history": "all",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999969605897915,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "all",
+      "context": "same",
+      "history": "same",
+      "status": "EMPTY",
+      "95ci": null
+    },
+    {
+      "dataset": "B1",
+      "treatment": "all",
+      "context": "same",
+      "history": "different",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999969605897915,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "all",
+      "context": "cross",
+      "history": "all",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999972983020369,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "all",
+      "context": "cross",
+      "history": "same",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        1.0,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B1",
+      "treatment": "all",
+      "context": "cross",
+      "history": "different",
+      "status": "OK",
+      "orbits": 19,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999969605897915,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "original",
+      "context": "all",
+      "history": "all",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999983532071544,
+        0.9999997874073733
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "original",
+      "context": "all",
+      "history": "same",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        1.0,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "original",
+      "context": "all",
+      "history": "different",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999982502826015,
+        0.9999997741203343
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "original",
+      "context": "same",
+      "history": "all",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999982502826015,
+        0.9999997741203343
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "original",
+      "context": "same",
+      "history": "same",
+      "status": "EMPTY",
+      "95ci": null
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "original",
+      "context": "same",
+      "history": "different",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999982502826015,
+        0.9999997741203343
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "original",
+      "context": "cross",
+      "history": "all",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999984446956457,
+        0.9999997992180748
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "original",
+      "context": "cross",
+      "history": "same",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        1.0,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "original",
+      "context": "cross",
+      "history": "different",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999982502826015,
+        0.9999997741203343
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "translated",
+      "context": "all",
+      "history": "all",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999983532071544,
+        0.9999997874073733
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "translated",
+      "context": "all",
+      "history": "same",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        1.0,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "translated",
+      "context": "all",
+      "history": "different",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999982502826015,
+        0.9999997741203343
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "translated",
+      "context": "same",
+      "history": "all",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999982502826015,
+        0.9999997741203343
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "translated",
+      "context": "same",
+      "history": "same",
+      "status": "EMPTY",
+      "95ci": null
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "translated",
+      "context": "same",
+      "history": "different",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999982502826015,
+        0.9999997741203343
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "translated",
+      "context": "cross",
+      "history": "all",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999984446956457,
+        0.9999997992180748
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "translated",
+      "context": "cross",
+      "history": "same",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        1.0,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "translated",
+      "context": "cross",
+      "history": "different",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999982502826015,
+        0.9999997741203343
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "all",
+      "context": "all",
+      "history": "all",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999983532071544,
+        0.9999997874073733
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "all",
+      "context": "all",
+      "history": "same",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        1.0,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "all",
+      "context": "all",
+      "history": "different",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999982502826015,
+        0.9999997741203343
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "all",
+      "context": "same",
+      "history": "all",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999982502826015,
+        0.9999997741203343
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "all",
+      "context": "same",
+      "history": "same",
+      "status": "EMPTY",
+      "95ci": null
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "all",
+      "context": "same",
+      "history": "different",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999982502826015,
+        0.9999997741203343
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "all",
+      "context": "cross",
+      "history": "all",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999984446956457,
+        0.9999997992180748
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "all",
+      "context": "cross",
+      "history": "same",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        1.0,
+        1.0
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    },
+    {
+      "dataset": "B_reserved",
+      "treatment": "all",
+      "context": "cross",
+      "history": "different",
+      "status": "OK",
+      "orbits": 51,
+      "replicates": 10000,
+      "rng_seed": 20261013,
+      "same_orbit_draws_all_6_seeds": true,
+      "all_directions_treatments_d_S_queries_retained": true,
+      "95ci": [
+        0.9999982502826015,
+        0.9999997741203343
+      ],
+      "balanced_cell_fast_reduction_verified": true
+    }
+  ]
+}

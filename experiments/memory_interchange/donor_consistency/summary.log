@@ -1,0 +1,18 @@
+{"phase": "summaries", "dataset": "B1", "table": "seed", "row_group": 0}
+{"phase": "summaries", "dataset": "B1", "table": "seed", "row_group": 50}
+{"phase": "summaries", "dataset": "B1", "table": "strata", "row_group": 0}
+{"phase": "summaries", "dataset": "B1", "table": "strata", "row_group": 50}
+{"phase": "summaries", "dataset": "B1", "table": "strata", "row_group": 100}
+{"phase": "summaries", "dataset": "B1", "table": "strata", "row_group": 150}
+{"phase": "summaries", "dataset": "B1", "table": "strata", "row_group": 200}
+{"phase": "summaries", "dataset": "B1", "table": "strata", "row_group": 250}
+{"phase": "summaries", "dataset": "B_reserved", "table": "seed", "row_group": 0}
+{"phase": "summaries", "dataset": "B_reserved", "table": "seed", "row_group": 50}
+{"phase": "summaries", "dataset": "B_reserved", "table": "strata", "row_group": 0}
+{"phase": "summaries", "dataset": "B_reserved", "table": "strata", "row_group": 50}
+{"phase": "summaries", "dataset": "B_reserved", "table": "strata", "row_group": 100}
+{"phase": "summaries", "dataset": "B_reserved", "table": "strata", "row_group": 150}
+{"phase": "summaries", "dataset": "B_reserved", "table": "strata", "row_group": 200}
+{"phase": "summaries", "dataset": "B_reserved", "table": "strata", "row_group": 250}
+{"phase": "fixed model orbit bootstrap", "dataset": "B1", "replicates": 10000}
+{"phase": "fixed model orbit bootstrap", "dataset": "B_reserved", "replicates": 10000}

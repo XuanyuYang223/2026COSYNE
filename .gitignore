@@ -1,0 +1,13 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+# Keep source, reports, tables, figures and run metadata in Git.
+# Large reproducibility artifacts remain in the local workspace.
+*.pt
+*.npy
+*.npz
+*.tar.gz
+
+# Include the six frozen formal models and their course-start initial weights.
+!experiments/memory_interchange/runs/v1_3/seed_*/initial.pt
+!experiments/memory_interchange/runs/v1_3/seed_*/selected_stage7.pt

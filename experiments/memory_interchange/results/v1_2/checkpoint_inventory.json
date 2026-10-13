@@ -1,0 +1,382 @@
+[
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_1/advance.pt",
+    "kind": "advance",
+    "sha256": "ac3dd0436a1ce134a7f6321bf9c8a46f35b581564f9d8c1282b9b92739ab3894",
+    "stage": 1,
+    "stage_step": 4500,
+    "curriculum_updates": 4500,
+    "Adam_parameter_steps": [
+      4500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 2
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_1/best.pt",
+    "kind": "best",
+    "sha256": "60044a1289cf95b492f37a97d0f9af7837435393d26c0dc15a0b6573f5a110a8",
+    "stage": 1,
+    "stage_step": 4500,
+    "curriculum_updates": 4500,
+    "Adam_parameter_steps": [
+      4500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 2
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_1/latest.pt",
+    "kind": "latest",
+    "sha256": "db6f8bc846c92e56ba90bcb3eaf2c89a7d6bd0edfed0446b4c233eb9a3470d4d",
+    "stage": 1,
+    "stage_step": 4500,
+    "curriculum_updates": 4500,
+    "Adam_parameter_steps": [
+      4500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 2
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_2/advance.pt",
+    "kind": "advance",
+    "sha256": "ccd1d2a1c7dc7a7937615ec4346bccf44dae168b460a09ce36da59b77535da5f",
+    "stage": 2,
+    "stage_step": 1000,
+    "curriculum_updates": 5500,
+    "Adam_parameter_steps": [
+      5500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 2
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_2/best.pt",
+    "kind": "best",
+    "sha256": "4c3cf0cd390a92269094e07ae019e20a05e0419d71cdca93be5558c30ffa0041",
+    "stage": 2,
+    "stage_step": 1000,
+    "curriculum_updates": 5500,
+    "Adam_parameter_steps": [
+      5500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 2
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_2/latest.pt",
+    "kind": "latest",
+    "sha256": "e3d84010f1ac0a53cbc1f677a56c173ea41769e29a619d3b73b0bf576579bb46",
+    "stage": 2,
+    "stage_step": 1000,
+    "curriculum_updates": 5500,
+    "Adam_parameter_steps": [
+      5500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 2
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_3/advance.pt",
+    "kind": "advance",
+    "sha256": "0001a5d380ab2a8164e1af2491c6737a587a2f751003eaca115f1de78719a571",
+    "stage": 3,
+    "stage_step": 1000,
+    "curriculum_updates": 6500,
+    "Adam_parameter_steps": [
+      6500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 2
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_3/best.pt",
+    "kind": "best",
+    "sha256": "268ad885ceb4192c28c9c93b1c1393e850d68d3cbfd8b36406eb5b84134bbeee",
+    "stage": 3,
+    "stage_step": 1000,
+    "curriculum_updates": 6500,
+    "Adam_parameter_steps": [
+      6500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 2
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_3/latest.pt",
+    "kind": "latest",
+    "sha256": "1cc0dfb9beb43d3a00db4c3a3458f65876728d95205bdc22e70dc9572e4ef8b1",
+    "stage": 3,
+    "stage_step": 1000,
+    "curriculum_updates": 6500,
+    "Adam_parameter_steps": [
+      6500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 2
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_4/advance.pt",
+    "kind": "advance",
+    "sha256": "708f91e970aee4ecd2692d231db229b89bceeed9661dab413c6321a60c287e2a",
+    "stage": 4,
+    "stage_step": 4000,
+    "curriculum_updates": 10500,
+    "Adam_parameter_steps": [
+      10500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 2
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_4/best.pt",
+    "kind": "best",
+    "sha256": "e813cc4c0bbf58166be0fc2bcbdbb94d34d581ea0e18a13840a2e98501c66f6b",
+    "stage": 4,
+    "stage_step": 4000,
+    "curriculum_updates": 10500,
+    "Adam_parameter_steps": [
+      10500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 2
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_4/latest.pt",
+    "kind": "latest",
+    "sha256": "d06bb87aeb6b0f1308c5db00776a45bc43b57fc61ad66daf7da62e20248875b2",
+    "stage": 4,
+    "stage_step": 4000,
+    "curriculum_updates": 10500,
+    "Adam_parameter_steps": [
+      10500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 2
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_5/advance.pt",
+    "kind": "advance",
+    "sha256": "5b38cac37fea2d7ff24c3626f8a92299ccaabb313957456acefb87cedf8c608a",
+    "stage": 5,
+    "stage_step": 3000,
+    "curriculum_updates": 13500,
+    "Adam_parameter_steps": [
+      13500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 2
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_5/best.pt",
+    "kind": "best",
+    "sha256": "ebc805a96c50f693ca837ecaa78320bbfdd43450adc364bc092ac241e4fec3f3",
+    "stage": 5,
+    "stage_step": 3000,
+    "curriculum_updates": 13500,
+    "Adam_parameter_steps": [
+      13500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 2
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_5/latest.pt",
+    "kind": "latest",
+    "sha256": "632a1c8e1d69f169f3cb193b3daf52b8df8983579c14bb865fb60c3e648c86c2",
+    "stage": 5,
+    "stage_step": 3000,
+    "curriculum_updates": 13500,
+    "Adam_parameter_steps": [
+      13500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 2
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_6/advance.pt",
+    "kind": "advance",
+    "sha256": "ba1366ef5dbaab58782a22c6b22df3b9804f1b2da6b709640c959a616e7e6b5f",
+    "stage": 6,
+    "stage_step": 15000,
+    "curriculum_updates": 28500,
+    "Adam_parameter_steps": [
+      28500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 2
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_6/best.pt",
+    "kind": "best",
+    "sha256": "ba9b993e36651700134fd4a8f717d8c6c8146db5521c322c3bd7362d87c59c54",
+    "stage": 6,
+    "stage_step": 14000,
+    "curriculum_updates": 27500,
+    "Adam_parameter_steps": [
+      27500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 0
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_6/latest.pt",
+    "kind": "latest",
+    "sha256": "791590f1dda19c54efa0bd9c6ac1f3a2a1344ae382d49f2f7006da2e180d72e0",
+    "stage": 6,
+    "stage_step": 15000,
+    "curriculum_updates": 28500,
+    "Adam_parameter_steps": [
+      28500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 2
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_7/best.pt",
+    "kind": "best",
+    "sha256": "da26c47754975bac62579b477eec95fcec5599fdbaa786687463a5ca6560df02",
+    "stage": 7,
+    "stage_step": 49500,
+    "curriculum_updates": 78000,
+    "Adam_parameter_steps": [
+      78000
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 0
+  },
+  {
+    "checkpoint": "runs/v1_2/candidate_A_seed0/stage_7/latest.pt",
+    "kind": "latest",
+    "sha256": "40be440303d9477dbeabf4bf6a6640e5494942efc7ce1f07e994c36cb1d359b5",
+    "stage": 7,
+    "stage_step": 50000,
+    "curriculum_updates": 78500,
+    "Adam_parameter_steps": [
+      78500
+    ],
+    "RNG_components": [
+      "python",
+      "numpy",
+      "generator",
+      "torch",
+      "cuda"
+    ],
+    "consecutive_passes": 0
+  }
+]

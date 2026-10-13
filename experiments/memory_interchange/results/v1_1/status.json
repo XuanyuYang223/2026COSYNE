@@ -1,0 +1,22 @@
+{
+  "status": "BLOCKED",
+  "reason": "both_prespecified_curricula_failed",
+  "candidate_failures": [
+    {
+      "candidate": "A",
+      "stage": 6,
+      "total_updates": 18500
+    },
+    {
+      "candidate": "B",
+      "stage": 6,
+      "total_updates": 16500
+    }
+  ],
+  "stage7_executed": false,
+  "formal_seeds_executed": [],
+  "formal_G_B_opened": false,
+  "H1": "not_tested",
+  "H2": "not_tested",
+  "H3": "not_tested"
+}

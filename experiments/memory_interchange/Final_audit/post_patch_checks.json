@@ -1,0 +1,827 @@
+{
+  "checks": [
+    {
+      "cohort": "B1",
+      "seed": 101,
+      "d": 0,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 101,
+      "d": 0,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 101,
+      "d": 0,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 101,
+      "d": 10,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 101,
+      "d": 10,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 101,
+      "d": 10,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 102,
+      "d": 0,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 102,
+      "d": 0,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 102,
+      "d": 0,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 102,
+      "d": 10,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 102,
+      "d": 10,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 102,
+      "d": 10,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 103,
+      "d": 0,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 103,
+      "d": 0,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 103,
+      "d": 0,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 103,
+      "d": 10,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 103,
+      "d": 10,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 103,
+      "d": 10,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 104,
+      "d": 0,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 104,
+      "d": 0,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 104,
+      "d": 0,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 104,
+      "d": 10,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 104,
+      "d": 10,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 104,
+      "d": 10,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 105,
+      "d": 0,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 105,
+      "d": 0,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 105,
+      "d": 0,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 105,
+      "d": 10,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 105,
+      "d": 10,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 105,
+      "d": 10,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 106,
+      "d": 0,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 106,
+      "d": 0,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 106,
+      "d": 0,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 106,
+      "d": 10,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 106,
+      "d": 10,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 106,
+      "d": 10,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 101,
+      "d": 0,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 101,
+      "d": 0,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 101,
+      "d": 0,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 101,
+      "d": 10,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 101,
+      "d": 10,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 101,
+      "d": 10,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 102,
+      "d": 0,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 102,
+      "d": 0,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 102,
+      "d": 0,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 102,
+      "d": 10,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 102,
+      "d": 10,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 102,
+      "d": 10,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 103,
+      "d": 0,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 103,
+      "d": 0,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 103,
+      "d": 0,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 103,
+      "d": 10,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 103,
+      "d": 10,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 103,
+      "d": 10,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 104,
+      "d": 0,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 104,
+      "d": 0,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 104,
+      "d": 0,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 104,
+      "d": 10,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 104,
+      "d": 10,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 104,
+      "d": 10,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 105,
+      "d": 0,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 105,
+      "d": 0,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 105,
+      "d": 0,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 105,
+      "d": 10,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 105,
+      "d": 10,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 105,
+      "d": 10,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 106,
+      "d": 0,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 106,
+      "d": 0,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 106,
+      "d": 0,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 106,
+      "d": 10,
+      "S": "NN",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 106,
+      "d": 10,
+      "S": "NA",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 106,
+      "d": 10,
+      "S": "NB",
+      "direction_masks_checked": 1224,
+      "same_masks_both_treatments": true,
+      "block_counts_and_point_reductions_agree": true
+    }
+  ],
+  "NN_checks": [
+    {
+      "cohort": "B1",
+      "seed": 101,
+      "d": 0,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 101,
+      "d": 10,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 102,
+      "d": 0,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 102,
+      "d": 10,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 103,
+      "d": 0,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 103,
+      "d": 10,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 104,
+      "d": 0,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 104,
+      "d": 10,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 105,
+      "d": 0,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 105,
+      "d": 10,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 106,
+      "d": 0,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B1",
+      "seed": 106,
+      "d": 10,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 101,
+      "d": 0,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 101,
+      "d": 10,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 102,
+      "d": 0,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 102,
+      "d": 10,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 103,
+      "d": 0,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 103,
+      "d": 10,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 104,
+      "d": 0,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 104,
+      "d": 10,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 105,
+      "d": 0,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 105,
+      "d": 10,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 106,
+      "d": 0,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    },
+    {
+      "cohort": "B_reserved",
+      "seed": 106,
+      "d": 10,
+      "logp_max_error": 0.0,
+      "all_elements_equal": true
+    }
+  ],
+  "max_point_reduction_difference": 0.0,
+  "all_selected_checkpoint_hashes_unchanged": true,
+  "all_directions_retained": true,
+  "all_6_models_retained": true,
+  "precision_note": "new GPU checks pass; old CPU float32 strict-logit failure is explicitly retained, float64 pass/argmax invariance are separate"
+}

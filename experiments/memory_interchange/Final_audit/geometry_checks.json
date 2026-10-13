@@ -1,0 +1,8 @@
+{
+  "unique_geometry_rows": 1836,
+  "deduplicated_across_S": true,
+  "max_decomposition_error": 7.771561172376096e-16,
+  "old_fixed_counterexamples_preserved": 288,
+  "synthetic_translation_CKA": 0.9999999999999998,
+  "synthetic_translation_is_not_claim_about_RNN": true
+}

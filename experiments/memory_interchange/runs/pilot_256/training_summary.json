@@ -1,0 +1,13 @@
+{
+  "seed": 0,
+  "memory_dim": 256,
+  "updates": 20000,
+  "device": "cuda",
+  "best_validation": {
+    "accuracy": 0.14892578125,
+    "cross_entropy": 1.9464678689837456,
+    "step": 11000
+  },
+  "training_seconds": 171.98602520799614,
+  "validation_target_passed": false
+}

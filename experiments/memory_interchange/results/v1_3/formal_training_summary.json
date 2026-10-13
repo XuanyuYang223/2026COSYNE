@@ -1,0 +1,44 @@
+[
+  {
+    "seed": 101,
+    "curriculum_passed": true,
+    "coarse_gate_passed": true,
+    "old_fine_gate_passed": false,
+    "updates": 37000
+  },
+  {
+    "seed": 102,
+    "curriculum_passed": true,
+    "coarse_gate_passed": true,
+    "old_fine_gate_passed": false,
+    "updates": 61000
+  },
+  {
+    "seed": 103,
+    "curriculum_passed": true,
+    "coarse_gate_passed": true,
+    "old_fine_gate_passed": false,
+    "updates": 40000
+  },
+  {
+    "seed": 104,
+    "curriculum_passed": true,
+    "coarse_gate_passed": true,
+    "old_fine_gate_passed": false,
+    "updates": 47500
+  },
+  {
+    "seed": 105,
+    "curriculum_passed": true,
+    "coarse_gate_passed": true,
+    "old_fine_gate_passed": false,
+    "updates": 49500
+  },
+  {
+    "seed": 106,
+    "curriculum_passed": true,
+    "coarse_gate_passed": true,
+    "old_fine_gate_passed": false,
+    "updates": 48500
+  }
+]

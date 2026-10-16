@@ -1,5 +1,5 @@
 {
-  "scope": "Local binary artifacts preserved but excluded from ordinary Git; source/report snapshot only",
+  "scope": "本地保留但未纳入普通 Git 的二进制产物；清单用于说明源码与报告快照之外的本地文件",
   "artifact_count": 1295,
   "total_bytes": 10273885695,
   "artifacts": [

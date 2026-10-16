@@ -1,2 +1,2 @@
-# Preserve audited files byte-for-byte, including historical CSV/CRLF endings.
+# 逐字节保留审计文件，包括历史 CSV 的 CRLF 换行格式。
 * -text

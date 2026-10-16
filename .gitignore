@@ -1,13 +1,13 @@
 __pycache__/
 .pytest_cache/
 *.pyc
-# Keep source, reports, tables, figures and run metadata in Git.
-# Large reproducibility artifacts remain in the local workspace.
+# Git 保留源码、报告、表格、图表和运行元数据。
+# 体积较大的复现产物保留在本地工作区。
 *.pt
 *.npy
 *.npz
 *.tar.gz
 
-# Include the six frozen formal models and their course-start initial weights.
+# 纳入六个冻结正式模型的选定权重及课程开始时的初始权重。
 !experiments/memory_interchange/runs/v1_3/seed_*/initial.pt
 !experiments/memory_interchange/runs/v1_3/seed_*/selected_stage7.pt

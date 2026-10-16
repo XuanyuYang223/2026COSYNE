@@ -1,0 +1,213 @@
+> English edition · [Frozen original](../../../../../experiments/memory_interchange/v1_3/protocol_v1_3.txt) · [English index](../../../README.md)
+>
+> Dates, status, execution scope and conclusions describe the original version. Commands, identifiers, data and figures retain their original definitions.
+
+Execution revision for Codex: v1.3
+Date: 2026-10-12 (America/Los_Angeles)
+Purpose: continue from v1.2 stage 7, with overall accuracy above 98% but some three-step operation strata below the old 95% gate.
+First run exploratory V interchange diagnostics, then complete formal confirmation under this version's frozen rules. This revision has not yet been executed.
+
+One. Explicit changes and prior-result status
+
+Retain v1.2 BLOCKED: it failed the original every-actual-operation-stratum ≥95% rule and cannot be retrospectively marked as passing that protocol.
+The old stratum gate was a chosen quality target, not a mathematical necessity for interchange analysis.
+
+Current latest has 98.3154% overall on complete 65-word V, approximately 99% for k=0/1/2, and 95.3422% for k=3. CCC/CCI/CIC/ICI are 91.61%/94.32%/92.31%/93.99%.
+Best is at 49,500 updates, total V 98.6084%. Its strata must be recomputed rather than copied from latest.
+This permits exploratory interventions with native-behavior controls, without first training every operation word to near-perfection.
+
+This version changes analysis-entry rules and baseline diagnostics, not truth, task, architecture, swaps or primary damage, and does not conceal poor operation strata.
+Formal G/B have not yet produced scientific outcomes; registration precedes opening confirmation data.
+Scientific claims must remain limited to tested models, contents, control contexts and native behavioral quality.
+
+Two. No more seed0 training; lock the checkpoint first
+
+Use candidate A stage 7 best selected by original total-V accuracy; expected step 49,500.
+Verify actual steps, source, weight/optimizer hashes; replay original fixed T/V and every factor stratum.
+Lock that checkpoint and complete V diagnostics first. Do not switch to latest, change initialization or add training based on interchange.
+Retain latest as a native-task reference; do not present its strata as best's.
+Do not continue B or alter capacity/learning rate.
+
+If restoration or implementation checks fail, repair implementation and record impact. Poor swap performance alone does not imply a bug.
+All training/measurement costs inherit existing 1,080.079 GPU seconds, with a total 12-hour cap.
+
+Three. V implementation and interpretability checks
+
+Geometry/behavior V use the orbit-disjoint diagnostic subsets already registered in v1.0/v1.1:
+Geometry uses the first 52 orbits; behavior the previously selected 6 complete orbits from the latter half.
+Read original manifests/hashes; do not select better-looking contents.
+If explicit members were not saved, reconstruct from existing deterministic order and document it, never filtering by outputs.
+These are model-selection V subsets, so results are exploratory, not formal holdouts.
+
+Retain 18 (r,H) conditions, 153 unordered pairs, both directions, d=0/10, S∈{NN,NA,NB}, and every item/position query.
+Every state is naturally generated, with identical complete current q guaranteed by initial p_a=G_a inverse applied to q.
+Exchange m_a(q,d) at the same phase, retaining receiver c_b, future cues, queries, clock and readout head.
+No aligners, rotations, learned adapters or artificial truth states.
+
+First verify:
+Uninterrupted versus cached continuation;
+sham;
+Same-context full-state replacement versus donor natural continuation.
+Retain registered implementation-test tolerances.
+Only after these controls pass, run matched/wrong-content memory-module replacements.
+Wrong content uses the existing fixed cross-orbit derangement, never damage-maximizing donor selection.
+
+Report V native accuracy, CE and counts for every condition/suffix/delay/query type first, especially three-update compositions.
+An overall task average above 98% must not conceal inadequate native behavior in an interchange condition.
+
+Four. Retain both all-sample and native-correct analyses
+
+Original primary metric unchanged:
+L_all=mean[max(0,ell_swap-ell_native)]
+R_all=mean[native correct and swapped incorrect].
+Also report native/swapped accuracy, signed CE changes and post-swap repair of native errors, separately by direction.
+
+Add prescribed conditional analyses:
+E_rec: receiver is correct without intervention.
+E_both: E_rec and matched donor correct under its own context for identical visible S/query.
+Donor native truth uses donor context; donor and receiver correct answers need not coincide.
+Determine subsets from unperturbed outputs and freeze masks before inspecting swap outputs.
+
+Report:
+L_rec: positive CE damage on E_rec;
+R_rec: swapped-error proportion on E_rec;
+L_both/R_both: corresponding metrics on E_both;
+Retained mask counts/fractions.
+
+The receiver/matched-donor-defined mask applies to both matched and wrong-content swaps; never select separate favorable treatment samples.
+A stricter three-native-correct sensitivity mask may require receiver, matched donor and wrong-content donor all correct on their own natural tasks; both treatments share it.
+Wrong-content donor correctness does not establish compatibility; it only checks the donor is not wholly failing its own task.
+
+Always show all-sample analysis, not only successful trials.
+Conditional analysis asks whether replacement disrupts behavior where the system could originally answer correctly; it does not establish interchangeability for every task/state.
+R_all/R_rec denominators differ and must be explicit. Native errors cannot be counted directly as new interchange errors.
+
+Five. Diagnose initial versus current content
+
+Match task-defined current q without assuming that m stores it in unified coordinates.
+The network may rely on initial p and operation history to compute at readout, or use history/context-dependent content codes.
+
+For every a→b matched intervention, known quantities include:
+Donor initial permutation p_a;
+Receiver prefix net transformation G_b;
+Receiver continuation net transformation F_b.
+
+Two prespecified counterfactuals:
+Reusable-current-content account: q_future=F_b(q).
+Initial-input/history-dependent account: q_initial_cf=F_b(G_b(p_a)).
+
+Record patch agreement with both full mappings and single-query answers separately.
+Coincident candidates cannot distinguish these accounts. Report all queries, answer-distinct subsets and full-mapping overlaps separately.
+Use both directions; stratify by same/cross context, H, S and d.
+Do not display only q values favoring an account.
+
+Greater patch agreement with q_initial_cf is consistent with initial-input/history-dependent encoding, but alone proves neither universally delayed computation nor absence of history-dependent memory coordinates.
+Greater agreement with F_b(q) supports content compatibility under receiver control, not biological mechanisms or abstract group structure.
+
+Add two fixed diagnostic content probes:
+From the same m, predict initial p_a and current q n×n one-hot representations separately.
+Fit only balanced natural T states with ridge alpha=1, identical samples, preprocessing and budgets.
+Compare V per-item/full-mapping decoding.
+Probe results do not train networks, define interchangeable subspaces, select checkpoints or modify architecture.
+Easier linear decoding of initial content establishes readability differences, not the information actually used by the network.
+
+Six. Inspect V interventions before claiming prediction success
+
+Produce these tables/figures:
+Native, sham, matched and wrong-content accuracy/CE;
+Matched/wrong-content new errors and positive CE damage under all/rec/both;
+Wrong-donor counterfactual accuracy;
+Current-content and initial-input counterfactual agreement;
+Complete CKA/native-distance/Procrustes-versus-damage scatters by d/S and same/cross context;
+Every mask's coverage and native accuracy.
+
+Exploratory V trends may be described, but not single-model large-sample p-values, cross-seed generalization or plot-based selection of the most effective similarity metric.
+Retain dependencies among queries sharing states/orbits.
+
+All outcomes are permitted:
+Broad matched-swap success: widespread compatibility, potentially a CKA-prediction ceiling effect.
+Severe matched-swap failure: possible control/history-dependent encoding, interpreted with initial-input counterfactuals; no automatic model changes.
+Matched exceeds wrong donor: content-related intervention relevance, not automatic CKA incremental prediction.
+Matched equals wrong donor: interpret native quality, counterfactuals and controls; do not automatically declare an implementation bug.
+Confidence changes without accuracy changes: explicitly distinguish probability damage from unchanged behavior.
+
+Formal execution cannot depend on positive V H1 or attractive V scatters. Do not select only networks yielding the expected scientific conclusion.
+V interprets/checks the original intervention, not training or metric changes. Any later V-driven primary-task revision requires a new version, disclosed exploration history and refreezing before confirmation.
+
+Seven. Formal curriculum/gates: coarse factors advance; fine operations are reported
+
+Scientific evaluation does not require every actual-operation sequence ≥95%; all fine strata remain saved/displayed.
+Formal seeds 101–106 initialize candidate A afresh; stages 1–6 retain v1.2 tasks, gates and budgets.
+Stage 7 allows 50,000 updates; original 65 words/sampling stay fixed.
+Freeze formal advancement as:
+Total V accuracy ≥97%;
+Every k/context/d/query-type factor ≥95%;
+Both requirements hold at two consecutive evaluations.
+Actual-operation sequence strata, such as CCC/CIC/ICI, remain diagnostics rather than stopping gates.
+
+This explicitly changes this version's rule; it does not claim the previous protocol passed.
+The pilot failed only fine operation sequences, but best and preceding consecutive evaluations still need coarse-factor replay. If coarse gates fail, V exploration may proceed, but do not yet call the pilot TASK_READY under this version.
+
+Retain all formal seeds' behavior. Do not delete failing seeds, replace them or continue training based on swaps.
+Interventions for behaviorally poor models/conditions may be retained, explicitly marked as limited by task errors.
+Training does not access G/B or swap outcomes. Candidate A capacity/initialization cannot change using V interventions.
+
+Freeze all rules, analysis code and hashes before formal-data opening; keep original G/B splits.
+G measures geometry, B behavior. V exploration figures do not become G/B confirmation results.
+
+Eight. Retain formal predictor holdouts; add the initial-input baseline
+
+Primary label remains L_all, aggregated by seed×unordered pair×d×S.
+Original LOSO, 91 fitting/62 unseen pairs, 32 cross-context primary pairs, fold-local preprocessing and ridge alpha=1 remain unchanged.
+all is primary; rec/both and behavioral R are prescribed sensitivities, never post-result replacement labels.
+One seed is not many independent query experiments. Retain seed/orbit blocks, every seed and finite-sample uncertainty.
+
+To check whether geometry merely reflects initial-input differences, prespecify D_input on G:
+Normalized mean squared native-coordinate distance between initial n×n one-hot matrices p_a,p_b for the same q.
+It never accesses B intervention labels.
+Retain original M0 covariates: native performance, control distance, task/time factors and fixed content-probe readability.
+
+M0_old: original-protocol baseline.
+M0_v13: M0_old+D_input.
+M_CKA_v13: M0_v13+trained CKA, this version's primary incremental-prediction test.
+M_raw/M_proc use the same M0_v13.
+Retain original M0_old+CKA as the prescribed original-baseline comparison, not only favorable comparisons.
+Initialization-CKA checks use identical holdouts.
+
+If CKA improves M0_old but not after D_input, initial-input structure remains an explanation; do not claim independent trained-memory-geometry prediction.
+Native distance outperforming CKA, or every metric failing, are valid outcomes.
+Conditional masks change only explicitly stated estimand populations, never covertly replace test sets.
+
+Fix native B quality strata from unperturbed outputs first:
+Three tiers: ≥95%, 90%–95%, <90%; save definitions/counts.
+Display all-sample and tier results without excluding unfavorable cases. Geometry associations at poor native performance may be confounded by task error and do not justify claims across all states.
+Quality tiers do not authorize model selection or further training.
+
+Nine. Completion and status language
+
+Finish V diagnostics first and produce an EXPLORATORY report alongside original v1.2 BLOCKED.
+After controls pass and checkpoints/rules are frozen, run formal six-seed/G/B analyses within budget, without selecting models based on exploratory sign.
+If coarse task gates, implementation or budget prevent work, state the affected scope without inventing formal conclusions.
+
+Final report includes:
+Pass/fail status of the original 95% fine-operation rule;
+This version's coarse-factor status;
+Every formal seed, native factor and intervention result;
+all/rec/both definitions, coverage and counterfactuals;
+Held-out prediction controlling initial inputs/native performance;
+Complete null results, directional asymmetry and behavior/confidence distinctions.
+
+COMPLETED means this version's prescribed computations/analyses finished, not that all models passed old gates or that H1/H2/H3 are all positive.
+EXPLORATORY labels V results or limited formal samples.
+BLOCKED applies only when specific implementation, coarse-task or budget requirements prevent prescribed work.
+Do not present one seed0's V exploration as confirmed science or automatically push/publish.
+
+Ten. Methodological context
+
+Activation-patching work shows that metrics and patching methods affect interpretation; retain multiple prescribed behavioral definitions without outcome-based metric selection:
+https://arxiv.org/abs/2309.16042
+
+A 2026 study uses interchange behavior to distinguish inputs where explanations work or fail:
+https://arxiv.org/abs/2605.02234
+Stratified/conditional diagnosis is not claimed as novel. The candidate contribution remains held-out geometry prediction of later computational compatibility under exact memory-content matching, and its history/control-dependent boundaries.
+This is not a complete originality search; update close related work before submission.

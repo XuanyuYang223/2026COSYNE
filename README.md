@@ -1,46 +1,46 @@
-# 2026COSYNE：记忆状态交换实验
+# 2026COSYNE: memory-state interchange
 
-本仓库收录记忆状态交换研究的实验代码、研究方案、配置、训练记录、报告、汇总表、图表和完整性校验清单。
+This repository contains the experimental code, protocols, configuration, learning records, reports, summary tables, figures and integrity manifests for the memory-state interchange study.
 
-最新完成的工作是在六个冻结的循环神经网络（RNN）中，比较记忆状态替换后的输出与供体原生输出的一致性。B1 和 B_reserved 此前均已用于分析，因此这次复核属于描述性分析。原有中心化核对齐（CKA）预测检验及此前未通过的数值核验记录均予以保留。
+The latest completed work is the descriptive comparison of memory patches with donor-native outputs in six frozen RNNs. B1 and B_reserved were both previously opened; this audit is not an independent confirmation experiment. The original CKA prediction test and previous numerical failures remain unchanged.
 
-## 中文阅读入口
+## English documentation
 
-- [全部中文文档与版本导航](docs/zh-CN/README.md)
-- [术语、数据字段与统计口径对照](docs/zh-CN/术语与字段.md)
-- [供体原生输出一致性复核，2026-10-13](docs/zh-CN/experiments/memory_interchange/donor_consistency/report.md)
-- [v1.3 最终复核](docs/zh-CN/experiments/memory_interchange/Final_audit/report.md)
-- [v1.3 正式实验](docs/zh-CN/experiments/memory_interchange/results/v1_3/report.md)
-- [v1.3 结果解释](docs/zh-CN/experiments/memory_interchange/results/v1_3/interpretation.md)
-- [v1.2 报告](docs/zh-CN/experiments/memory_interchange/results/v1_2/report.md)
-- [v1.1 报告](docs/zh-CN/experiments/memory_interchange/results/v1_1/report.md)
+- [Complete English documentation and version index](docs/en/README.md)
+- [Terminology, data fields and statistical definitions](docs/en/GLOSSARY.md)
+- [Donor-native output consistency, 2026-10-13](docs/en/experiments/memory_interchange/donor_consistency/report.md)
+- [v1.3 Final audit](docs/en/experiments/memory_interchange/Final_audit/report.md)
+- [v1.3 formal experiment](docs/en/experiments/memory_interchange/results/v1_3/report.md)
+- [v1.3 interpretation](docs/en/experiments/memory_interchange/results/v1_3/interpretation.md)
+- [v1.2 report](docs/en/experiments/memory_interchange/results/v1_2/report.md)
+- [v1.1 report](docs/en/experiments/memory_interchange/results/v1_1/report.md)
 
-早期报告中的 BLOCKED（受阻）状态描述对应版本的历史结果；最新复核的状态见其报告。六个预定种子全部保留，包括种子 106。登记的 GPU 对照通过；CPU float32 的原严格 logit 容差核验未通过；使用相同系数的 float64 结果一致，所比较的最大概率类别（argmax）未改变。
+English editions cover every versioned report, protocol and execution guide, including table labels and interpretation. Frozen historical originals, some in Chinese, remain byte-for-byte at their audited paths; each English edition links its original. Commands, program identifiers, numerical values, model weights and data schemas retain their original definitions. Figures are reused.
 
-中文阅读版翻译了说明文字、表格标签和术语，并保留数值、公式、命令与程序标识。历史实验文档原件及其散列保留在原路径；中文版本位于独立的 `docs/zh-CN/` 目录，每篇均链接原件。图像沿用原图，图中文字的常用术语可查对照表。
+Earlier BLOCKED reports are historical results, not the status of the latest audit. All six prescribed seeds, including 106, are retained in the reports and run metadata. The registered GPU controls passed, but the original strict CPU float32 logit check failed; the same coefficients in float64 agreed and the compared argmax outputs did not change.
 
-## 代码与复现
+## Code and reproduction
 
-实验代码位于 [experiments/memory_interchange](experiments/memory_interchange)。各版本均保留对应的研究方案和执行说明。最新只读复核的命令见[供体一致性复核执行说明](docs/zh-CN/experiments/memory_interchange/donor_consistency/README.md)；此前最终复核的命令见[最终复核执行说明](docs/zh-CN/experiments/memory_interchange/Final_audit/README.md)。
+The experimental package is [experiments/memory_interchange](experiments/memory_interchange). Versioned protocols and execution instructions are preserved alongside each version. The latest read-only audit has its own [English README and commands](docs/en/experiments/memory_interchange/donor_consistency/README.md); the prior Final audit has separate [English execution instructions](docs/en/experiments/memory_interchange/Final_audit/README.md).
 
-**Git 仓库包含源码与报告快照，完整复现还需要本地二进制产物。** 仓库已包含六个正式模型在课程开始时的 `initial.pt` 及冻结的 `selected_stage7.pt`，共十二个检查点，合计约 9.4 MiB；同时包含源码、文本元数据、已有表格和图表，以及原始自助重采样记录。
+**This Git repository is not the complete binary data delivery.** It includes all six formal models' course-start `initial.pt` and frozen `selected_stage7.pt` checkpoints (9.4 MiB combined), together with the source, text metadata, available tables and figures, including the original bootstrap records.
 
-其余检查点、自然状态缓存、原始概率数组、逐查询比较张量和归档快照共约 9.57 GiB，保留在原工作区。`.gitignore` 排除 `*.pt`、`*.npz`、`*.npy` 和 `*.tar.gz`，并明确放行上述十二个正式模型检查点。历史文件逐字节保留，包括 CSV 的原换行格式。
+Approximately 9.57 GiB of other checkpoints, natural-state caches, original probability arrays, per-query comparison tensors and archived snapshots remain in the source workspace. They are excluded using `.gitignore` (`*.pt`, `*.npz`, `*.npy`, `*.tar.gz`, with explicit exceptions for the twelve formal initial/selected checkpoints). Historical files are preserved byte-for-byte, including CSV line endings.
 
-复现冻结输出的复核前，需要按原相对路径恢复对应二进制文件，并校验 SHA-256。文件名、集合成员、输入映射和散列见：
+To reproduce an audit of the frozen outputs, restore the exact binary artifacts at their original relative paths and verify their SHA-256 hashes before running the audit. Their filenames, members, input mappings and hashes are recorded in:
 
-- [供体一致性分析计划](experiments/memory_interchange/donor_consistency/analysis_plan.json)与[输入索引](experiments/memory_interchange/donor_consistency/input_index.json)
-- [最终复核产物清单](experiments/memory_interchange/Final_audit/artifact_manifest.json)
-- [v1.3 产物清单](experiments/memory_interchange/results/v1_3/artifact_manifest.json)
-- [未纳入 Git 的本地产物清单](LOCAL_ARTIFACTS.json)
+- [Donor consistency analysis plan](experiments/memory_interchange/donor_consistency/analysis_plan.json) and [input index](experiments/memory_interchange/donor_consistency/input_index.json)
+- [Final audit artifact manifest](experiments/memory_interchange/Final_audit/artifact_manifest.json)
+- [v1.3 artifact manifest](experiments/memory_interchange/results/v1_3/artifact_manifest.json)
+- [Local artifacts excluded from Git](LOCAL_ARTIFACTS.json)
 
-新克隆的仓库包含上述十二个正式检查点；复核所需的输出缓存和归档训练状态仍需另行恢复。上传时未删除本地二进制产物。本次中文化只更新阅读文档和说明，不运行训练或新增科学分析。
+A fresh clone contains the twelve formal checkpoints but does not contain the required cached outputs and archived training states; it cannot, by itself, replay the cached-output audits. No binary artifact was deleted from the local workspace during upload. Uploading this snapshot does not authorize or trigger new training or additional scientific analyses.
 
-## 更新中文文档
+## Maintaining the English editions
 
 ```bash
-python tools/build_chinese_docs.py
-python tools/build_chinese_docs.py --check
+python tools/build_english_docs.py
+python tools/build_english_docs.py --check
 ```
 
-生成器只写入中文阅读版目录；校验命令检查翻译与来源、数值、代码块、程序标识及链接的一致性。
+The builder writes only English reading editions and their provenance manifest. Checks verify translation coverage, numerical values, command blocks, source hashes and local links. Translating documentation does not execute networks, retrain models or recompute scientific results.

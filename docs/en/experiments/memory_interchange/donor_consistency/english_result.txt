@@ -1,0 +1,5 @@
+> English edition · [Frozen original](../../../../../experiments/memory_interchange/donor_consistency/english_result.txt) · [English index](../../../README.md)
+>
+> Dates, status, execution scope and conclusions describe the original version. Commands, identifiers, data and figures retain their original definitions.
+
+Across the six frozen RNNs and tested continuations, memory-state patches reproduced donor-native outputs (B1: 99.99988387% of query answers and 99.99837414% of complete 14-query prediction vectors agreed, with mean total variation 7.8481e-07 and maximum probability difference 0.0067318; B_reserved: 99.99991402% of query answers and 99.99879633% of complete 14-query prediction vectors agreed, with mean total variation 5.87055e-07 and maximum probability difference 0.00819505), including donor-native errors; these are descriptive comparisons on previously opened data.

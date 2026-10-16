@@ -1,0 +1,169 @@
+{
+  "scope": "English editions; frozen originals and scientific results are unchanged.",
+  "documents": [
+    {
+      "source": "experiments/memory_interchange/Final_audit/README.md",
+      "source_sha256": "5812d951906c2861e14bc69e75015dfae29b2a9126f775c8d037e1dfdc514a30",
+      "english": "docs/en/experiments/memory_interchange/Final_audit/README.md",
+      "english_sha256": "edd0d770b5cad9f96e9293295139356bf82d03b271ccd9b340c173b47943f3ba"
+    },
+    {
+      "source": "experiments/memory_interchange/Final_audit/report.md",
+      "source_sha256": "78c887a103be779cd3cae4fff040030fd7207e93e4126cadfef211a9f3a08ba1",
+      "english": "docs/en/experiments/memory_interchange/Final_audit/report.md",
+      "english_sha256": "37d3c1ac2bd43f094e849c0ff40e94e4fa1ef3470c08012ea9fd4a42c68c7cb3"
+    },
+    {
+      "source": "experiments/memory_interchange/README.md",
+      "source_sha256": "00209e9f72fbd9c78ddb7b60e18fdaccf04c07557cdf7c0d95a41ad5432a429e",
+      "english": "docs/en/experiments/memory_interchange/README.md",
+      "english_sha256": "c3d89f6886b599e2b1bdedeefb4f6303727a6b765aa50c60b0e53a653230e177"
+    },
+    {
+      "source": "experiments/memory_interchange/donor_consistency/README.md",
+      "source_sha256": "c753018aab5e12f31a9cd3a036a7adfd7631156f5c485a419c54e4a42c90dcce",
+      "english": "docs/en/experiments/memory_interchange/donor_consistency/README.md",
+      "english_sha256": "855c4fd44d115959e37d07c23ea4917c72698442229dc13542dc9c3f3307cc26"
+    },
+    {
+      "source": "experiments/memory_interchange/donor_consistency/english_result.txt",
+      "source_sha256": "0c3c0a8cb80c2037d4854d42ed70b48d578d723c46b88e4918a2adbb22fb9857",
+      "english": "docs/en/experiments/memory_interchange/donor_consistency/english_result.txt",
+      "english_sha256": "9cf17d4805aa4e03a1d6ca961212fbf8d3f4fa148fb25b049cbcb3dd88469982"
+    },
+    {
+      "source": "experiments/memory_interchange/donor_consistency/report.md",
+      "source_sha256": "61cb5bfe0ab7f70753525e56e9731b6605a9bbf329bc362defffb8772c054581",
+      "english": "docs/en/experiments/memory_interchange/donor_consistency/report.md",
+      "english_sha256": "541eb180d5d90a7f3dcb4ca89c0f85e851a8e214fcf6dac729dd6df141da8d35"
+    },
+    {
+      "source": "experiments/memory_interchange/protocol_v1.txt",
+      "source_sha256": "a79fe58a1c96d967d92762a2ba535f383d802be99c936e9c6ad9fca030972ae7",
+      "english": "docs/en/experiments/memory_interchange/protocol_v1.txt",
+      "english_sha256": "eebf44544877fe113a46a65c01e5dd9dcbaa5eb8a6924932fee93403f6a7bff3"
+    },
+    {
+      "source": "experiments/memory_interchange/report.md",
+      "source_sha256": "0a27cfe1c51e98df4f030f431c1631543aaa681299abfd2f28ceadc377a1a504",
+      "english": "docs/en/experiments/memory_interchange/report.md",
+      "english_sha256": "0da52be9b5ab3193260c8394fa384f5cd14144984bf2fa3606150c28d87cef10"
+    },
+    {
+      "source": "experiments/memory_interchange/results/v1_1/report.md",
+      "source_sha256": "c5c7a3f2e3fe3887000e373aa580afe135517df32989ae464c5d5b692f68051f",
+      "english": "docs/en/experiments/memory_interchange/results/v1_1/report.md",
+      "english_sha256": "bd6f03e3dca69c3c3ad5c11f365b30749f5154684f943ad15c3af2c6decac8da"
+    },
+    {
+      "source": "experiments/memory_interchange/results/v1_2/report.md",
+      "source_sha256": "9d3f516451bb69221a70b032872a1edb61ec34a5eb2abdf4075ef72a340e877c",
+      "english": "docs/en/experiments/memory_interchange/results/v1_2/report.md",
+      "english_sha256": "16ee4e10f0870340dbe3c21a41cc7895e606a1d69513b1bc51487c9c4ef52712"
+    },
+    {
+      "source": "experiments/memory_interchange/results/v1_3/V_exploration/report.md",
+      "source_sha256": "1f90fe36db8408f14667c624c99d04f9b0981a5187a4a1e319052d3150397d0e",
+      "english": "docs/en/experiments/memory_interchange/results/v1_3/V_exploration/report.md",
+      "english_sha256": "81cf46fbe783d748ab6a1ce46d326827ab9e802a6f5f337470b4be1f3ddd6386"
+    },
+    {
+      "source": "experiments/memory_interchange/results/v1_3/all_behavior_factors.md",
+      "source_sha256": "6a9e19ad02e2c340517761832af65d4d31d6f886f8494c2154b8495afcde75d2",
+      "english": "docs/en/experiments/memory_interchange/results/v1_3/all_behavior_factors.md",
+      "english_sha256": "3171ab1123e7f341e69fa21d8cbb9ff4110315feecc685c1a5e6ea715a9b1142"
+    },
+    {
+      "source": "experiments/memory_interchange/results/v1_3/counterfactual_all_and_distinct.md",
+      "source_sha256": "61d521cd12af2fff0957e2500f353d543f306171cc68e9f7728ff6635c34c567",
+      "english": "docs/en/experiments/memory_interchange/results/v1_3/counterfactual_all_and_distinct.md",
+      "english_sha256": "281c340d943d137305ead2864f35e0fda4fc999f248a8ae29a2e24c7cc270fe4"
+    },
+    {
+      "source": "experiments/memory_interchange/results/v1_3/interpretation.md",
+      "source_sha256": "ee52476f04ac8249d3cb1dcb15540ba8b97ad854591c89eb14197a7a08bd6e17",
+      "english": "docs/en/experiments/memory_interchange/results/v1_3/interpretation.md",
+      "english_sha256": "18755f99239c0c88a83c849802ec18bccbd441132b1104ea74c5629e5146d8a9"
+    },
+    {
+      "source": "experiments/memory_interchange/results/v1_3/method_context.md",
+      "source_sha256": "7a3819b121cd78f80084422b1ff77a4269620332e395fc7c37d7a1396a8ddc97",
+      "english": "docs/en/experiments/memory_interchange/results/v1_3/method_context.md",
+      "english_sha256": "0eb881cefa1cef7cf01e5c5c7cce67a5669f135d950a859653ba3fe9c9a9c9ab"
+    },
+    {
+      "source": "experiments/memory_interchange/results/v1_3/quality_and_mask_summary.md",
+      "source_sha256": "92a5359dc7c6ab0462ed40f88ed941ae8fb84daf884148db43401528f33271a0",
+      "english": "docs/en/experiments/memory_interchange/results/v1_3/quality_and_mask_summary.md",
+      "english_sha256": "b379e76a6c25cf7bb1701f61c7968678735ae2730a9452a81b36d198312b8152"
+    },
+    {
+      "source": "experiments/memory_interchange/results/v1_3/report.md",
+      "source_sha256": "c7b0752298c6e1cf99e7519a8ae92ff65df743684e0aa733986bf41e145be0a6",
+      "english": "docs/en/experiments/memory_interchange/results/v1_3/report.md",
+      "english_sha256": "b6d5d85a913ca3bd67fca82bd12ce8c9f447a10cdbddbf9616aab104b9dfa190"
+    },
+    {
+      "source": "experiments/memory_interchange/v1_1/CHANGES.md",
+      "source_sha256": "f3a4714d91a4d0a30d9871f0ce76e6cea61caa368f14831bdba2dfa69bb43127",
+      "english": "docs/en/experiments/memory_interchange/v1_1/CHANGES.md",
+      "english_sha256": "ce8ba838d24c1e71c211dccbac9f256a95bee1a5cb7232f71c8ef2d605d773b3"
+    },
+    {
+      "source": "experiments/memory_interchange/v1_1/README.md",
+      "source_sha256": "b81801b3cd4126d3b88baf5dfeea62208f3648e9432074366394cf2bc1418e24",
+      "english": "docs/en/experiments/memory_interchange/v1_1/README.md",
+      "english_sha256": "84097220d8e2eed4743ecfd3052e7ecacc9f30a79c55ccc57657fd4139cb2d44"
+    },
+    {
+      "source": "experiments/memory_interchange/v1_1/protocol_v1_1.txt",
+      "source_sha256": "f765bcdea5c51df247cb0018964a3e6f88610e5c851b9a5653d969838ddd4a69",
+      "english": "docs/en/experiments/memory_interchange/v1_1/protocol_v1_1.txt",
+      "english_sha256": "a84e1dccef291a6b71ed5ba731712816df578f84add65159b9e95f6536f4cefb"
+    },
+    {
+      "source": "experiments/memory_interchange/v1_2/CHANGES.md",
+      "source_sha256": "281236eebf192d63336351755bc1d53e13f772336cd64f91a225b379626d2dc1",
+      "english": "docs/en/experiments/memory_interchange/v1_2/CHANGES.md",
+      "english_sha256": "427697f84f45aac5cb1ad085a63af8e743d83662cac8205453dd9d022ebc582c"
+    },
+    {
+      "source": "experiments/memory_interchange/v1_2/README.md",
+      "source_sha256": "a88021612f16f9b05f187160787fb4aff329e03d77010fad696389ae9e60d71f",
+      "english": "docs/en/experiments/memory_interchange/v1_2/README.md",
+      "english_sha256": "7bff629eb7e85feadb83409c7246f91dfca8c4cc038aa871cf2bfc9ee1f294ac"
+    },
+    {
+      "source": "experiments/memory_interchange/v1_2/report.md",
+      "source_sha256": "bdabfe73b2e0053aec4d2d83af41bc296ca11b67b5c8f04df6b86d154cedaba5",
+      "english": "docs/en/experiments/memory_interchange/v1_2/report.md",
+      "english_sha256": "24fbb1e139d551e9b8704feb8946c7670045d0f0fa91f05911ffb51a370a99cb"
+    },
+    {
+      "source": "experiments/memory_interchange/v1_3/CHANGES.md",
+      "source_sha256": "c96c898e3f3cbe0af7668656165ad2ca9edef557f1be9377226d0f956b9353cb",
+      "english": "docs/en/experiments/memory_interchange/v1_3/CHANGES.md",
+      "english_sha256": "af1146832921bb589d1c1bc8bdc2ec390e1eec6d0a068aec118471aa0d2e3583"
+    },
+    {
+      "source": "experiments/memory_interchange/v1_3/README.md",
+      "source_sha256": "e238ebb478364c46cd9325a4a1e8bf2c04776791699f7f3e23bf18763b143ef9",
+      "english": "docs/en/experiments/memory_interchange/v1_3/README.md",
+      "english_sha256": "fc5e4c7fac49e91996935a6bde7334841057dabcf66923e99e7fdf9d0e1f5757"
+    },
+    {
+      "source": "experiments/memory_interchange/v1_3/protocol_v1_3.txt",
+      "source_sha256": "bddff3c8cfd1efa2afa5fbc85027905dd6cb5ad15868e2cd6f875347359efbdd",
+      "english": "docs/en/experiments/memory_interchange/v1_3/protocol_v1_3.txt",
+      "english_sha256": "e6e896391982d2adda53df8863ee05012ae7ab937fc936b17c0cf0eb1525c494"
+    },
+    {
+      "source": "experiments/memory_interchange/v1_3/report.md",
+      "source_sha256": "65e8d76c396e7fc0a0867e1760ca23128efebbacbc712c6c85720a0f38f7953f",
+      "english": "docs/en/experiments/memory_interchange/v1_3/report.md",
+      "english_sha256": "63476dbd84ba93ee51fc13be00d6240beeaa63aa7a7a86ea4184c0d2c4d202ab"
+    }
+  ],
+  "builder_sha256": "a2c165231fe4c1b886f3b76a029a9a35963d4dbbe4c5fb0d6346dedd95999c38",
+  "translations_sha256": "34e69c6594111566dc6574e6f9e94391f4d85c80e3c520d91ad52f17d75bd039"
+}

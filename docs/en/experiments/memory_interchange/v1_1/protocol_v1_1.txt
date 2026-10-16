@@ -1,0 +1,201 @@
+> English edition · [Frozen original](../../../../../experiments/memory_interchange/v1_1/protocol_v1_1.txt) · [English index](../../../README.md)
+>
+> Dates, status, execution scope and conclusions describe the original version. Commands, identifiers, data and figures retain their original definitions.
+
+Execution revision for Codex: v1.1
+Date: 2026-10-12 (America/Los_Angeles)
+Purpose: continue from v1.0's BLOCKED report and repair original-task learning.
+Read with v1.0. This replaces pilot training entry/budget only. Task truth, T/V/G/B, primary intervention, geometry, predictor holdouts and scientific analyses retain original definitions. This revision has not yet been executed.
+
+One. Current evidence and revision goal
+
+Both v1.0 capacities validate near chance. The 128-dimensional model's initial-content effect falls from approximately 1.44 at stimulus offset to 2.94e-6 at final query; the 256-dimensional model also decays strongly. Removing/shuffling initial stimuli barely changes final answers.
+
+This suggests ineffective retention/use of content on V, but does not identify why. Corresponding T accuracy is missing, so a train-to-new-permutation gap remains possible. Parameter updates and finite overall gradients also do not guarantee an effective final-loss gradient along early memory paths.
+
+This version asks, in order:
+A. Are training inputs, queries, labels and computation graphs correct?
+B. Can the network read content at short timing and overfit a tiny task?
+C. Can it learn to retain content?
+D. Can it then learn inverse/complement and rule context?
+E. Can it return to the original distribution and pass original gates?
+
+Address task learning only. Keep formal G/B sealed; do not compute similarity–damage correlations, fit scientific predictors or select configurations from interchange.
+
+Two. Record a new version without overwriting failures
+
+Preserve v1.0 source, reports, checkpoints and data, recording versions/hashes.
+Create independent runs/v1_1/, results/v1_1/ and revision configuration, documenting every change.
+Reuse the original split_manifest.json and 134 formal B contents exactly; do not rerandomize splits.
+Report v1.0 and v1.1 learning results together, regardless of success/failure.
+Do not push, delete old results or claim H1/H2/H3 support.
+
+Three. Audit training paths first
+
+1. At recoverable old checkpoints, construct fixed matched-distribution T/V original-task evaluations, each 8,192 trials, balancing words, context, delay and query type.
+Fix new-diagnostic seed=20261013 and stage-validation seed=20261014; retain original 8,192-trial V. Generate/save evaluation sets before new training.
+Report T/V accuracy, CE and same-trial answer-change rates for original/zero/shuffled stimuli.
+High T, low V: first localize as a generalization issue.
+Chance T/V: first localize as fitting or implementation failure.
+Do not skip this section based only on overall gradient norms.
+
+2. Audit actual training forward, not only intervention-cache code:
+• Zero m/c only at trial start; never accidentally during valid steps.
+• Final-query loss must backpropagate through every effective step.
+• No accidental detach, no_grad, inference_mode or NumPy/cache round trips at stimulus offset, delay or rule boundaries.
+• Check batch/time axes, padding masks, final-query indices for variable-length trials and loss masks.
+• Align query item, type, context and target for each trial.
+• Padding must not overwrite final effective states; final loss cannot use zero padding or an incorrect time.
+
+3. Inspect paths in a real training batch:
+Record eager m at stimulus offset, every rule slot, swap and final query; retain_grad and backpropagate final loss.
+Record None/finiteness/norms for state and stimulus gradients, plus memory/control/readout parameter gradients separately.
+Distinguish None from existing but tiny gradients. Tiny gradients do not automatically imply detach; zeros may reflect the specific path or saturation.
+Spot-check a stimulus-to-final-logit derivative on short trials with float64 autograd/finite differences. Long-trial tiny derivatives may fall below finite-difference resolution and need not pass that test.
+
+4. Implement an independent oracle on actual collated inputs:
+Recover initial permutation from stimuli, operations from context/visible slots, and labels from the final query.
+The oracle must match batch labels 100%.
+This tests actual batch/label pipelines, not merely existing truth.py tests.
+
+If a bug is found, fix it, document its effect on old runs, and run one original-configuration seed=0 pilot. If that passes, do not search curricula/initializations. Final science uses the fixed version; original BLOCKED remains an audit record.
+If no bug is found, or the fixed original task still fails, use the prescribed curriculum below.
+
+Four. Tiny-set fitting check
+
+Fix 16 T permutations, all 7 query items, 2 query types and r=0, giving 224 identity trials.
+Use shortest timing D_short and NNNN, final-query CE only.
+Default 128/32/64 architecture and original optimizer; at most 2,000 updates, requiring ≥99% accuracy on that fixed training set.
+
+Use an independent scratch model. Its weights never enter the curriculum, and success does not establish generalization.
+On failure, diagnose input/readout, labels, gradients or capacity and stop formal training. Do not bypass this with more similarity analyses.
+If short-timing fitting fails with verified implementation, retry that same check using only the fallback gate-bias initialization below. If both fail, stop and identify the specific failure stage.
+
+Five. Prespecified curriculum: final behavioral supervision only
+
+n always equals 7. Stimulus encoding, queries and task truth remain unchanged.
+Zero states at each new trial. Every candidate initializes from scratch, never continuing failed checkpoints.
+No intermediate-permutation supervision, probe/geometry losses, interchange training, truth feedback or hard-coded operators.
+
+Three timing schedules:
+D_short:
+Context 1, stimulus 3, initial blank 0, cue 1+blank 0 per slot, extra delay 0, final hold 0, query 1.
+Total 9 steps, retaining all 4 rule slots and a post-stimulus query.
+
+D_mid:
+Context 3, stimulus 5, initial blank 2, cue 1+blank 1 per slot, extra delay 0, final hold 2, query 3.
+Total 23 steps.
+
+D_original:
+Exactly v1.0: context 3, stimulus 5, initial blank 5, cue 1+blank 3 per slot, extra d∈{0,10}, final hold 5, query 3.
+Total 37 or 47 steps. Final scientific cache times remain as in v1.0.
+
+Stage 1:
+D_short, NNNN, r=0, all T contents; at most 5,000 updates.
+Check short-timing content readout.
+
+Stage 2:
+D_mid, NNNN, r∈{0,1}; at most 5,000 updates.
+Check moderate-duration retention. Context does not affect these answers, so success does not establish learned rule context.
+
+Stage 3:
+D_original, NNNN, r∈{0,1}, d∈{0,10}; at most 5,000 updates.
+Check formal-duration content retention. Failure concerns retention/readout before any claim about inverse learning.
+
+Stage 4:
+D_original, non-N count ≤1, r=0; at most 5,000 updates.
+Balance k=0/1, single-operation slot and A/B.
+Report retention, inverse and complement separately to distinguish operation errors.
+
+Stage 5:
+As stage 4, but balance r∈{0,1}; at most 5,000 updates.
+Check context memory and cue interpretation.
+
+Stage 6:
+D_original, non-N count ≤2, both contexts; at most 5,000 updates.
+Balance k=0/1/2; check two-step computation.
+
+Stage 7:
+Return to v1.0's complete 65 training words, balanced k=0/1/2/3, with every other distribution unchanged; at most 20,000 updates.
+Only a stage 7 model may enter formal science.
+
+Each stage uses fixed subtask V without G/B access.
+Evaluate every 500 updates. Advance only after two consecutive V evaluations with total accuracy ≥97% and each applicable context/operation/delay/query-type factor ≥95%.
+Strata are levels of each factor, for example accuracy in each context, not arbitrary sparse fine crossed cells used for early stopping.
+Each stage has 4,096 fixed V trials; stage 7 uses original fixed 8,192-trial V and additionally reports original primary behavioral strata.
+Save balanced-stratum counts to expose small-sample limitations.
+
+Advance from a checkpoint meeting the stage gates, with its matching optimizer/RNG. Do not restore only weights while reusing another checkpoint's optimizer.
+Failure at any stage cap marks that candidate as failed; do not advance speculatively.
+
+Seven-stage total cap: 50,000 updates. Because curriculum changes the learning path, later papers must disclose curriculum training rather than describe every model as v1.0 20k-from-scratch training.
+
+Six. One fallback initialization only, no unlimited search
+
+Candidate A:
+Default PyTorch GRU initialization, 128/32/64 dimensions and the fixed curriculum above.
+pilot seed=0.
+
+If default tiny-set fitting in section Four fails despite correct implementation but the sole fallback passes, A is already eliminated; run B's curriculum directly without retrying A. If default tiny-set fitting passes, run A's curriculum first.
+
+Only after A fails a curriculum stage with the training-path audit passed, run candidate B:
+Identical architecture, optimizer, curriculum, gates and seed=0;
+Only initialize effective update-gate biases in both memory/control GRUs to +3.
+
+For PyTorch r/z/n concatenation with hidden_size=H:
+Set bias_ih segment H:2H to +3;
+Set bias_hh segment H:2H to 0;
+Leave other segments at their original initialization.
+If the actual parameter format differs, use the real gate definition rather than guessing tensor positions.
+Every gate, weight and bias remains freely trainable by final-task loss.
+
+Rationale: PyTorch GRU updates h_t=(1-z_t)n_t+z_t h_(t-1), so larger initial z favors old-state retention. This initialization tendency neither guarantees content retention nor excludes slower writing. Measure both stimulus writing and delay retention, not gate values alone.
+Positive gate bias does not mean the model learned algebraic structure.
+
+Choose A if it passes and do not try B; use B only after A fails. Selection is limited to original-V behavioral gates.
+No additional search over capacity, gate biases, seeds, curricula, learning rates or more favorable geometry metrics.
+If B also fails, deliver BLOCKED with the failed stage and gradient/content diagnostics. Do not automatically switch to LSTM or redesign the question.
+
+Seven. Diagnostic outputs
+
+Record for each stage:
+• T/V accuracy and cross-entropy, stratified by applicable operations/context/delay/query type.
+• Gradient norms from loss to m at stimulus offset and swap time.
+• Content sensitivity at stimulus offset, swap and query, separately for T/V.
+• Answer-change rates for original/removed/shuffled stimuli.
+• Update-gate distributions, separately for stimulus, rule, retention and query phases.
+• Training updates, advancement times, GPU memory and wall time.
+
+Content sensitivity has no arbitrary L2 threshold. State scale and gates cannot replace correct answers; formal entry remains governed by native behavioral accuracy.
+
+After stage 7 passes, measure complete current-content decodability on V using a fixed ridge probe fitted on T only.
+A poor probe alone cannot exclude content because encoding may be nonlinear; a good probe alone cannot establish interchangeability.
+
+Eight. Formal-experiment entry
+
+After the pilot learns the complete original task, freeze candidate, curriculum, budgets, advancement rules and code hashes, then run formal seeds 101–106.
+Every seed starts from its own new initialization and follows the frozen curriculum, never shared pilot-checkpoint fine-tuning.
+Each seed's initial CKA uses pre-curriculum weights, not weights after a pretrained stage.
+Formal final checkpoints are selected within stage 7 by original-task V behavior; earlier easy-task high-accuracy checkpoints cannot substitute.
+Retain/report every failed seed; never replace seeds by interchange performance.
+Use formal G/B only for original prescribed measurements/analyses after freezing configuration.
+After opening formal G/B, unfavorable geometry–behavior results cannot select A/B or revise curriculum. Later changes require a new version and confirmation data.
+
+Count every additional curriculum update and computation cost.
+Retain the cumulative 12-GPU-hour cap, including prior conservative accounting, and remeasure expected revised-course cost. If budget is insufficient, deliver actual status rather than tuning on test data.
+
+Nine. Final report status
+
+TASK_READY: pilot passes the complete original task and the frozen formal experiment may proceed; this is not an H1/H2/H3 scientific conclusion.
+COMPLETED: formal models, every control and prescribed held-out analyses are finished, with explicit gate status.
+EXPLORATORY: only some formal samples/checks passed; full prescribed conclusions are unsupported.
+BLOCKED: implementation audit or a specific learning stage still fails.
+
+Report where failure occurred first, then whether it was repaired.
+This authorization covers task-learning revision. Do not repackage old near-zero swap damage as memory-interchangeability evidence or lower native-behavior thresholds to manufacture analyzable results.
+
+Official implementation references:
+PyTorch GRU equations and parameter order:
+https://docs.pytorch.org/docs/2.14/generated/torch.nn.GRU.html
+PyTorch autograd and no-grad/inference modes:
+https://docs.pytorch.org/docs/2.14/notes/autograd.html

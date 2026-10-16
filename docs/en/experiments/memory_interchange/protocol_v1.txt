@@ -1,0 +1,351 @@
+> English edition · [Frozen original](../../../../experiments/memory_interchange/protocol_v1.txt) · [English index](../../README.md)
+>
+> Dates, status, execution scope and conclusions describe the original version. Commands, identifiers, data and figures retain their original definitions.
+
+Executable experimental protocol for Codex
+Version: v1.0, 2026-10-12
+Title: Can representational similarity predict functional interchangeability of memory states in subsequent computation?
+
+These are execution instructions. Read them completely before implementation. The goal is a reproducible computational experiment reporting supportive findings, counterexamples and inconclusive results. Do not assume that CKA predicts behavior or that the network learns group structure. This document is a protocol; the experiment has not yet been run.
+
+One. Research question and minimal contribution
+
+For identical complete memory content formed through different histories, do more similar neural population states support more successful interchange while retaining the receiver's control state, subsequent memory updates and correct behavior?
+
+Separate the question into three testable hypotheses:
+H1: Correctly content-matched memory-state replacement preserves correct behavior better than wrong-content replacement.
+H2: CKA predicts replacement damage beyond original task performance, rule context and control-state differences.
+H3: This prediction transfers to new model seeds and history pairs unseen by the prediction model.
+
+H1 checks intervention validity; H2 and H3 are the main research contributions. H1 support does not imply H2 support. Greater similarity under a correct mathematical relationship does not automatically imply state interchangeability.
+
+Neuroscience scope: a controlled recurrent-network experiment on working-memory content, control signals and subsequent behavior. The mathematical task supplies exact content labels and counterfactual behavioral answers. It can motivate testable hypotheses about population representations, but cannot by itself establish the same coding or control architecture in real brain regions.
+
+Two. Avoid two design traps
+
+1. Replacing the entire state of a deterministic RNN makes its subsequent computation equivalent to continuing the donor under identical inputs. A full-state swap alone therefore cannot demonstrate compatibility between memory components and the receiver's control mechanism.
+2. If continuing two complete states produces losses L_A and L_B, signed changes from bidirectional full-state swaps are L_A-L_B and L_B-L_A and cancel on averaging. Do not use this mean as a compatibility measure.
+
+The main experiment uses two learned recurrent states: candidate memory m and control c. Exchange only m; retain receiver c, clock, future inputs and readout head. Full-state replacement is only a same-context implementation control.
+
+This is an imposed control architecture: the interchangeable module is designated in advance, not discovered as a naturally independent memory area. The candidate memory module may also carry history and rule context, potentially causing incompatibility.
+
+Three. Task: maintain and update an ordered bijection
+
+Formal task n=7; small code-debugging cases may use n=6.
+Use 0-based indexing. Current memory content p is a permutation of length n:
+p[i] denotes the position currently associated with item i.
+
+Three true updates:
+N(p)=p
+I(p)=the inverse permutation of p, namely I(p)[p[i]]=i
+C(p)[i]=n-1-p[i]
+
+I reverses the bijection and re-expresses it using the common indexing convention; C mirrors the associated positions. The common array definitions are experimental truth. Do not describe inversion as physical object movement.
+
+Introduce two rule contexts r:
+r=0: visible A means I and B means C.
+r=1: visible A means C and B means I.
+N means retain in both contexts.
+
+Context is shown only at trial start. Later A/B cues do not directly reveal the actual operation, so the network must remember context. Rule semantics are used only to generate data and evaluate outputs, never written into weights or hidden-state update equations.
+
+Trial timing in discrete model steps:
+(1) Context cue: 3 steps.
+(2) Initial permutation: 5 steps, presented as a flattened n×n permutation matrix; the complete mapping is shown simultaneously.
+(3) Blank retention: 5 steps.
+(4) First two rule cues H: each slot contains a 1-step cue + 3 blank computation steps.
+(5) Additional retention d: 0 or 10 steps.
+(6) Last two rule cues S: each slot likewise has 1+3 steps.
+(7) Final retention: 5 steps.
+(8) Query: shown for 3 steps, with classification loss at step 3.
+
+The query appears only after interchange, preventing advance knowledge of the queried item.
+The two query types are equally frequent:
+Item query i: answer final p[i].
+Position query j: answer final I(p)[j].
+
+Inputs contain context, rules, queries, stimuli and coarse phase flags. Permutation input is zero during blanks; truth or intermediate answers must not be repeated. Phase flags distinguish only CONTEXT/STIM/DELAY/RULE/QUERY and reveal no intermediate content.
+
+Training uses only final-query task cross-entropy. No intermediate-state supervision, CKA loss, algebraic-consistency loss or interchange training is added.
+
+Four. Primary model and budget
+
+Implement the following unidirectional control architecture in PyTorch:
+c_t = GRU_control(control_input_t, c_(t-1))
+m_t = GRU_memory(concat(stimulus_t, c_t, phase_t), m_(t-1))
+output = MLP(concat(m_t, c_t, query_id, query_type))
+
+Defaults: memory_dim=128, control_dim=32, readout MLP hidden dimension 64.
+control_input includes context, rules, phase and query; it must contain neither the permutation matrix nor feedback from m.
+m receives the initial permutation and current c output; permutation input is zero after stimulus offset.
+Both states are zeroed at each trial start. Output is an n-class prediction, not autoregressive generation of the entire permutation.
+
+For identical context, history, timing and query, c must be independent of the particular permutation. Verify this structural property automatically.
+
+Default optimization:
+Adam, lr=1e-3, batch_size=128, gradient_clip=1.0, weight_decay=0.
+Each formal seed has at most 20,000 updates, evaluated on fixed validation data every 1,000 updates.
+Save the checkpoint with highest validation accuracy, breaking ties by lower validation cross-entropy.
+Formal seeds are 101, 102, 103, 104, 105, 106; the pilot uses 0. Never select seeds by interchange outcomes.
+
+First run one n=7 pilot. If the default model cannot learn the original task within its cap, allow only one prespecified fallback: memory_dim=256, everything else unchanged. Select capacity only by original-task validation, not the similarity–damage correlation.
+If both configurations fail, record learning failure, stop formal execution and deliver code, diagnostics and the failure report.
+
+Default total cap: 12 GPU hours. The pilot measures training/full-evaluation throughput, memory and expected total cost. Without a suitable GPU, complete mathematical checks and a small smoke test and label the formal experiment incomplete; smoke tests are not research findings. Do not automatically expand the budget or search configurations indefinitely.
+
+Five. Strict splitting: partition permutation orbits before generating trials
+
+Enumerate all 5,040 permutations in S_7. Repeated I/C application generates each permutation's complete closure orbit. An entire orbit belongs to only one split, preventing a transformed training input from becoming a test input.
+
+Verified counts:
+n=7 has 694 orbits, of sizes 2, 4 or 8.
+n=6 has 115 orbits.
+Independently verify these counts in the implementation.
+
+Shuffle the canonical orbit list with fixed split_seed=20261012, partitioning approximately 65%/15%/10%/10% of orbits into:
+T: task training.
+V: task validation, pilot diagnostics and probe-hyperparameter checks.
+G: geometry measurement; never task-network training.
+B: behavioral intervention; never task-network training or geometry-metric selection.
+
+Save every orbit/member, actual sample counts, RNG seeds and file SHA-256. Proportions are defined by orbit counts; permutation proportions may differ slightly.
+
+Formal geometry uses all G contents.
+Formal behavior takes whole B orbits in fixed order until the permutation count first reaches or exceeds 128. Reuse the identical content set for every pair/control within a seed. Other B contents remain reserved for later independent replication and are not selected using current outcomes.
+G and B permutation orbits must be strictly disjoint.
+
+The pilot does not access formal G/B. To debug interchange and evaluation throughput, temporarily split V into two disjoint subsets. Pilot interchange checks implementation and measurability only; it cannot select models, metrics or splits favoring H2.
+
+Six. Sequence training and composition tests
+
+Each trial has 4 fixed slots, each N/A/B, giving 81 cue words.
+Training uses the 65 words with at most 3 non-N cues.
+Sample non-N count k=0, 1, 2, 3 uniformly, then sample uniformly among words with that k. Balance context, retention, query type and query item.
+
+Primary prefix histories:
+H ∈ {NN, NA, AN, NB, BN, AA, BB, AB, BA}
+A total of 9 histories.
+
+Primary future cues:
+S ∈ {NN, NA, NB}
+A total of 3 histories.
+
+Every primary H+S lies within the training sequence distribution, so interchange failure cannot simply be attributed to an unseen complete cue word. The main experiment nevertheless uses new G/B permutation contents; native behavior on those contents must be checked.
+
+Only the second stage tests the 16 unseen words with A/B in all four slots. All are new sequences, but not all are new net transformations: the 65 training words cover 7 net transformations; only ABAB and BABA add the 8th. Verify independently; do not call all 16 words unseen algebraic operations.
+
+If native networks already fail these four-step tests, interchange results have a performance-floor limitation and cannot refute state compatibility. This extension does not determine main-experiment success.
+
+Seven. Construct natural states with identical content and different histories
+
+Define condition a=(context r, prefix history H), giving 18 conditions.
+For each target intermediate content q and condition a:
+(1) Interpret A/B in H as I/C using r.
+(2) Denote the prefix's net transformation by G_a.
+(3) Set initial permutation p_a to the inverse action of G_a on q.
+(4) Run naturally from p_a through the first two slots and extra retention d.
+(5) Save m_a(q,d), c_a(d), before S and query presentation.
+
+I and C are involutions, but an inverse prefix reverses operation order: I then C is inverted by C then I. Individual involution does not imply commutativity.
+
+A shared q means exactly the same complete permutation in every condition, not coincident answers to one query. Save truth trajectories and independently assert that the intermediate permutation equals q.
+
+At fixed condition and d, c must not vary with q. Variation indicates content access by control or a caching error.
+
+Eight. Primary intervention and controls
+
+For distinct conditions a,b and identical q,d:
+Receiver native state is (m_b(q,d), c_b(d)).
+Content-matched replacement is (m_a(q,d), c_b(d)).
+Continue presenting receiver S and queries; compute truth under receiver context b's rule semantics.
+
+18 conditions give 153 unordered pairs:
+72 same-context pairs; 81 cross-context pairs.
+Evaluate both a→b and b→a directions for each pair.
+Primary scientific evaluation emphasizes the 81 cross-context pairs. Same-context pairs describe effects of history/control differences.
+
+Required controls:
+A. Native run: no replacement.
+B. Sham: replace the receiver with a clone of its own state; outputs must agree elementwise.
+C. Content-matched replacement: the primary intervention.
+D. Wrong-content replacement: donor q'≠q, retaining receiver c, timing, S and query.
+E. Same-context full-state replacement (m_a,c_a), which must agree with donor native continuation under identical future inputs.
+
+Wrong-content q' uses a fixed no-self-match permutation across different B orbits, never selected by behavior. Assign it before evaluation to preserve the overall distribution. State-norm-neighbor mismatches may be supplemental controls, but cannot replace random mismatching.
+
+For D, record both:
+The correct answer for receiver's original content q;
+The counterfactual answer for wrong donor content q' updated under receiver rules.
+Some query answers coincide accidentally. Report both all queries and answer-distinct diagnostic subsets. Agreement with donor-content counterfactuals indicates content transfer; a drop in original-task accuracy alone may reflect nonspecific disruption.
+
+Wrong-content, sham and full-state controls are excluded from fitting the prediction model's primary label.
+
+Nine. Geometry: measure on G, test function on B
+
+For conditions a,b and retention d, construct memory matrices M_a,M_b:
+Rows correspond to identical q∈G; columns correspond to neurons in the candidate memory module.
+Each unordered pair and d yields one geometric feature set. CKA is not a metric for one pair of individual states.
+
+Prespecified:
+Primary metric: centered linear CKA.
+Baseline 1: normalized mean squared distance in native coordinates, retaining mean shifts.
+Baseline 2: centered orthogonal Procrustes residual.
+
+Save each seed's untrained initial weights and compute initial CKA on identical G contents, conditions and times. This tests whether trained geometry adds prediction beyond initial similarities induced by architecture and input. Low initial-network task accuracy is not part of primary interchange analysis.
+
+Native-distance definition:
+D_raw = mean_q ||m_a-m_b||² /
+        [0.5×mean_q (||m_a||²+||m_b||²)+epsilon].
+
+Procrustes residual:
+Center each matrix and normalize its overall Frobenius norm, then find the optimal orthogonal transform Q;
+D_proc = ||XQ-Y||_F².
+Q is used only for geometry, never actual state replacement. Matrices with zero centered norm are undefined; do not fabricate zero distance or CKA=1.
+
+Compute CKA in float64, implement an independent reference formula, and check scale invariance, joint row-permutation invariance and known-matrix examples. Scatter plots of similarity versus damage must not treat queries as independent CKA samples.
+
+Fit a fixed ridge content probe from m to the current q's n×n one-hot table. Use only balanced-condition/delay T caches, alpha=1, and T-derived centering. Report per-item and complete-permutation decoding accuracy on G.
+Probes serve only readability diagnostics or covariates; they must not feed training, modify states, select swap subspaces or train behavioral recovery adapters.
+
+Ten. Functional metrics: positive and negative damage cannot cancel
+
+For each direction, q, d, S and query:
+ell_native = -log p_native(correct answer)
+ell_swap = -log p_swap(correct answer)
+
+Primary continuous metric:
+L = mean[max(0, ell_swap-ell_native)]
+Average over both swap directions and every prescribed content/query, in nat.
+This is positive replacement damage: improvement on some trials cannot cancel disruption on others.
+
+Also report:
+R = mean[native answer correct and swapped answer incorrect], the new-error rate from interchange.
+Native accuracy, post-swap accuracy and signed mean loss change in each direction.
+Wrong-content counterfactual accuracy.
+Readout total variation or JS distance may supplement diagnosis but cannot replace behavioral accuracy.
+
+The primary prediction label is L for each model seed × unordered condition pair × d × S.
+One label aggregates all q, queries and both directions. Shared-state queries are not large numbers of independent experiments.
+R is a necessary behavioral companion metric, preventing confidence-only changes from being described as behavioral change.
+If L is large but R unchanged, describe probability damage, not clear behavioral failure.
+
+Eleven. Testing prediction: hold out seeds and history pairs
+
+Prespecify simple ridge regression, alpha=1, with standardization and missing-value handling fitted within each fitting fold only.
+
+M0: baseline without geometry.
+Covariates include d, future cue S, cross-context status, mean native cross-entropy, G content-probe accuracy, control-state distance, non-N counts of both prefixes and whether final cues match.
+Control distance is native normalized mean squared distance between c_a and c_b.
+Context and cues are fixed categorical variables; do not add independent pair-specific parameters that memorize answers.
+
+M_CKA: M0 + CKA. Its predictive improvement over M0 is the prespecified primary test.
+M_raw: M0 + D_raw.
+M_proc: M0 + D_proc.
+The latter two comparisons ask whether ordinary coordinate differences outperform abstract geometry; do not redefine the primary metric from outcomes.
+
+Initialization sensitivity: also report M_init=M0+initial CKA and M_init+trained CKA. Claims about training-shaped geometric information require additional information from trained CKA; narrow the interpretation if initial CKA explains the same effect. This prespecified secondary analysis uses the same holdout rules.
+
+6-fold leave-one-seed-out:
+Each fold's predictor fits behavioral labels from the other 5 models only.
+Fitting additionally uses only condition pairs without mixed prefixes AB/BA.
+7 nonmixed prefixes×2 contexts yield 14 conditions and 91 seen pairs.
+
+The other 62 pairs in the outer held-out model form the history-pair test:
+32 cross-context pairs form the primary test;
+30 same-context pairs are reported separately.
+Also report predictions on seen pairs in the held-out model, separating cross-seed transfer from joint cross-seed/pair transfer.
+
+Unseen history pairs means the predictor has not seen their swap labels, not that the task network never experienced those prefixes. Task training includes AB/BA. Do not conflate these generalization levels.
+
+Report per-fold and overall MAE, RMSE and improvement over M0.
+Spearman correlation is supplementary only and computed within fixed d/S/context categories. Correlation obtained by pooling different times and contexts alone does not support H2.
+Test labels cannot select metrics, layers, times, alpha, thresholds or favorable history pairs.
+
+Model seeds are the primary statistical units. Report all 6 seed effects. Hierarchical bootstrap uses seeds and behavioral permutation orbits as blocks, preserving dependence among directions, queries and condition pairs. Intervals from 6 seeds describe uncertainty in a finite model set, not universal laws. Query counts must not manufacture narrow confidence intervals.
+Save at least per-orbit aggregate statistics for correct resampling, not only a final mean.
+
+Twelve. Thresholds, stopping conditions and interpretation boundaries
+
+Implementation gate:
+Enter the formal experiment only after all mathematical, orbit-split, content-matching, cache-timing, sham and full-state-continuation checks pass.
+Generate training labels using permutation-array operations. Independent evaluation may use permutation-matrix transposition/column reversal, avoiding a single erroneous function generating and validating its own labels.
+
+Original-task gate:
+Fixed-validation total accuracy target ≥97%.
+Report formal native behavior by context × future cue × d × query type, targeting ≥95% in each stratum.
+Retain and report seeds failing thresholds; never delete them because of swap results. Mark insufficient original-task mastery and avoid strong mechanistic conclusions.
+
+Primary-experiment measurability:
+If every swap new-error rate is <0.5% and paired-L interquartile range is <0.01 nat, report an interchangeability ceiling effect under the prespecified rule.
+This may show widespread interchangeability for this task, but does not establish CKA prediction.
+If geometry is nearly constant or behavioral-label variance nearly zero, report lack of identifiability in this design rather than meaningless correlations.
+Never add noise, choose poor models or change content matching after seeing outcomes to manufacture damage.
+
+Examples of supportable conclusions:
+• CKA consistently improves M0 on held-out seeds/pairs: incremental prediction within this task, architecture and intervention definition.
+• D_raw succeeds while CKA does not: centering or rotation invariance may remove information relevant to receiver-control compatibility.
+• New errors occur despite high CKA: geometric similarity is insufficient for functional compatibility under this intervention.
+• Same-context compatibility but cross-context failure: content representation may depend on control context; decodability alone does not establish reusability.
+• Every swap succeeds: broad compatibility exists in this task, but geometry metrics cannot yet be ranked.
+• Both matched and wrong-content swaps fail severely: first check nonspecific intervention disruption, rather than directly attributing failure to incorrect content relations.
+
+Formal counterexamples may be displayed only using the predefined quantile rule, with complete distributions also provided. Do not select supportive cases after inspecting test plots.
+
+Thirteen. Implementation order and deliverables
+
+Step 0: read repository AGENTS.md and inspect the environment. In an existing project, create independent experiments/memory_interchange/; do not alter original experiments, data or paper conclusions, or automatically push/publish.
+Step 1: implement truth, timing, orbit splits and independent mathematical tests.
+Step 2: implement networks, native training, caching and every control; run a minimal smoke test.
+Step 3: finish the pilot and document formal-entry decision, configuration and budget rationale.
+Step 4: freeze configurations, splits, metrics, analysis code and test rules, then run the 6 formal seeds.
+Step 5: report original-task behavior and controls first, then G geometry, B interventions and held-out predictions.
+Step 6: run unseen four-step extensions only after a valid main experiment.
+
+Required deliverables:
+README: task semantics, commands, question, limitations and threshold status.
+config.yaml: complete parameters, seeds, times and budget.
+split_manifest.json: orbits, content sets, hashes and formal behavioral subset.
+truth.py, task.py, model.py, train.py, intervene.py, geometry.py, predict.py.
+A small set of necessary tests: independent mathematics, leakage detection, module content isolation, sham and full-state continuation agreement.
+Initial/selected checkpoints, learning curves and recoverable RNG states.
+Raw/aggregate results indexed by seed, condition pair, direction, d, S, query type and content orbit, with truth and every intervention type.
+Final report.md: actual completion scope, thresholds, all seeds, primary prediction results, counterexamples, failures and costs.
+
+Suggested 4 main figures:
+1. Task diagram: two histories reach identical q; exchange m while retaining c.
+2. CKA–damage scatter, distinguishing same/cross context and showing native accuracy.
+3. Held-out seed/history-pair prediction errors for M0, M_CKA, M_raw and M_proc, showing every seed.
+4. New errors, probability damage and wrong-content counterfactual accuracy at both retention times.
+
+Finish this version first. Do not automatically extend to multiple architectures, SAE, cross-network alignment, complete neuron silencing, influence functions or real-animal data. Those are subsequent studies requiring clear results.
+
+Fourteen. Related work and originality claims
+
+The candidate contribution is testing the relationship between memory geometry and later computational compatibility using exact content matching, receiver-control-preserving interventions and held-out behavioral prediction.
+Representational geometry versus function and network stitching/state intervention already have related literature; do not claim their invention. Update the literature search before submission to check closer experiments. The following references provide context, not an exhaustive originality assessment:
+
+Ding et al., 2021, functional sensitivity and specificity of representational-similarity metrics:
+https://proceedings.nips.cc/paper_files/paper/2021/hash/0c0bf917c7942b5a08df71f9da626f97-Abstract.html
+
+Csiszárik et al., 2021, functional similarity, representational geometry and network stitching:
+https://arxiv.org/abs/2110.14633
+
+Driscoll, Shenoy and Sussillo, 2024, flexible computation and dynamical mechanisms in recurrent networks:
+https://www.nature.com/articles/s41593-024-01668-6
+
+Panichello and Buschman, 2021, working-memory content and action-oriented representations:
+https://www.nature.com/articles/s41586-021-03390-w
+
+The previously discussed 2026 cross-language GI-SAE study:
+https://arxiv.org/html/2608.23809v1
+Verify paper versions before submission. Define differences by task, intervention target and behavioral evaluation, not publication date or similarity-metric use alone.
+
+Possible research-question wording:
+Can geometric similarity of neural population representations with identical task-relevant content predict functional compatibility with receiver control states, and does this prediction transfer across retention times, computational histories and model instances?
+
+End execution with an explicit status:
+COMPLETED: main experiment and prescribed analyses completed;
+EXPLORATORY: insufficient samples or thresholds, exploratory results only;
+BLOCKED: task learning, implementation checks or computation requirements did not pass.
+Never invent accuracy, significance, predictive performance or scientific conclusions without data.

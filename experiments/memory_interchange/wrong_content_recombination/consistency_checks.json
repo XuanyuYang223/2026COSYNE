@@ -1,0 +1,62 @@
+{
+  "all_stored_directions": {
+    "n": 21881664,
+    "answers_agree_n": 21881664,
+    "answer_agreement": 1.0,
+    "max_abs_probability_difference": {
+      "mean": 9.301724603391534e-12,
+      "median": 0.0,
+      "q95": 0.0,
+      "q99": 0.0,
+      "max": 6.603143480887752e-07
+    },
+    "TV": {
+      "mean": 9.46621207376763e-12,
+      "median": 0.0,
+      "q95": 0.0,
+      "q99": 0.0,
+      "max": 6.603143480813413e-07
+    },
+    "close_counts": {
+      "1e-06": 21881664,
+      "1e-05": 21881664,
+      "0.0001": 21881664
+    },
+    "close_rates": {
+      "1e-06": 1.0,
+      "1e-05": 1.0,
+      "0.0001": 1.0
+    },
+    "exact_probability_vector_n": 21866499
+  },
+  "cross_context": {
+    "n": 10940832,
+    "answers_agree_n": 10940832,
+    "answer_agreement": 1.0,
+    "max_abs_probability_difference": {
+      "mean": 0.0,
+      "median": 0.0,
+      "q95": 0.0,
+      "q99": 0.0,
+      "max": 0.0
+    },
+    "TV": {
+      "mean": 0.0,
+      "median": 0.0,
+      "q95": 0.0,
+      "q99": 0.0,
+      "max": 0.0
+    },
+    "close_counts": {
+      "1e-06": 10940832,
+      "1e-05": 10940832,
+      "0.0001": 10940832
+    },
+    "close_rates": {
+      "1e-06": 1.0,
+      "1e-05": 1.0,
+      "0.0001": 1.0
+    },
+    "exact_probability_vector_n": 10940832
+  }
+}

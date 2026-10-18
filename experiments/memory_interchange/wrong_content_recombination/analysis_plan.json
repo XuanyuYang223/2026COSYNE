@@ -1,0 +1,2385 @@
+{
+  "date": "2026-10-17",
+  "timezone": "America/Los_Angeles",
+  "role": "Descriptive rescoring of already-opened frozen v1.3/B1 wrong-content outputs; not independent confirmation.",
+  "freeze_scope": "This analysis only; saved before reading any wrong/matched/native probability values for this task. Not retrospective preregistration.",
+  "AGENTS": "No applicable AGENTS.md found in repository or ancestors.",
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106
+  ],
+  "dataset": "v1.3/B1",
+  "contents": 134,
+  "orbits": 19,
+  "B_reserved": "Excluded: no corresponding wrong-content cache is used.",
+  "content": [
+    [
+      0,
+      1,
+      3,
+      2,
+      5,
+      6,
+      4
+    ],
+    [
+      0,
+      1,
+      3,
+      2,
+      6,
+      4,
+      5
+    ],
+    [
+      1,
+      2,
+      0,
+      4,
+      3,
+      5,
+      6
+    ],
+    [
+      2,
+      0,
+      1,
+      4,
+      3,
+      5,
+      6
+    ],
+    [
+      4,
+      6,
+      5,
+      2,
+      3,
+      1,
+      0
+    ],
+    [
+      5,
+      4,
+      6,
+      2,
+      3,
+      1,
+      0
+    ],
+    [
+      6,
+      5,
+      3,
+      4,
+      0,
+      2,
+      1
+    ],
+    [
+      6,
+      5,
+      3,
+      4,
+      1,
+      0,
+      2
+    ],
+    [
+      0,
+      1,
+      3,
+      5,
+      2,
+      4,
+      6
+    ],
+    [
+      0,
+      1,
+      4,
+      2,
+      5,
+      3,
+      6
+    ],
+    [
+      0,
+      2,
+      4,
+      1,
+      3,
+      5,
+      6
+    ],
+    [
+      0,
+      3,
+      1,
+      4,
+      2,
+      5,
+      6
+    ],
+    [
+      6,
+      3,
+      5,
+      2,
+      4,
+      1,
+      0
+    ],
+    [
+      6,
+      4,
+      2,
+      5,
+      3,
+      1,
+      0
+    ],
+    [
+      6,
+      5,
+      2,
+      4,
+      1,
+      3,
+      0
+    ],
+    [
+      6,
+      5,
+      3,
+      1,
+      4,
+      2,
+      0
+    ],
+    [
+      0,
+      1,
+      4,
+      3,
+      2,
+      5,
+      6
+    ],
+    [
+      6,
+      5,
+      2,
+      3,
+      4,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      4,
+      5,
+      6,
+      3,
+      2
+    ],
+    [
+      0,
+      1,
+      6,
+      5,
+      2,
+      3,
+      4
+    ],
+    [
+      2,
+      3,
+      4,
+      1,
+      0,
+      5,
+      6
+    ],
+    [
+      2,
+      3,
+      6,
+      5,
+      4,
+      1,
+      0
+    ],
+    [
+      4,
+      3,
+      0,
+      1,
+      2,
+      5,
+      6
+    ],
+    [
+      4,
+      3,
+      2,
+      5,
+      6,
+      1,
+      0
+    ],
+    [
+      6,
+      5,
+      0,
+      1,
+      4,
+      3,
+      2
+    ],
+    [
+      6,
+      5,
+      2,
+      1,
+      0,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      4,
+      6,
+      5,
+      2,
+      3
+    ],
+    [
+      0,
+      1,
+      5,
+      6,
+      2,
+      4,
+      3
+    ],
+    [
+      3,
+      2,
+      4,
+      0,
+      1,
+      5,
+      6
+    ],
+    [
+      3,
+      2,
+      5,
+      6,
+      4,
+      1,
+      0
+    ],
+    [
+      3,
+      4,
+      1,
+      0,
+      2,
+      5,
+      6
+    ],
+    [
+      3,
+      4,
+      2,
+      6,
+      5,
+      1,
+      0
+    ],
+    [
+      6,
+      5,
+      1,
+      0,
+      4,
+      2,
+      3
+    ],
+    [
+      6,
+      5,
+      2,
+      0,
+      1,
+      4,
+      3
+    ],
+    [
+      0,
+      1,
+      6,
+      3,
+      5,
+      4,
+      2
+    ],
+    [
+      2,
+      4,
+      5,
+      3,
+      6,
+      1,
+      0
+    ],
+    [
+      4,
+      2,
+      1,
+      3,
+      0,
+      5,
+      6
+    ],
+    [
+      6,
+      5,
+      0,
+      3,
+      1,
+      2,
+      4
+    ],
+    [
+      0,
+      2,
+      1,
+      4,
+      5,
+      3,
+      6
+    ],
+    [
+      0,
+      2,
+      1,
+      5,
+      3,
+      4,
+      6
+    ],
+    [
+      0,
+      2,
+      3,
+      1,
+      5,
+      4,
+      6
+    ],
+    [
+      0,
+      3,
+      1,
+      2,
+      5,
+      4,
+      6
+    ],
+    [
+      6,
+      3,
+      5,
+      4,
+      1,
+      2,
+      0
+    ],
+    [
+      6,
+      4,
+      3,
+      5,
+      1,
+      2,
+      0
+    ],
+    [
+      6,
+      4,
+      5,
+      1,
+      3,
+      2,
+      0
+    ],
+    [
+      6,
+      4,
+      5,
+      2,
+      1,
+      3,
+      0
+    ],
+    [
+      0,
+      2,
+      1,
+      5,
+      4,
+      3,
+      6
+    ],
+    [
+      0,
+      3,
+      2,
+      1,
+      5,
+      4,
+      6
+    ],
+    [
+      6,
+      3,
+      4,
+      5,
+      1,
+      2,
+      0
+    ],
+    [
+      6,
+      4,
+      5,
+      1,
+      2,
+      3,
+      0
+    ],
+    [
+      0,
+      2,
+      1,
+      5,
+      6,
+      3,
+      4
+    ],
+    [
+      2,
+      3,
+      0,
+      1,
+      5,
+      4,
+      6
+    ],
+    [
+      4,
+      3,
+      6,
+      5,
+      1,
+      2,
+      0
+    ],
+    [
+      6,
+      4,
+      5,
+      1,
+      0,
+      3,
+      2
+    ],
+    [
+      0,
+      2,
+      1,
+      5,
+      6,
+      4,
+      3
+    ],
+    [
+      0,
+      2,
+      1,
+      6,
+      5,
+      3,
+      4
+    ],
+    [
+      2,
+      3,
+      1,
+      0,
+      5,
+      4,
+      6
+    ],
+    [
+      3,
+      2,
+      0,
+      1,
+      5,
+      4,
+      6
+    ],
+    [
+      3,
+      4,
+      6,
+      5,
+      1,
+      2,
+      0
+    ],
+    [
+      4,
+      3,
+      5,
+      6,
+      1,
+      2,
+      0
+    ],
+    [
+      6,
+      4,
+      5,
+      0,
+      1,
+      3,
+      2
+    ],
+    [
+      6,
+      4,
+      5,
+      1,
+      0,
+      2,
+      3
+    ],
+    [
+      0,
+      2,
+      3,
+      1,
+      6,
+      5,
+      4
+    ],
+    [
+      0,
+      3,
+      1,
+      2,
+      6,
+      5,
+      4
+    ],
+    [
+      2,
+      1,
+      0,
+      4,
+      5,
+      3,
+      6
+    ],
+    [
+      2,
+      1,
+      0,
+      5,
+      3,
+      4,
+      6
+    ],
+    [
+      4,
+      5,
+      6,
+      1,
+      3,
+      2,
+      0
+    ],
+    [
+      4,
+      5,
+      6,
+      2,
+      1,
+      3,
+      0
+    ],
+    [
+      6,
+      3,
+      5,
+      4,
+      0,
+      1,
+      2
+    ],
+    [
+      6,
+      4,
+      3,
+      5,
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      2,
+      3,
+      5,
+      1,
+      4,
+      6
+    ],
+    [
+      0,
+      2,
+      5,
+      1,
+      3,
+      4,
+      6
+    ],
+    [
+      0,
+      3,
+      1,
+      4,
+      5,
+      2,
+      6
+    ],
+    [
+      0,
+      4,
+      1,
+      2,
+      5,
+      3,
+      6
+    ],
+    [
+      6,
+      2,
+      5,
+      4,
+      1,
+      3,
+      0
+    ],
+    [
+      6,
+      3,
+      5,
+      2,
+      1,
+      4,
+      0
+    ],
+    [
+      6,
+      4,
+      1,
+      5,
+      3,
+      2,
+      0
+    ],
+    [
+      6,
+      4,
+      3,
+      1,
+      5,
+      2,
+      0
+    ],
+    [
+      0,
+      2,
+      3,
+      6,
+      1,
+      5,
+      4
+    ],
+    [
+      0,
+      4,
+      1,
+      2,
+      6,
+      5,
+      3
+    ],
+    [
+      2,
+      1,
+      5,
+      0,
+      3,
+      4,
+      6
+    ],
+    [
+      3,
+      1,
+      0,
+      4,
+      5,
+      2,
+      6
+    ],
+    [
+      3,
+      5,
+      6,
+      2,
+      1,
+      4,
+      0
+    ],
+    [
+      4,
+      5,
+      1,
+      6,
+      3,
+      2,
+      0
+    ],
+    [
+      6,
+      2,
+      5,
+      4,
+      0,
+      1,
+      3
+    ],
+    [
+      6,
+      4,
+      3,
+      0,
+      5,
+      1,
+      2
+    ],
+    [
+      0,
+      2,
+      4,
+      1,
+      5,
+      6,
+      3
+    ],
+    [
+      0,
+      3,
+      1,
+      6,
+      2,
+      4,
+      5
+    ],
+    [
+      1,
+      2,
+      4,
+      0,
+      5,
+      3,
+      6
+    ],
+    [
+      3,
+      0,
+      1,
+      5,
+      2,
+      4,
+      6
+    ],
+    [
+      3,
+      6,
+      5,
+      1,
+      4,
+      2,
+      0
+    ],
+    [
+      5,
+      4,
+      2,
+      6,
+      1,
+      3,
+      0
+    ],
+    [
+      6,
+      3,
+      5,
+      0,
+      4,
+      2,
+      1
+    ],
+    [
+      6,
+      4,
+      2,
+      5,
+      1,
+      0,
+      3
+    ],
+    [
+      0,
+      2,
+      4,
+      3,
+      5,
+      6,
+      1
+    ],
+    [
+      0,
+      6,
+      1,
+      3,
+      2,
+      4,
+      5
+    ],
+    [
+      1,
+      2,
+      4,
+      3,
+      5,
+      0,
+      6
+    ],
+    [
+      1,
+      6,
+      5,
+      3,
+      4,
+      2,
+      0
+    ],
+    [
+      5,
+      0,
+      1,
+      3,
+      2,
+      4,
+      6
+    ],
+    [
+      5,
+      4,
+      2,
+      3,
+      1,
+      6,
+      0
+    ],
+    [
+      6,
+      0,
+      5,
+      3,
+      4,
+      2,
+      1
+    ],
+    [
+      6,
+      4,
+      2,
+      3,
+      1,
+      0,
+      5
+    ],
+    [
+      0,
+      2,
+      5,
+      1,
+      4,
+      3,
+      6
+    ],
+    [
+      0,
+      3,
+      1,
+      5,
+      4,
+      2,
+      6
+    ],
+    [
+      0,
+      3,
+      2,
+      5,
+      1,
+      4,
+      6
+    ],
+    [
+      0,
+      4,
+      2,
+      1,
+      5,
+      3,
+      6
+    ],
+    [
+      6,
+      2,
+      4,
+      5,
+      1,
+      3,
+      0
+    ],
+    [
+      6,
+      3,
+      4,
+      1,
+      5,
+      2,
+      0
+    ],
+    [
+      6,
+      3,
+      5,
+      1,
+      2,
+      4,
+      0
+    ],
+    [
+      6,
+      4,
+      1,
+      5,
+      2,
+      3,
+      0
+    ],
+    [
+      0,
+      2,
+      5,
+      3,
+      6,
+      4,
+      1
+    ],
+    [
+      0,
+      6,
+      1,
+      3,
+      5,
+      2,
+      4
+    ],
+    [
+      1,
+      4,
+      6,
+      3,
+      5,
+      2,
+      0
+    ],
+    [
+      2,
+      4,
+      1,
+      3,
+      5,
+      0,
+      6
+    ],
+    [
+      4,
+      2,
+      5,
+      3,
+      1,
+      6,
+      0
+    ],
+    [
+      5,
+      2,
+      0,
+      3,
+      1,
+      4,
+      6
+    ],
+    [
+      6,
+      0,
+      5,
+      3,
+      1,
+      4,
+      2
+    ],
+    [
+      6,
+      4,
+      1,
+      3,
+      0,
+      2,
+      5
+    ],
+    [
+      0,
+      2,
+      5,
+      4,
+      3,
+      1,
+      6
+    ],
+    [
+      0,
+      4,
+      3,
+      2,
+      5,
+      1,
+      6
+    ],
+    [
+      0,
+      5,
+      1,
+      4,
+      3,
+      2,
+      6
+    ],
+    [
+      0,
+      5,
+      3,
+      2,
+      1,
+      4,
+      6
+    ],
+    [
+      6,
+      1,
+      3,
+      4,
+      5,
+      2,
+      0
+    ],
+    [
+      6,
+      1,
+      5,
+      2,
+      3,
+      4,
+      0
+    ],
+    [
+      6,
+      2,
+      3,
+      4,
+      1,
+      5,
+      0
+    ],
+    [
+      6,
+      4,
+      1,
+      2,
+      3,
+      5,
+      0
+    ],
+    [
+      0,
+      2,
+      6,
+      1,
+      5,
+      3,
+      4
+    ],
+    [
+      0,
+      3,
+      1,
+      5,
+      6,
+      4,
+      2
+    ],
+    [
+      2,
+      3,
+      1,
+      5,
+      0,
+      4,
+      6
+    ],
+    [
+      2,
+      4,
+      6,
+      5,
+      1,
+      3,
+      0
+    ],
+    [
+      4,
+      2,
+      0,
+      1,
+      5,
+      3,
+      6
+    ],
+    [
+      4,
+      3,
+      5,
+      1,
+      6,
+      2,
+      0
+    ],
+    [
+      6,
+      3,
+      5,
+      1,
+      0,
+      2,
+      4
+    ],
+    [
+      6,
+      4,
+      0,
+      5,
+      1,
+      3,
+      2
+    ]
+  ],
+  "orbit_id": [
+    19,
+    19,
+    19,
+    19,
+    19,
+    19,
+    19,
+    19,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    39,
+    39,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    54,
+    54,
+    54,
+    54,
+    54,
+    54,
+    54,
+    54,
+    68,
+    68,
+    68,
+    68,
+    77,
+    77,
+    77,
+    77,
+    77,
+    77,
+    77,
+    77,
+    81,
+    81,
+    81,
+    81,
+    83,
+    83,
+    83,
+    83,
+    84,
+    84,
+    84,
+    84,
+    84,
+    84,
+    84,
+    84,
+    90,
+    90,
+    90,
+    90,
+    90,
+    90,
+    90,
+    90,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    110,
+    110,
+    110,
+    110,
+    110,
+    110,
+    110,
+    110,
+    115,
+    115,
+    115,
+    115,
+    115,
+    115,
+    115,
+    115,
+    131,
+    131,
+    131,
+    131,
+    131,
+    131,
+    131,
+    131,
+    140,
+    140,
+    140,
+    140,
+    140,
+    140,
+    140,
+    140,
+    143,
+    143,
+    143,
+    143,
+    143,
+    143,
+    143,
+    143,
+    157,
+    157,
+    157,
+    157,
+    157,
+    157,
+    157,
+    157
+  ],
+  "conditions": [
+    {
+      "id": 0,
+      "r": 0,
+      "H": "NN"
+    },
+    {
+      "id": 1,
+      "r": 0,
+      "H": "NA"
+    },
+    {
+      "id": 2,
+      "r": 0,
+      "H": "AN"
+    },
+    {
+      "id": 3,
+      "r": 0,
+      "H": "NB"
+    },
+    {
+      "id": 4,
+      "r": 0,
+      "H": "BN"
+    },
+    {
+      "id": 5,
+      "r": 0,
+      "H": "AA"
+    },
+    {
+      "id": 6,
+      "r": 0,
+      "H": "BB"
+    },
+    {
+      "id": 7,
+      "r": 0,
+      "H": "AB"
+    },
+    {
+      "id": 8,
+      "r": 0,
+      "H": "BA"
+    },
+    {
+      "id": 9,
+      "r": 1,
+      "H": "NN"
+    },
+    {
+      "id": 10,
+      "r": 1,
+      "H": "NA"
+    },
+    {
+      "id": 11,
+      "r": 1,
+      "H": "AN"
+    },
+    {
+      "id": 12,
+      "r": 1,
+      "H": "NB"
+    },
+    {
+      "id": 13,
+      "r": 1,
+      "H": "BN"
+    },
+    {
+      "id": 14,
+      "r": 1,
+      "H": "AA"
+    },
+    {
+      "id": 15,
+      "r": 1,
+      "H": "BB"
+    },
+    {
+      "id": 16,
+      "r": 1,
+      "H": "AB"
+    },
+    {
+      "id": 17,
+      "r": 1,
+      "H": "BA"
+    }
+  ],
+  "delays": [
+    0,
+    10
+  ],
+  "suffixes": [
+    "NN",
+    "NA",
+    "NB"
+  ],
+  "class_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "query_types": {
+    "0": "item_to_position",
+    "1": "position_to_item"
+  },
+  "axes": {
+    "wrong_logp": "D,R,j,type,item,class",
+    "matched_logp": "D,R,content,type,item,class",
+    "native_logp": "condition,content,type,item,class",
+    "answers": "condition,content,type,item",
+    "control": "delay,condition,control_neuron; NO content axis"
+  },
+  "pairing_key": [
+    "dataset",
+    "seed",
+    "D",
+    "R",
+    "q_j",
+    "q_k",
+    "d",
+    "actual_suffix_S",
+    "query_type",
+    "query_item",
+    "swap_event"
+  ],
+  "candidates": {
+    "donor_math": "answers[D,mismatch_index[j],type,item]",
+    "receiver_original_math": "answers[R,j,type,item]",
+    "recombined_math": "counterfactual_answers[R,j,type,item] == answers[R,mismatch_index[j],type,item]",
+    "donor_native": "argmax(native_logp[D,mismatch_index[j],type,item,:])",
+    "receiver_native": "argmax(native_logp[R,j,type,item,:])"
+  },
+  "main_selection": "Cross-context D,R; triple_distinct iff the THREE MATHEMATICAL answers are pairwise distinct. No prediction/correctness/native-agreement selection.",
+  "all_selection": "All cross-context queries, including overlapping mathematical candidates.",
+  "not_three_mask": "Existing v1.3 three is native-correctness selection and is never used here.",
+  "main_categories": [
+    "donor_math",
+    "receiver_original_math",
+    "recombined_math",
+    "other"
+  ],
+  "cross_directions": [
+    {
+      "D": 0,
+      "R": 9
+    },
+    {
+      "D": 0,
+      "R": 10
+    },
+    {
+      "D": 0,
+      "R": 11
+    },
+    {
+      "D": 0,
+      "R": 12
+    },
+    {
+      "D": 0,
+      "R": 13
+    },
+    {
+      "D": 0,
+      "R": 14
+    },
+    {
+      "D": 0,
+      "R": 15
+    },
+    {
+      "D": 0,
+      "R": 16
+    },
+    {
+      "D": 0,
+      "R": 17
+    },
+    {
+      "D": 1,
+      "R": 9
+    },
+    {
+      "D": 1,
+      "R": 10
+    },
+    {
+      "D": 1,
+      "R": 11
+    },
+    {
+      "D": 1,
+      "R": 12
+    },
+    {
+      "D": 1,
+      "R": 13
+    },
+    {
+      "D": 1,
+      "R": 14
+    },
+    {
+      "D": 1,
+      "R": 15
+    },
+    {
+      "D": 1,
+      "R": 16
+    },
+    {
+      "D": 1,
+      "R": 17
+    },
+    {
+      "D": 2,
+      "R": 9
+    },
+    {
+      "D": 2,
+      "R": 10
+    },
+    {
+      "D": 2,
+      "R": 11
+    },
+    {
+      "D": 2,
+      "R": 12
+    },
+    {
+      "D": 2,
+      "R": 13
+    },
+    {
+      "D": 2,
+      "R": 14
+    },
+    {
+      "D": 2,
+      "R": 15
+    },
+    {
+      "D": 2,
+      "R": 16
+    },
+    {
+      "D": 2,
+      "R": 17
+    },
+    {
+      "D": 3,
+      "R": 9
+    },
+    {
+      "D": 3,
+      "R": 10
+    },
+    {
+      "D": 3,
+      "R": 11
+    },
+    {
+      "D": 3,
+      "R": 12
+    },
+    {
+      "D": 3,
+      "R": 13
+    },
+    {
+      "D": 3,
+      "R": 14
+    },
+    {
+      "D": 3,
+      "R": 15
+    },
+    {
+      "D": 3,
+      "R": 16
+    },
+    {
+      "D": 3,
+      "R": 17
+    },
+    {
+      "D": 4,
+      "R": 9
+    },
+    {
+      "D": 4,
+      "R": 10
+    },
+    {
+      "D": 4,
+      "R": 11
+    },
+    {
+      "D": 4,
+      "R": 12
+    },
+    {
+      "D": 4,
+      "R": 13
+    },
+    {
+      "D": 4,
+      "R": 14
+    },
+    {
+      "D": 4,
+      "R": 15
+    },
+    {
+      "D": 4,
+      "R": 16
+    },
+    {
+      "D": 4,
+      "R": 17
+    },
+    {
+      "D": 5,
+      "R": 9
+    },
+    {
+      "D": 5,
+      "R": 10
+    },
+    {
+      "D": 5,
+      "R": 11
+    },
+    {
+      "D": 5,
+      "R": 12
+    },
+    {
+      "D": 5,
+      "R": 13
+    },
+    {
+      "D": 5,
+      "R": 14
+    },
+    {
+      "D": 5,
+      "R": 15
+    },
+    {
+      "D": 5,
+      "R": 16
+    },
+    {
+      "D": 5,
+      "R": 17
+    },
+    {
+      "D": 6,
+      "R": 9
+    },
+    {
+      "D": 6,
+      "R": 10
+    },
+    {
+      "D": 6,
+      "R": 11
+    },
+    {
+      "D": 6,
+      "R": 12
+    },
+    {
+      "D": 6,
+      "R": 13
+    },
+    {
+      "D": 6,
+      "R": 14
+    },
+    {
+      "D": 6,
+      "R": 15
+    },
+    {
+      "D": 6,
+      "R": 16
+    },
+    {
+      "D": 6,
+      "R": 17
+    },
+    {
+      "D": 7,
+      "R": 9
+    },
+    {
+      "D": 7,
+      "R": 10
+    },
+    {
+      "D": 7,
+      "R": 11
+    },
+    {
+      "D": 7,
+      "R": 12
+    },
+    {
+      "D": 7,
+      "R": 13
+    },
+    {
+      "D": 7,
+      "R": 14
+    },
+    {
+      "D": 7,
+      "R": 15
+    },
+    {
+      "D": 7,
+      "R": 16
+    },
+    {
+      "D": 7,
+      "R": 17
+    },
+    {
+      "D": 8,
+      "R": 9
+    },
+    {
+      "D": 8,
+      "R": 10
+    },
+    {
+      "D": 8,
+      "R": 11
+    },
+    {
+      "D": 8,
+      "R": 12
+    },
+    {
+      "D": 8,
+      "R": 13
+    },
+    {
+      "D": 8,
+      "R": 14
+    },
+    {
+      "D": 8,
+      "R": 15
+    },
+    {
+      "D": 8,
+      "R": 16
+    },
+    {
+      "D": 8,
+      "R": 17
+    },
+    {
+      "D": 9,
+      "R": 0
+    },
+    {
+      "D": 9,
+      "R": 1
+    },
+    {
+      "D": 9,
+      "R": 2
+    },
+    {
+      "D": 9,
+      "R": 3
+    },
+    {
+      "D": 9,
+      "R": 4
+    },
+    {
+      "D": 9,
+      "R": 5
+    },
+    {
+      "D": 9,
+      "R": 6
+    },
+    {
+      "D": 9,
+      "R": 7
+    },
+    {
+      "D": 9,
+      "R": 8
+    },
+    {
+      "D": 10,
+      "R": 0
+    },
+    {
+      "D": 10,
+      "R": 1
+    },
+    {
+      "D": 10,
+      "R": 2
+    },
+    {
+      "D": 10,
+      "R": 3
+    },
+    {
+      "D": 10,
+      "R": 4
+    },
+    {
+      "D": 10,
+      "R": 5
+    },
+    {
+      "D": 10,
+      "R": 6
+    },
+    {
+      "D": 10,
+      "R": 7
+    },
+    {
+      "D": 10,
+      "R": 8
+    },
+    {
+      "D": 11,
+      "R": 0
+    },
+    {
+      "D": 11,
+      "R": 1
+    },
+    {
+      "D": 11,
+      "R": 2
+    },
+    {
+      "D": 11,
+      "R": 3
+    },
+    {
+      "D": 11,
+      "R": 4
+    },
+    {
+      "D": 11,
+      "R": 5
+    },
+    {
+      "D": 11,
+      "R": 6
+    },
+    {
+      "D": 11,
+      "R": 7
+    },
+    {
+      "D": 11,
+      "R": 8
+    },
+    {
+      "D": 12,
+      "R": 0
+    },
+    {
+      "D": 12,
+      "R": 1
+    },
+    {
+      "D": 12,
+      "R": 2
+    },
+    {
+      "D": 12,
+      "R": 3
+    },
+    {
+      "D": 12,
+      "R": 4
+    },
+    {
+      "D": 12,
+      "R": 5
+    },
+    {
+      "D": 12,
+      "R": 6
+    },
+    {
+      "D": 12,
+      "R": 7
+    },
+    {
+      "D": 12,
+      "R": 8
+    },
+    {
+      "D": 13,
+      "R": 0
+    },
+    {
+      "D": 13,
+      "R": 1
+    },
+    {
+      "D": 13,
+      "R": 2
+    },
+    {
+      "D": 13,
+      "R": 3
+    },
+    {
+      "D": 13,
+      "R": 4
+    },
+    {
+      "D": 13,
+      "R": 5
+    },
+    {
+      "D": 13,
+      "R": 6
+    },
+    {
+      "D": 13,
+      "R": 7
+    },
+    {
+      "D": 13,
+      "R": 8
+    },
+    {
+      "D": 14,
+      "R": 0
+    },
+    {
+      "D": 14,
+      "R": 1
+    },
+    {
+      "D": 14,
+      "R": 2
+    },
+    {
+      "D": 14,
+      "R": 3
+    },
+    {
+      "D": 14,
+      "R": 4
+    },
+    {
+      "D": 14,
+      "R": 5
+    },
+    {
+      "D": 14,
+      "R": 6
+    },
+    {
+      "D": 14,
+      "R": 7
+    },
+    {
+      "D": 14,
+      "R": 8
+    },
+    {
+      "D": 15,
+      "R": 0
+    },
+    {
+      "D": 15,
+      "R": 1
+    },
+    {
+      "D": 15,
+      "R": 2
+    },
+    {
+      "D": 15,
+      "R": 3
+    },
+    {
+      "D": 15,
+      "R": 4
+    },
+    {
+      "D": 15,
+      "R": 5
+    },
+    {
+      "D": 15,
+      "R": 6
+    },
+    {
+      "D": 15,
+      "R": 7
+    },
+    {
+      "D": 15,
+      "R": 8
+    },
+    {
+      "D": 16,
+      "R": 0
+    },
+    {
+      "D": 16,
+      "R": 1
+    },
+    {
+      "D": 16,
+      "R": 2
+    },
+    {
+      "D": 16,
+      "R": 3
+    },
+    {
+      "D": 16,
+      "R": 4
+    },
+    {
+      "D": 16,
+      "R": 5
+    },
+    {
+      "D": 16,
+      "R": 6
+    },
+    {
+      "D": 16,
+      "R": 7
+    },
+    {
+      "D": 16,
+      "R": 8
+    },
+    {
+      "D": 17,
+      "R": 0
+    },
+    {
+      "D": 17,
+      "R": 1
+    },
+    {
+      "D": 17,
+      "R": 2
+    },
+    {
+      "D": 17,
+      "R": 3
+    },
+    {
+      "D": 17,
+      "R": 4
+    },
+    {
+      "D": 17,
+      "R": 5
+    },
+    {
+      "D": 17,
+      "R": 6
+    },
+    {
+      "D": 17,
+      "R": 7
+    },
+    {
+      "D": 17,
+      "R": 8
+    }
+  ],
+  "argmax": "Lowest class index on ties, applied to saved log probabilities.",
+  "aggregation": "Pool eligible query numerators/denominators within each seed, then equally average six seed rates. Expanded pooled counts/rates separate. No direction reweighting after eligibility.",
+  "empty_strata": "n=0, rate=null. NN triple_distinct stays empty. No imputation. Strict six-seed means null if any seed stratum empty; available-seed means separately labeled.",
+  "strata": [
+    "d",
+    "S",
+    "query_type",
+    "same/different history",
+    "exactly equal/unequal/missing c",
+    "donor context direction",
+    "full d*S*query_type*history*c crossing"
+  ],
+  "control_equality": "Elementwise exact equality in original stored coordinates; L2 computed after float64 conversion, with no threshold or content axis.",
+  "donor_native_unique_key": [
+    "seed",
+    "D",
+    "q_k",
+    "d",
+    "S",
+    "query_type",
+    "query_item"
+  ],
+  "reuse": "Keep donor-query multiplicity counts; recipients are not independent native predictions.",
+  "wrong_matched_consistency": "wrong[D,R,j] versus matched[D,R,mismatch_index[j]] for all 324 stored directions, plus cross-context separately; diagonal controls excluded from science.",
+  "probabilities": "float64 exp(logp), finite-value and row-sum checks, then row normalization; no logit comparison or clipping.",
+  "raw_normalization_atol": 2e-06,
+  "normalized_atol": 3e-15,
+  "independent_probability_reduction_atol": 3e-15,
+  "descriptive_probability_tolerances": [
+    1e-06,
+    1e-05,
+    0.0001
+  ],
+  "precision_note": "Original GPU controls passed; original strict CPU float32 logit tolerance failed; identical float64 coefficients agreed and original compared argmax unchanged. New probability tolerances do not replace that failure.",
+  "statistics": "Descriptive only; no confidence intervals, p values, bootstrap or refitting.",
+  "input_schedules": [
+    {
+      "effective_suffix": "NN",
+      "input_sha256": {
+        "stim": "558304aaa5a9eb99106cd22c48597ed07fbee8278470688e58a5c8107cb982a2",
+        "ctrl": "2e669baae634a822886be5e97780937d41a20ca48d23c07f7b749a83d8e0db40",
+        "phase": "0905860cdfdd56e2f04da096265ca9d942e3e1fed1f316b30a9cc5b0cea491c9",
+        "lengths": "389746207920d836a79522792f4a43a0d84959428bc627f053ccf5b7043e6f64",
+        "query": "cd9f19988e3d341c6475f296e7b01839af9247324814f9924c837250cb8575be"
+      },
+      "post_swap_steps": 16,
+      "cue_relative_steps_1based": [
+        1,
+        5
+      ],
+      "rule_blank_steps": 3,
+      "final_hold_steps": 5,
+      "query_relative_steps_1based": [
+        14,
+        15,
+        16
+      ],
+      "external_context_after_swap": false,
+      "same_input_checked_for_all_conditions_delays": true,
+      "reconstructed_from_actual_input_functions": true,
+      "absolute_swap_steps": [
+        21,
+        31
+      ],
+      "first_query_steps": [
+        35,
+        45
+      ],
+      "final_readout_steps": [
+        37,
+        47
+      ]
+    },
+    {
+      "effective_suffix": "NA",
+      "input_sha256": {
+        "stim": "558304aaa5a9eb99106cd22c48597ed07fbee8278470688e58a5c8107cb982a2",
+        "ctrl": "80e2decf2137493fd030460ae9746483e6cfdf5291cf604c0bfda2966ddd9e96",
+        "phase": "0905860cdfdd56e2f04da096265ca9d942e3e1fed1f316b30a9cc5b0cea491c9",
+        "lengths": "389746207920d836a79522792f4a43a0d84959428bc627f053ccf5b7043e6f64",
+        "query": "cd9f19988e3d341c6475f296e7b01839af9247324814f9924c837250cb8575be"
+      },
+      "post_swap_steps": 16,
+      "cue_relative_steps_1based": [
+        1,
+        5
+      ],
+      "rule_blank_steps": 3,
+      "final_hold_steps": 5,
+      "query_relative_steps_1based": [
+        14,
+        15,
+        16
+      ],
+      "external_context_after_swap": false,
+      "same_input_checked_for_all_conditions_delays": true,
+      "reconstructed_from_actual_input_functions": true,
+      "absolute_swap_steps": [
+        21,
+        31
+      ],
+      "first_query_steps": [
+        35,
+        45
+      ],
+      "final_readout_steps": [
+        37,
+        47
+      ]
+    },
+    {
+      "effective_suffix": "NB",
+      "input_sha256": {
+        "stim": "558304aaa5a9eb99106cd22c48597ed07fbee8278470688e58a5c8107cb982a2",
+        "ctrl": "73c5368a5c99fe8bbcd93234b5d8b4e1e0f9ac4b8c7bff9ac9398c4ebf036d11",
+        "phase": "0905860cdfdd56e2f04da096265ca9d942e3e1fed1f316b30a9cc5b0cea491c9",
+        "lengths": "389746207920d836a79522792f4a43a0d84959428bc627f053ccf5b7043e6f64",
+        "query": "cd9f19988e3d341c6475f296e7b01839af9247324814f9924c837250cb8575be"
+      },
+      "post_swap_steps": 16,
+      "cue_relative_steps_1based": [
+        1,
+        5
+      ],
+      "rule_blank_steps": 3,
+      "final_hold_steps": 5,
+      "query_relative_steps_1based": [
+        14,
+        15,
+        16
+      ],
+      "external_context_after_swap": false,
+      "same_input_checked_for_all_conditions_delays": true,
+      "reconstructed_from_actual_input_functions": true,
+      "absolute_swap_steps": [
+        21,
+        31
+      ],
+      "first_query_steps": [
+        35,
+        45
+      ],
+      "final_readout_steps": [
+        37,
+        47
+      ]
+    }
+  ],
+  "checkpoints": [
+    {
+      "seed": 101,
+      "path": "runs/v1_3/seed_101/selected_stage7.pt",
+      "sha256": "7d2d1e3cf60c94e80c1bc254df633d2a5ec7b3a1e771c6016c969f95252081e2",
+      "stage7_step": 13500
+    },
+    {
+      "seed": 102,
+      "path": "runs/v1_3/seed_102/selected_stage7.pt",
+      "sha256": "53b5751a8728919042eb0f3660c6036bb6c68fa4a860d94fdf2108eea1fa7109",
+      "stage7_step": 32500
+    },
+    {
+      "seed": 103,
+      "path": "runs/v1_3/seed_103/selected_stage7.pt",
+      "sha256": "2f879d7b568faea91b164a3fa4f2367030572407fddf4f7deef3ccb328644cbd",
+      "stage7_step": 16500
+    },
+    {
+      "seed": 104,
+      "path": "runs/v1_3/seed_104/selected_stage7.pt",
+      "sha256": "dcf5e758c955846c917826596ff27da54da3bec740a8f2145d2fbf608ffffb99",
+      "stage7_step": 21000
+    },
+    {
+      "seed": 105,
+      "path": "runs/v1_3/seed_105/selected_stage7.pt",
+      "sha256": "19b33dfa65ff86b6f8b1c72680d6f84e0eccd011cde01f5fcc27ef4fe4f0c49b",
+      "stage7_step": 26000
+    },
+    {
+      "seed": 106,
+      "path": "runs/v1_3/seed_106/selected_stage7.pt",
+      "sha256": "5ad670aff11654c7c82975d5cfa55cb1c4c18d2ce60a814b3a385f9c390642d8",
+      "stage7_step": 23000
+    }
+  ],
+  "control_availability": [
+    {
+      "seed": 101,
+      "available": true
+    },
+    {
+      "seed": 102,
+      "available": true
+    },
+    {
+      "seed": 103,
+      "available": true
+    },
+    {
+      "seed": 104,
+      "available": true
+    },
+    {
+      "seed": 105,
+      "available": true
+    },
+    {
+      "seed": 106,
+      "available": true
+    }
+  ],
+  "input_inventory_sha256": "e83078356406dc626009e9fd52d5e942a3f2cd381b73d744ebb11e7370750f88",
+  "fixed_direct_sample_sha256": "14003739abf105bae9a5caf41e386ce108ab61ceabffaa0b13e2364606867aab",
+  "direct_sample_rule": "Before outputs, choose lexicographically first cross pair and first j/item per seed,d,S,type,donor context,history,c stratum and selection using mathematical candidates only.",
+  "no_network_forward": true,
+  "no_training": true,
+  "no_new_models": true,
+  "missing_policy": "Any missing/unverifiable primary seed cache blocks six-model scoring; optional c absence is explicit.",
+  "code_sha256": {
+    "analysis.py": "81645146107e308dfe7c2b2569eb1fcafdd9694e594701d36ed2300df60ccc12"
+  }
+}

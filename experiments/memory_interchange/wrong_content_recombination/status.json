@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETED",
+  "scored_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106
+  ],
+  "primary_inputs_complete": true,
+  "report_pending": false,
+  "report_complete": true
+}

@@ -1,2 +1,89 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="250.8pt" height="216pt" viewBox="0 0 250.8 216"><defs><marker id="arrow" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#20252B" /></marker></defs><text x="2" y="13" fill="#20252B" font-family="DejaVu Sans" font-size="12" font-weight="bold" text-anchor="start">A</text><text x="20" y="13" fill="#20252B" font-family="DejaVu Sans" font-size="11.3" font-weight="bold" text-anchor="start">Task and memory interchange</text><text x="2" y="32" fill="#20252B" font-family="DejaVu Sans" font-size="9.5" font-weight="normal" text-anchor="start">Context 0: A = inversion; B = complement</text><text x="2" y="46" fill="#20252B" font-family="DejaVu Sans" font-size="9.5" font-weight="normal" text-anchor="start">Context 1: A = complement; B = inversion</text><rect x="1" y="57" width="248.8" height="154" rx="5" fill="#FAFBFC" stroke="#B7BEC6" stroke-width=".65" /><text x="125.4" y="71" fill="#20252B" font-family="DejaVu Sans" font-size="10" font-weight="bold" text-anchor="middle">One trained RNN · fixed weights</text><text x="9" y="88" fill="#20252B" font-family="DejaVu Sans" font-size="9.5" font-weight="bold" text-anchor="start">Donor trial · context 0</text><text x="9" y="104" fill="#20252B" font-family="DejaVu Sans" font-size="9.5" font-weight="normal" text-anchor="start">[3 1 5 2 7 6 4]</text><text x="122" y="96" fill="#20252B" font-family="DejaVu Sans" font-size="9.5" font-weight="normal" text-anchor="middle">A N</text><line x1="102" y1="102" x2="144" y2="102" stroke="#20252B" stroke-width=".8" marker-end="url(#arrow)" /><text x="151" y="105" fill="#20252B" font-family="DejaVu Sans" font-size="11" font-weight="normal" text-anchor="start">q</text><line x1="162" y1="102" x2="174" y2="102" stroke="#20252B" stroke-width=".8" marker-end="url(#arrow)" /><rect x="180" y="92" width="29" height="20" rx="3" fill="#E3EEF5" stroke="#B7BEC6" stroke-width=".65" /><rect x="211" y="92" width="29" height="20" rx="3" fill="#EEEAF3" stroke="#B7BEC6" stroke-width=".65" /><text x="194.5" y="106" fill="#20252B" font-family="DejaVu Sans" font-size="11" font-weight="normal" text-anchor="middle">mᴅ</text><text x="225.5" y="106" fill="#20252B" font-family="DejaVu Sans" font-size="11" font-weight="normal" text-anchor="middle">cᴅ</text><text x="9" y="125" fill="#20252B" font-family="DejaVu Sans" font-size="9.5" font-weight="bold" text-anchor="start">Receiver trial · context 1</text><text x="9" y="141" fill="#20252B" font-family="DejaVu Sans" font-size="9.5" font-weight="normal" text-anchor="start">[6 4 7 1 5 2 3]</text><text x="122" y="133" fill="#20252B" font-family="DejaVu Sans" font-size="9.5" font-weight="normal" text-anchor="middle">N A</text><line x1="102" y1="139" x2="144" y2="139" stroke="#20252B" stroke-width=".8" marker-end="url(#arrow)" /><text x="151" y="142" fill="#20252B" font-family="DejaVu Sans" font-size="11" font-weight="normal" text-anchor="start">q</text><line x1="162" y1="139" x2="174" y2="139" stroke="#20252B" stroke-width=".8" marker-end="url(#arrow)" /><rect x="180" y="129" width="29" height="20" rx="3" fill="#E3EEF5" stroke="#B7BEC6" stroke-width=".65" /><rect x="211" y="129" width="29" height="20" rx="3" fill="#EEEAF3" stroke="#B7BEC6" stroke-width=".65" /><text x="194.5" y="143" fill="#20252B" font-family="DejaVu Sans" font-size="11" font-weight="normal" text-anchor="middle">mʀ</text><text x="225.5" y="143" fill="#20252B" font-family="DejaVu Sans" font-size="11" font-weight="normal" text-anchor="middle">cʀ</text><text x="9" y="162" fill="#20252B" font-family="DejaVu Sans" font-size="9.5" font-weight="normal" text-anchor="start">Identical current q = [2 4 1 7 3 6 5]</text><text x="9" y="182" fill="#20252B" font-family="DejaVu Sans" font-size="10" font-weight="bold" text-anchor="start">Replace mʀ ← mᴅ:</text><rect x="130" y="168" width="110" height="21" rx="3" fill="#FFFFFF" stroke="#B7BEC6" stroke-width=".65" /><text x="185" y="182" fill="#20252B" font-family="DejaVu Sans" font-size="11" font-weight="bold" text-anchor="middle">(mᴅ, cʀ)</text><text x="125.4" y="202" fill="#20252B" font-family="DejaVu Sans" font-size="9.25" font-weight="normal" text-anchor="middle">Receiver inputs → same RNN → original readout</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="518.4pt" height="540.0pt" viewBox="0 0 518.4 540.0">
+  <defs>
+    <marker id="flow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#24282D" />
+    </marker>
+    <marker id="memory" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#0072B2" />
+    </marker>
+  </defs>
+  <text x="24.0" y="20.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="bold" text-anchor="start">One fixed network · two trials</text>
+  <text x="84.0" y="48.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="bold" text-anchor="middle">Rule context</text>
+  <text x="280.0" y="48.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="bold" text-anchor="middle">Cue A</text>
+  <text x="435.0" y="48.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="bold" text-anchor="middle">Cue B</text>
+  <line x1="24.0" y1="56.0" x2="495.0" y2="56.0" stroke="#E4E8EC" stroke-width=".9" />
+  <text x="84.0" y="75.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">0</text>
+  <text x="280.0" y="75.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">inversion</text>
+  <text x="435.0" y="75.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">complementation</text>
+  <text x="84.0" y="96.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">1</text>
+  <text x="280.0" y="96.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">complementation</text>
+  <text x="435.0" y="96.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">inversion</text>
+  <text x="24.0" y="129.0" fill="#24282D" font-family="DejaVu Sans" font-size="13.5" font-weight="bold" text-anchor="start">1. Different inputs and histories, same q</text>
+  <text x="135.0" y="153.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">Initial input</text>
+  <text x="270.0" y="153.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">History</text>
+  <text x="420.0" y="153.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">Current content</text>
+  <text x="24.0" y="181.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="start">Donor</text>
+  <text x="136.0" y="181.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">p</text>
+  <text x="137.0" y="184.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">D</text>
+  <text x="271.0" y="166.0" fill="#24282D" font-family="DejaVu Sans" font-size="13" font-weight="normal" text-anchor="end">H</text>
+  <text x="272.0" y="169.25" fill="#24282D" font-family="DejaVu Sans" font-size="9.36" font-weight="normal" text-anchor="start">D</text>
+  <line x1="171.0" y1="177.0" x2="365.0" y2="177.0" stroke="#24282D" stroke-width="1.1" marker-end="url(#flow)" />
+  <text x="420.0" y="181.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="middle">q</text>
+  <text x="24.0" y="219.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="start">Receiver</text>
+  <text x="136.0" y="219.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">p</text>
+  <text x="137.0" y="222.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">R</text>
+  <text x="271.0" y="204.0" fill="#24282D" font-family="DejaVu Sans" font-size="13" font-weight="normal" text-anchor="end">H</text>
+  <text x="272.0" y="207.25" fill="#24282D" font-family="DejaVu Sans" font-size="9.36" font-weight="normal" text-anchor="start">R</text>
+  <line x1="171.0" y1="215.0" x2="365.0" y2="215.0" stroke="#24282D" stroke-width="1.1" marker-end="url(#flow)" />
+  <text x="420.0" y="219.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="middle">q</text>
+  <text x="24.0" y="255.0" fill="#24282D" font-family="DejaVu Sans" font-size="13.5" font-weight="bold" text-anchor="start">2. Exchange the memory component</text>
+  <text x="24.0" y="279.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="start">m = memory state</text>
+  <text x="265.0" y="279.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="start">c = control state</text>
+  <text x="350.0" y="303.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="start">Donor trial</text>
+  <rect x="350.0" y="314.0" width="60.0" height="32.0" rx="3" fill="#E7F0F6" stroke="#A4ADB5" stroke-width=".9" />
+  <text x="381.0" y="335.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">m</text>
+  <text x="382.0" y="338.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">D</text>
+  <rect x="420.0" y="314.0" width="60.0" height="32.0" rx="3" fill="#F5F5F5" stroke="#A4ADB5" stroke-width=".9" />
+  <text x="451.0" y="335.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">c</text>
+  <text x="452.0" y="338.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">D</text>
+  <text x="24.0" y="367.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="start">Receiver before</text>
+  <rect x="24.0" y="379.0" width="60.0" height="32.0" rx="3" fill="#F5F5F5" stroke="#A4ADB5" stroke-width=".9" />
+  <text x="55.0" y="400.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">m</text>
+  <text x="56.0" y="403.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">R</text>
+  <rect x="94.0" y="379.0" width="60.0" height="32.0" rx="3" fill="#F5F5F5" stroke="#A4ADB5" stroke-width=".9" />
+  <text x="125.0" y="400.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">c</text>
+  <text x="126.0" y="403.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">R</text>
+  <line x1="175.0" y1="395.0" x2="331.0" y2="395.0" stroke="#24282D" stroke-width="1.1" marker-end="url(#flow)" />
+  <text x="252.0" y="382.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="end">replace</text>
+  <text x="269.0" y="382.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="end">m</text>
+  <text x="270.0" y="385.0" fill="#24282D" font-family="DejaVu Sans" font-size="8.64" font-weight="normal" text-anchor="start">R</text>
+  <text x="252.0" y="418.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="end">keep</text>
+  <text x="269.0" y="418.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="end">c</text>
+  <text x="270.0" y="421.0" fill="#24282D" font-family="DejaVu Sans" font-size="8.64" font-weight="normal" text-anchor="start">R</text>
+  <rect x="350.0" y="379.0" width="60.0" height="32.0" rx="3" fill="#E7F0F6" stroke="#A4ADB5" stroke-width=".9" />
+  <text x="381.0" y="400.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">m</text>
+  <text x="382.0" y="403.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">D</text>
+  <rect x="420.0" y="379.0" width="60.0" height="32.0" rx="3" fill="#F5F5F5" stroke="#A4ADB5" stroke-width=".9" />
+  <text x="451.0" y="400.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">c</text>
+  <text x="452.0" y="403.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">R</text>
+  <line x1="380.0" y1="346.0" x2="380.0" y2="378.0" stroke="#0072B2" stroke-width="1.6" marker-end="url(#memory)" />
+  <text x="373.0" y="438.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="start">(</text>
+  <text x="393.0" y="438.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">m</text>
+  <text x="394.0" y="441.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">D</text>
+  <text x="408.0" y="438.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="start">,</text>
+  <text x="431.0" y="438.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">c</text>
+  <text x="432.0" y="441.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">R</text>
+  <text x="447.0" y="438.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="start">)</text>
+  <text x="24.0" y="475.0" fill="#24282D" font-family="DejaVu Sans" font-size="13.5" font-weight="bold" text-anchor="start">3. Continue the receiver trial</text>
+  <rect x="24.0" y="493.0" width="162.0" height="37.0" rx="3" fill="white" stroke="#A4ADB5" stroke-width=".9" />
+  <rect x="232.0" y="493.0" width="164.0" height="37.0" rx="3" fill="white" stroke="#A4ADB5" stroke-width=".9" />
+  <rect x="439.0" y="493.0" width="64.0" height="37.0" rx="3" fill="white" stroke="#A4ADB5" stroke-width=".9" />
+  <text x="105.0" y="508.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">Subsequent</text>
+  <text x="105.0" y="523.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">receiver inputs</text>
+  <text x="314.0" y="508.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">Original network</text>
+  <text x="314.0" y="523.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">readout</text>
+  <text x="471.0" y="516.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">Answer</text>
+  <line x1="188.0" y1="511.5" x2="225.0" y2="511.5" stroke="#24282D" stroke-width="1.1" marker-end="url(#flow)" />
+  <line x1="398.0" y1="511.5" x2="432.0" y2="511.5" stroke="#24282D" stroke-width="1.1" marker-end="url(#flow)" />
+</svg>

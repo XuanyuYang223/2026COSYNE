@@ -1,0 +1,62 @@
+{
+  "pages": 2,
+  "paper": "US Letter",
+  "margin_in": 0.6,
+  "body_tex_pt": 12.1,
+  "caption_and_references_tex_pt": 10.1,
+  "summary_words_whitespace": 288,
+  "summary_changed": false,
+  "summary_paragraphs": 1,
+  "metadata": {
+    "format": "PDF 1.5",
+    "title": "Rule context constrains the interchangeability of content-matched memory states",
+    "author": "",
+    "subject": "Anonymous COSYNE submission",
+    "keywords": "",
+    "creator": "LaTeX",
+    "producer": "LaTeX",
+    "creationDate": "",
+    "modDate": "",
+    "trapped": "",
+    "encryption": null
+  },
+  "additional_detail_words_pdf_whitespace": 298,
+  "xmp_metadata_present": false,
+  "overfull_boxes": 0,
+  "underfull_boxes": 0,
+  "missing_glyphs": false,
+  "page_details": [
+    {
+      "page": 1,
+      "width_pt": 612.0,
+      "height_pt": 792.0,
+      "raster_images": 0,
+      "min_text_size_pdf_pt": 8.92060375213623,
+      "min_prose_font_pdf_pt": 12.054800987243652,
+      "smaller_glyphs": "mathematical subscripts; page 2 also contains figure labels",
+      "text_bbox": [
+        42.633853912353516,
+        42.848060607910156,
+        570.9234619140625,
+        750.2276000976562
+      ]
+    },
+    {
+      "page": 2,
+      "width_pt": 612.0,
+      "height_pt": 792.0,
+      "raster_images": 0,
+      "min_text_size_pdf_pt": 7.446122169494629,
+      "min_prose_font_pdf_pt": 10.062273025512695,
+      "smaller_glyphs": "mathematical subscripts; page 2 also contains figure labels",
+      "text_bbox": [
+        43.02936935424805,
+        45.051307678222656,
+        570.5640869140625,
+        705.7598876953125
+      ]
+    }
+  ],
+  "pdf_sha256": "2d6873acaddbbde332110ab82b28650dea70ed4335fbf0128a1208e6156d09aa",
+  "automated_checks": "passed; visual inspection recorded separately in README.md"
+}

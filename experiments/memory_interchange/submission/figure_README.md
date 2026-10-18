@@ -1,19 +1,19 @@
 # Stage 1: independent figures for review
 
-This stage redraws four independent figures only. The manuscript, Summary, references, combined figure and two-page PDF remain unchanged. The new 297-word Summary and six-reference revision belong to the later LaTeX stage and have not been applied. No Git commit/push or conference submission was performed in this stage.
+The stage-1 deliverable contains four independent figures. The latest revision redraws A only as a landscape three-region schematic; B/C/D remain byte-for-byte unchanged. The manuscript, Summary, references, combined figure and two-page PDF remain unchanged. The new 297-word Summary and six-reference revision belong to the later LaTeX stage and have not been applied. Figure authoring does not execute a conference submission. GitHub synchronization is separate from scientific analysis.
 
 ## Review files
 
 | Logical figure | PDF for later LaTeX | Editable SVG | PNG preview | Design size (inches) |
 | --- | --- | --- | --- | --- |
-| A: task and exchange | [PDF](figures/panel_A.pdf) | [SVG](figures/panel_A.svg) | [PNG](figures/panel_A.png) | 7.20 × 7.50 |
+| A: task and exchange | [PDF](figures/panel_A.pdf) | [SVG](figures/panel_A.svg) | [PNG](figures/panel_A.png) | 7.20 × 3.60 |
 | B: exchange errors | [PDF](figures/panel_B.pdf) | [SVG](figures/panel_B.svg) | [PNG](figures/panel_B.png) | 3.45 × 3.50 |
 | C: cue translation | [PDF](figures/panel_C.pdf) | [SVG](figures/panel_C.svg) | [PNG](figures/panel_C.png) | 3.45 × 4.10 |
 | D: geometry distribution | [PDF](figures/panel_D.pdf) | [SVG](figures/panel_D.svg) | [PNG](figures/panel_D.png) | 3.45 × 4.45 |
 
-[captions.txt](captions.txt) gives four separate English captions, symbol definitions, statistical units and necessary methods. There are no burned-in A–D identifiers or long panel titles. A uses short numbered steps; C uses the descriptive dataset label “Held-out permutations”. Source identifiers remain in the captions and this document.
+[captions.txt](captions.txt) gives four separate English captions, symbol definitions, statistical units and necessary methods. There are no burned-in A–D identifiers or long panel titles. A uses the three headings “Match current content”, “Exchange memory”, and “Continue computation”; C uses the descriptive dataset label “Held-out permutations”. Source identifiers remain in the captions and this document.
 
-A is a new three-step drawing with a separate context-rule table and a direct donor-memory-to-receiver-slot arrow. Numerical permutation examples are in the caption and are checked by pure list operations in the plotting code. There is no outer network frame or architecture-input cartoon. B uses identical circular seed points and short black mean lines. C uses identical circular endpoints, fine paired network traces and thick mean trends, without seed-identity marker codes. D places its legend above the axes, so it does not cover either cumulative curve. Blue/orange consistently denote within/cross context in B/D.
+A now places content matching, memory exchange and continued computation from left to right. Its rule table is in captions.txt. A direct blue arrow copies donor memory to the receiver memory slot; the exchanged joint state and subsequent receiver inputs explicitly converge on continued computation through the same recurrent network before the original readout and answer. Numerical permutation examples are in the caption and are checked by pure list operations in the plotting code. There is no outer network frame or architecture-input cartoon. B uses identical circular seed points and short black mean lines. C uses identical circular endpoints, fine paired network traces and thick mean trends, without seed-identity marker codes. D places its legend above the axes, so it does not cover either cumulative curve. Blue/orange consistently denote within/cross context in B/D.
 
 ## Generation commands
 
@@ -32,13 +32,13 @@ python experiments/memory_interchange/submission/plot_figure.py --panel D
 python experiments/memory_interchange/submission/plot_figure.py --panel B --width 3.45 --height 3.8
 ```
 
-Font sizes remain fixed in physical points when dimensions change; text is never scaled down. The script rejects clipped or overlapping text. Re-export and review the layout at any new target width before LaTeX inclusion. The large A design is intentionally independent; later placement must use an appropriate redesign/export rather than shrinking this PDF below the minimum font size.
+Font sizes remain fixed in physical points when dimensions change; text is never scaled down. The script rejects clipped or overlapping text. Re-export and review the layout at any new target width before LaTeX inclusion. A was reflowed from the former portrait version, rather than scaled: its current design is 7.2 × 3.6 inches. Later placement must use an appropriate export rather than shrinking this PDF below the minimum font size.
 
 Use this script for the current stage. The original [README.md](README.md), [build.py](build.py), [validation.json](validation.json) and [artifact_manifest.json](artifact_manifest.json) describe the earlier combined manuscript and have deliberately not been updated. Running the legacy build commands would enter manuscript work, which is outside the present authorization. Current figure validation is in [figure_validation.json](figure_validation.json).
 
 ## Physical typography and rendering
 
-All ordinary diagram text, axes, ticks, legends and annotations are **12 pt or larger at the recorded design sizes**. A step headings are 13.5 pt; mathematical base characters are 12–14 pt and true subscripts use normal reduced sizes (8.64–10.08 pt). B mean labels are 13 pt. B/C/D ordinary text and C/D annotations are 12 pt. The common font is DejaVu Sans, embedded in each vector PDF. All SVG text remains editable. Node outlines/axes are approximately 0.9 pt; flow arrows are 1.1 pt, the A memory arrow 1.6 pt, distribution curves 1.7 pt, and B/C mean marks 2.1/2.3 pt. C network traces are 0.7 pt.
+All ordinary diagram text, axes, ticks, legends and annotations are **12 pt or larger at the recorded design sizes**. A region headings and ordinary text are 12 pt; mathematical base characters are 14 pt and true subscripts are 10.08 pt. B mean labels are 13 pt. B/C/D ordinary text and C/D annotations are 12 pt. The common font is DejaVu Sans, embedded in each vector PDF. All SVG text remains editable. A node outlines are 0.8 pt and flow arrows 1.0 pt; the A memory-copy arrow is 1.8 pt. B/C/D axes remain 0.9 pt, distribution curves 1.7 pt, and B/C mean marks 2.1/2.3 pt. C network traces are 0.7 pt.
 
 PDFs contain vector paths and embedded fonts, with no image objects. PNGs are independent 144-dpi previews rendered from the final vector PDFs. They are not embedded back into the PDFs. All ordinary text was checked at physical design size and at enlarged view; mathematical subscripts were inspected separately. Anonymity checks cover visible text, metadata and absent XMP. The metadata uses generic creator/producer fields and empty author/date/keywords fields.
 
@@ -65,3 +65,5 @@ Network markers in B/C use deterministic horizontal offsets in seed order 101–
 The preceding plotting script, panel vector assets, previous panel previews and manuscript-era manifests were copied byte-for-byte to [archive/pre_stage1_2026-10-17](archive/pre_stage1_2026-10-17). The 30 pre-existing files outside the allowed panel/script edits have SHA-256 protection recorded in [protected_files.json](archive/pre_stage1_2026-10-17/protected_files.json). This includes submission.tex, summary.txt, summary.tex, submission.pdf, figures/figure_1.pdf, existing data, manuscript previews and the prior README/validation. The script verifies them before and after rendering. The old combined figure and two-page PDF are unchanged and are not the current single-figure preview delivery.
 
 No second-stage edits were made. The next step is user review of these four separate figures; Summary synchronization, architecture prose, the six verified references, standard LaTeX citations, final panel numbering, and two-page arrangement remain pending that review.
+
+The preceding 7.2 × 7.5-inch portrait A, its source and notes are preserved in [archive/panel_A_portrait_2026-10-17](archive/panel_A_portrait_2026-10-17). The 39 non-A files recorded there in protected_files.json, including all nine B/C/D PDF/SVG/PNG assets and the existing manuscript, remain unchanged during this A-only revision. Arrow-to-label intersections, text overlaps, required state/input → recurrent-network → readout → answer connections, editable SVG text, embedded PDF fonts and anonymous metadata are checked for A.

@@ -1,0 +1,279 @@
+{
+  "stage": 1,
+  "status": "independent figures for user review; LaTeX approval pending",
+  "source_files_verified": 118,
+  "protected_existing_files_unchanged": 30,
+  "protected_files": {
+    ".gitignore": "5435b3f14fd9cbca70dd93b408bfec017249ee8f712ef93e83e82a5160500a3f",
+    "artifact_manifest.json": "4beadf5f7441305f37a35cb9ba6953bc3cbd9efa62818943ab5398d61e8cde2c",
+    "validation.json": "2a0495ed93c508d903169b574312d1c81a0b2b7574048e3bc71abec7a3b01416",
+    "summary.txt": "2baddf1a54b01e35395a1b70c29cb4585f6d3c76e79016815e81f36e32ededf6",
+    "build.log": "9e47a44aaf4eb21b2b5bc6e6a96de341f548f5618fd0292116bbcb699f2fc94d",
+    "build.py": "0533c81b1544a642d48c1983b47ccbf1d4fdc7ceb2c204776bc15d0dd62ce3ba",
+    "README.md": "befb39b8fcb8d3649135e2f7e679e9e32aa66250a919d531ee32d750d6afb547",
+    "environment.json": "c284ce823cd1a4820de51c9e9100af0010cd990d1b760e86329c876c4b338584",
+    "submission.log": "18e3bd25f0e5188a1335f1720f608cff06768de876fc2e07c4e57fb9c257c2cd",
+    "submission.tex": "b642d47654f5b7bb62be5e0320145eb2fbee6a47bb6ce2421dd2dd927b032c38",
+    "audit_data.py": "b33b0865e780603649590939cac36f127a305b8c6173200c83b500ce2ae97e4e",
+    "submission.pdf": "2d6873acaddbbde332110ab82b28650dea70ed4335fbf0128a1208e6156d09aa",
+    "summary.tex": "d078a044bdb5f39e6f9000852daae157f8276632fddc1f79ad7c19634b972ee5",
+    "figures/figure_1.pdf": "167c279ecd1b4701fe649c365174a36d48bedbf6f09aa450bdd2b7730e5d34b6",
+    "data/source_manifest.json": "89c5650c56299b0a77629e8fda48985d3511c4b08e5ab8b3f1b5d51924f28aa3",
+    "data/panel_B_seed.csv": "91f5ef880daaaa3e565ae218d70620c5ff69910d296839213ea191cb31bafa65",
+    "data/donor_text_support.csv": "8d6e1780e50210f8f3b5a831f90d477741e726f54e78f877f9ddbba5ea6ee996",
+    "data/panel_C_seed.csv": "8bec30617eb4b30460db2c8f7d150f210c0b68d5b1a30d72e7b7e32f11590d33",
+    "data/panel_D_medians.csv": "b73b387f02c625924e8dccde0718012d5a2110f188a65b7a7a52119b595a70ce",
+    "data/panel_D_d0.csv": "97a890ec38f1148d7585fe7c84eea661d1454fde2a0ca96a703f0c21deaa17d6",
+    "data/AUDIT.md": "1de6f094225cfd6d31cd8e9d6b22134da2610c252866d1954e3060389feba763",
+    "data/actual_values.json": "41ee741af92f28fb8127ce4458b97db775df27f6aeecb3cc14ddb37f0339a8d5",
+    "preview/page_1.png": "213e056114bfeede51ca673053c551ab72d07d85252be529e10bf8fa39a57d80",
+    "preview/extracted_text.txt": "479607904dd6b501076815e6883eefd83d359117213b925d71bd940fbcf2b093",
+    "preview/panel_B.png": "3c77b6ad7cb8504bf22ae2c573b47aa540d74a89a869a690593afcb6f19a28af",
+    "preview/panel_A.png": "1b09c7a5352909a8052f0ffd5e7800b5e65d2f54b49301921339f0e2daa11d37",
+    "preview/figure_1.png": "1023a9ea3d37e4465c23d482faa4367adafe7a196fb1dd337d468e913c937644",
+    "preview/page_2.png": "405a124a09f5666ce46472e8014cb5c892e7d595d9ea8ecb7c27fd53e9edce1c",
+    "preview/panel_C.png": "b119efeff8e52193788cb5184f6ac8e8528279249d3f556ec93ce0052ad0c45e",
+    "preview/panel_D.png": "38e12492ddc85e36153fa0910f8bc18f5a4c911624d9afb97da5f87d76479853"
+  },
+  "model_forward_calls": 0,
+  "training_updates": 0,
+  "predictor_refits": 0,
+  "bootstrap_runs": 0,
+  "combined_figure_generated": false,
+  "manuscript_compiled": false,
+  "drawing_source_sha256": "9e0a3f362d14ce222e8f6baeb1fdc6d92de90c9e3707864b4f853a7a4c965bf5",
+  "figure_notes_sha256": {
+    "captions.txt": "62d64f08016a0c850def927b9c2655ff68d9aba4499f34180afae890c3026d6f",
+    "figure_README.md": "75eff7a9f2a4a13171f1aec24e3bd26d978f8fd2c7da677386c7a87f83fa3ceb"
+  },
+  "source_data_sha256": {
+    "data/source_manifest.json": "89c5650c56299b0a77629e8fda48985d3511c4b08e5ab8b3f1b5d51924f28aa3",
+    "data/panel_B_seed.csv": "91f5ef880daaaa3e565ae218d70620c5ff69910d296839213ea191cb31bafa65",
+    "data/donor_text_support.csv": "8d6e1780e50210f8f3b5a831f90d477741e726f54e78f877f9ddbba5ea6ee996",
+    "data/panel_C_seed.csv": "8bec30617eb4b30460db2c8f7d150f210c0b68d5b1a30d72e7b7e32f11590d33",
+    "data/panel_D_medians.csv": "b73b387f02c625924e8dccde0718012d5a2110f188a65b7a7a52119b595a70ce",
+    "data/panel_D_d0.csv": "97a890ec38f1148d7585fe7c84eea661d1454fde2a0ca96a703f0c21deaa17d6",
+    "data/AUDIT.md": "1de6f094225cfd6d31cd8e9d6b22134da2610c252866d1954e3060389feba763",
+    "data/actual_values.json": "41ee741af92f28fb8127ce4458b97db775df27f6aeecb3cc14ddb37f0339a8d5"
+  },
+  "panels": {
+    "A": {
+      "width_in": 7.2,
+      "height_in": 7.5,
+      "ordinary_font_pt": 12,
+      "step_heading_pt": 13.5,
+      "math_base_pt": [
+        12,
+        13,
+        14
+      ],
+      "math_subscript_pt": [
+        8.64,
+        9.36,
+        10.08
+      ],
+      "math_example_checked": true,
+      "memory_arrow": "donor m_D directly to receiver after-exchange memory slot",
+      "pdf_points": [
+        518.4000244140625,
+        540.0
+      ],
+      "minimum_ordinary_pdf_pt": 12.0,
+      "embedded_fonts": [
+        "FKBZPB+DejaVuSans",
+        "VHLELO+DejaVuSans-Bold"
+      ],
+      "raster_objects": 0,
+      "editable_svg_text": true,
+      "anonymous_metadata": true,
+      "clipping_checks": "passed",
+      "files": {
+        "figures/panel_A.pdf": "de8dda6d3e7afed7e70d9095ccdedb1f50b813c8626ba9c5e3bf922a5db5b010",
+        "figures/panel_A.svg": "cd6a35d42f20da4cd6a721b6e7357520e8f8f5a6e43b82421961d80fb9c05ee4",
+        "figures/panel_A.png": "c32dd750b632a8a35be4de43f1de9e4b8185d4fc17e4cb7fe9f566f8cfbc0f2e"
+      }
+    },
+    "B": {
+      "width_in": 3.45,
+      "height_in": 3.5,
+      "ordinary_font_pt": 12,
+      "mean_label_pt": 13,
+      "networks_per_group": 6,
+      "points": 12,
+      "marker": "circle only",
+      "mean_marker": "short black horizontal line",
+      "equal_seed_means_percent": [
+        1.696975604780331,
+        53.39794999137177
+      ],
+      "y_axis_min": 0,
+      "pdf_points": [
+        248.39999389648438,
+        252.0
+      ],
+      "minimum_ordinary_pdf_pt": 12.0,
+      "embedded_fonts": [
+        "CKFPFX+DejaVuSans-Bold",
+        "GTTOEW+DejaVuSans"
+      ],
+      "raster_objects": 0,
+      "editable_svg_text": true,
+      "anonymous_metadata": true,
+      "clipping_checks": "passed",
+      "files": {
+        "figures/panel_B.pdf": "7bd63a1901ba42a413bb5a6a90745f5e4709b50985d04634ed419f0b792fa236",
+        "figures/panel_B.svg": "f273a45f2987c003a82214a8a94d56e7718b8a9571411eeeea01d143971ee3a1",
+        "figures/panel_B.png": "f1ec1d967d881a5d6bbd3293fb61eca2035af55ef2241c30b9bb0a64b3805570"
+      }
+    },
+    "C": {
+      "width_in": 3.45,
+      "height_in": 4.1,
+      "ordinary_font_pt": 12,
+      "networks_per_group": 6,
+      "paired_seed_lines": 12,
+      "seed_points": 24,
+      "marker": "circle only",
+      "data": {
+        "Cross-context exchange": {
+          "seed_values_percent": [
+            [
+              42.25624104767751,
+              98.0181872216863
+            ],
+            [
+              42.238945404230854,
+              97.7123466534148
+            ],
+            [
+              42.02256716068871,
+              97.72081177467918
+            ],
+            [
+              41.91842789909088,
+              97.5670388884017
+            ],
+            [
+              41.96191060831945,
+              97.89017510011985
+            ],
+            [
+              42.0064286201487,
+              98.24035097976166
+            ]
+          ],
+          "equal_seed_means_percent": [
+            42.06742012335935,
+            97.85815176967725
+          ]
+        },
+        "No exchange": {
+          "seed_values_percent": [
+            [
+              98.01824812183928,
+              42.25624104767751
+            ],
+            [
+              97.71222485310884,
+              42.239067204536816
+            ],
+            [
+              97.72081177467918,
+              42.02256716068871
+            ],
+            [
+              97.56716068870766,
+              41.91842789909088
+            ],
+            [
+              97.89017510011985,
+              41.96191060831945
+            ],
+            [
+              98.24041187991465,
+              42.006306819842735
+            ]
+          ],
+          "equal_seed_means_percent": [
+            97.85817206972824,
+            42.06742012335935
+          ]
+        }
+      },
+      "all_suffixes_include_NN": true,
+      "no_exchange_source": "true unpatched native trials",
+      "pdf_points": [
+        248.39999389648438,
+        295.20001220703125
+      ],
+      "minimum_ordinary_pdf_pt": 12.0,
+      "embedded_fonts": [
+        "DMHAJS+DejaVuSans",
+        "ELNNYG+DejaVuSans-Bold"
+      ],
+      "raster_objects": 0,
+      "editable_svg_text": true,
+      "anonymous_metadata": true,
+      "clipping_checks": "passed",
+      "files": {
+        "figures/panel_C.pdf": "89d897d5fcc841611d8d242265ded0f1b01269ed62abefa81853f5053fea43cb",
+        "figures/panel_C.svg": "bff82a56a185b705676621c4bfc78d24714b3b563bddaffd00c4b12c4ea83919",
+        "figures/panel_C.png": "db62b31c7b8ef799cc11a13b40099f98697a9fabb84dca7fb5df3a6da012eaec"
+      }
+    },
+    "D": {
+      "width_in": 3.45,
+      "height_in": 4.45,
+      "ordinary_font_pt": 12,
+      "delay": 0,
+      "unique_condition_pair_measurements": [
+        432,
+        486
+      ],
+      "networks": 6,
+      "suffix_duplicates": 0,
+      "pooled_medians": [
+        0.8919304489849997,
+        0.8886644081851174
+      ],
+      "pdf_points": [
+        248.39999389648438,
+        320.3999938964844
+      ],
+      "minimum_ordinary_pdf_pt": 12.0,
+      "embedded_fonts": [
+        "ESPJRO+DejaVuSans"
+      ],
+      "raster_objects": 0,
+      "editable_svg_text": true,
+      "anonymous_metadata": true,
+      "clipping_checks": "passed",
+      "files": {
+        "figures/panel_D.pdf": "8b8f7ec638d67ef7c5d6f7bf4245defa06c966012ad66981682ae917a3a0a3dc",
+        "figures/panel_D.svg": "1340cb7a38cd20d03f74abce2c5fa6c419fe233ac121092cef7ea059ebab9df5",
+        "figures/panel_D.png": "f24e645c1377d80838cef80b42898b40666c79f93ffdb75c7507e93698b82a6f"
+      }
+    }
+  },
+  "visual_review": {
+    "status": "completed for current single-figure exports; awaiting user approval",
+    "nominal_print_scale_dpi": 72,
+    "enlarged_detail_dpi": 288,
+    "checked": [
+      "three-step hierarchy",
+      "direct memory-transfer arrow",
+      "mathematical subscripts",
+      "six network points per treatment",
+      "paired seed lines and exact means",
+      "zero baseline and all-query denominator",
+      "condition-pair units and d=0 deduplication",
+      "legend/curve separation",
+      "clipping and overlaps",
+      "embedded fonts and vector paths",
+      "anonymous figure metadata"
+    ],
+    "review_images": "figures/panel_{A,B,C,D}.png; supplementary print/detail renders inspected in /tmp",
+    "prior_version_files_verified": 16,
+    "Git_HEAD_unchanged": true
+  }
+}

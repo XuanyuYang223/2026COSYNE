@@ -41,11 +41,12 @@
   "bootstrap_runs": 0,
   "combined_figure_generated": false,
   "manuscript_compiled": false,
-  "drawing_source_sha256": "9e0a3f362d14ce222e8f6baeb1fdc6d92de90c9e3707864b4f853a7a4c965bf5",
+  "drawing_source_sha256": "c174082b42c26d6084c4aa06513b2b974297b44e7d9d90c5d6b9883ae4ab27ad",
   "figure_notes_sha256": {
-    "captions.txt": "62d64f08016a0c850def927b9c2655ff68d9aba4499f34180afae890c3026d6f",
-    "figure_README.md": "75eff7a9f2a4a13171f1aec24e3bd26d978f8fd2c7da677386c7a87f83fa3ceb"
+    "captions.txt": "8ebcb6bb58ecc7df739f4e39def7d03d08729e6d33cde4f09105f3db0bcb1458",
+    "figure_README.md": "e30391e4ded40b348633d84e13368d4409f54b16ede645388e3c513ec1b5bfb1"
   },
+  "non_A_assets_unchanged_during_A_revision": 39,
   "source_data_sha256": {
     "data/source_manifest.json": "89c5650c56299b0a77629e8fda48985d3511c4b08e5ab8b3f1b5d51924f28aa3",
     "data/panel_B_seed.csv": "91f5ef880daaaa3e565ae218d70620c5ff69910d296839213ea191cb31bafa65",
@@ -59,38 +60,68 @@
   "panels": {
     "A": {
       "width_in": 7.2,
-      "height_in": 7.5,
+      "height_in": 3.6,
+      "layout": "three regions, left to right",
       "ordinary_font_pt": 12,
-      "step_heading_pt": 13.5,
-      "math_base_pt": [
-        12,
-        13,
-        14
-      ],
-      "math_subscript_pt": [
-        8.64,
-        9.36,
-        10.08
-      ],
+      "region_heading_pt": 12,
+      "math_base_pt": 14,
+      "math_subscript_pt": 10.08,
       "math_example_checked": true,
+      "rules": "in caption only",
       "memory_arrow": "donor m_D directly to receiver after-exchange memory slot",
+      "continuation_edges": [
+        [
+          "receiver-after",
+          "continued-network"
+        ],
+        [
+          "receiver-inputs",
+          "continued-network"
+        ],
+        [
+          "continued-network",
+          "original-readout"
+        ],
+        [
+          "original-readout",
+          "answer"
+        ]
+      ],
+      "text_overlap_checks": "passed",
+      "arrow_text_intersection_checks": "passed",
       "pdf_points": [
         518.4000244140625,
-        540.0
+        259.20001220703125
       ],
       "minimum_ordinary_pdf_pt": 12.0,
       "embedded_fonts": [
-        "FKBZPB+DejaVuSans",
-        "VHLELO+DejaVuSans-Bold"
+        "SBAGHM+DejaVuSans",
+        "ZZCEXS+DejaVuSans-Bold"
       ],
       "raster_objects": 0,
       "editable_svg_text": true,
       "anonymous_metadata": true,
       "clipping_checks": "passed",
       "files": {
-        "figures/panel_A.pdf": "de8dda6d3e7afed7e70d9095ccdedb1f50b813c8626ba9c5e3bf922a5db5b010",
-        "figures/panel_A.svg": "cd6a35d42f20da4cd6a721b6e7357520e8f8f5a6e43b82421961d80fb9c05ee4",
-        "figures/panel_A.png": "c32dd750b632a8a35be4de43f1de9e4b8185d4fc17e4cb7fe9f566f8cfbc0f2e"
+        "figures/panel_A.pdf": "6d5ae3425f5808b9ac76e9dd367a098b372adfb4ec31b050e6426fac3bd7e458",
+        "figures/panel_A.svg": "9c2fc1b15f84e1ba23ec2728170301f3773f112d3758f306c4557c04459297c7",
+        "figures/panel_A.png": "0201acae5a4e0bb8c322f28bbf192143e6e831b7ec8ddc8f814abc2456b52fd2"
+      },
+      "visual_review": {
+        "status": "reviewed at nominal print size and enlarged detail",
+        "nominal_print_scale_dpi": 72,
+        "enlarged_detail_dpi": 288,
+        "verified": [
+          "three left-to-right regions",
+          "ordinary text >=12 pt",
+          "no text overlap or clipping",
+          "blue donor-memory copy arrow",
+          "retained receiver-control color",
+          "exchanged joint state and receiver inputs both enter recurrence",
+          "continued recurrence precedes original readout and answer",
+          "editable SVG and embedded fonts",
+          "anonymous metadata"
+        ]
       }
     },
     "B": {
@@ -255,25 +286,11 @@
       }
     }
   },
-  "visual_review": {
-    "status": "completed for current single-figure exports; awaiting user approval",
-    "nominal_print_scale_dpi": 72,
-    "enlarged_detail_dpi": 288,
-    "checked": [
-      "three-step hierarchy",
-      "direct memory-transfer arrow",
-      "mathematical subscripts",
-      "six network points per treatment",
-      "paired seed lines and exact means",
-      "zero baseline and all-query denominator",
-      "condition-pair units and d=0 deduplication",
-      "legend/curve separation",
-      "clipping and overlaps",
-      "embedded fonts and vector paths",
-      "anonymous figure metadata"
-    ],
-    "review_images": "figures/panel_{A,B,C,D}.png; supplementary print/detail renders inspected in /tmp",
-    "prior_version_files_verified": 16,
-    "Git_HEAD_unchanged": true
+  "preserved_BCD_revision": {
+    "all_nine_asset_hashes_unchanged": true,
+    "captions_BCD_unchanged": true,
+    "drawing_functions_BCD_unchanged": true,
+    "non_A_files_protected": 39,
+    "portrait_A_archive": "archive/panel_A_portrait_2026-10-17"
   }
 }

@@ -1,89 +1,100 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="518.4pt" height="540.0pt" viewBox="0 0 518.4 540.0">
+<svg xmlns="http://www.w3.org/2000/svg" width="518.4pt" height="259.2pt" viewBox="0 0 518.4 259.2">
   <defs>
-    <marker id="flow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
-      <path d="M0,0 L7,3.5 L0,7 Z" fill="#24282D" />
+    <marker id="flow" markerWidth="6" markerHeight="6" refX="5.5" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#24282D" />
     </marker>
-    <marker id="memory" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse">
-      <path d="M0,0 L7,3.5 L0,7 Z" fill="#0072B2" />
+    <marker id="memory" markerWidth="6" markerHeight="6" refX="5.5" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#0072B2" />
     </marker>
   </defs>
-  <text x="24.0" y="20.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="bold" text-anchor="start">One fixed network · two trials</text>
-  <text x="84.0" y="48.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="bold" text-anchor="middle">Rule context</text>
-  <text x="280.0" y="48.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="bold" text-anchor="middle">Cue A</text>
-  <text x="435.0" y="48.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="bold" text-anchor="middle">Cue B</text>
-  <line x1="24.0" y1="56.0" x2="495.0" y2="56.0" stroke="#E4E8EC" stroke-width=".9" />
-  <text x="84.0" y="75.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">0</text>
-  <text x="280.0" y="75.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">inversion</text>
-  <text x="435.0" y="75.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">complementation</text>
-  <text x="84.0" y="96.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">1</text>
-  <text x="280.0" y="96.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">complementation</text>
-  <text x="435.0" y="96.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">inversion</text>
-  <text x="24.0" y="129.0" fill="#24282D" font-family="DejaVu Sans" font-size="13.5" font-weight="bold" text-anchor="start">1. Different inputs and histories, same q</text>
-  <text x="135.0" y="153.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">Initial input</text>
-  <text x="270.0" y="153.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">History</text>
-  <text x="420.0" y="153.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">Current content</text>
-  <text x="24.0" y="181.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="start">Donor</text>
-  <text x="136.0" y="181.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">p</text>
-  <text x="137.0" y="184.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">D</text>
-  <text x="271.0" y="166.0" fill="#24282D" font-family="DejaVu Sans" font-size="13" font-weight="normal" text-anchor="end">H</text>
-  <text x="272.0" y="169.25" fill="#24282D" font-family="DejaVu Sans" font-size="9.36" font-weight="normal" text-anchor="start">D</text>
-  <line x1="171.0" y1="177.0" x2="365.0" y2="177.0" stroke="#24282D" stroke-width="1.1" marker-end="url(#flow)" />
-  <text x="420.0" y="181.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="middle">q</text>
-  <text x="24.0" y="219.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="start">Receiver</text>
-  <text x="136.0" y="219.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">p</text>
-  <text x="137.0" y="222.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">R</text>
-  <text x="271.0" y="204.0" fill="#24282D" font-family="DejaVu Sans" font-size="13" font-weight="normal" text-anchor="end">H</text>
-  <text x="272.0" y="207.25" fill="#24282D" font-family="DejaVu Sans" font-size="9.36" font-weight="normal" text-anchor="start">R</text>
-  <line x1="171.0" y1="215.0" x2="365.0" y2="215.0" stroke="#24282D" stroke-width="1.1" marker-end="url(#flow)" />
-  <text x="420.0" y="219.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="middle">q</text>
-  <text x="24.0" y="255.0" fill="#24282D" font-family="DejaVu Sans" font-size="13.5" font-weight="bold" text-anchor="start">2. Exchange the memory component</text>
-  <text x="24.0" y="279.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="start">m = memory state</text>
-  <text x="265.0" y="279.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="start">c = control state</text>
-  <text x="350.0" y="303.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="start">Donor trial</text>
-  <rect x="350.0" y="314.0" width="60.0" height="32.0" rx="3" fill="#E7F0F6" stroke="#A4ADB5" stroke-width=".9" />
-  <text x="381.0" y="335.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">m</text>
-  <text x="382.0" y="338.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">D</text>
-  <rect x="420.0" y="314.0" width="60.0" height="32.0" rx="3" fill="#F5F5F5" stroke="#A4ADB5" stroke-width=".9" />
-  <text x="451.0" y="335.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">c</text>
-  <text x="452.0" y="338.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">D</text>
-  <text x="24.0" y="367.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="start">Receiver before</text>
-  <rect x="24.0" y="379.0" width="60.0" height="32.0" rx="3" fill="#F5F5F5" stroke="#A4ADB5" stroke-width=".9" />
-  <text x="55.0" y="400.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">m</text>
-  <text x="56.0" y="403.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">R</text>
-  <rect x="94.0" y="379.0" width="60.0" height="32.0" rx="3" fill="#F5F5F5" stroke="#A4ADB5" stroke-width=".9" />
-  <text x="125.0" y="400.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">c</text>
-  <text x="126.0" y="403.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">R</text>
-  <line x1="175.0" y1="395.0" x2="331.0" y2="395.0" stroke="#24282D" stroke-width="1.1" marker-end="url(#flow)" />
-  <text x="252.0" y="382.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="end">replace</text>
-  <text x="269.0" y="382.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="end">m</text>
-  <text x="270.0" y="385.0" fill="#24282D" font-family="DejaVu Sans" font-size="8.64" font-weight="normal" text-anchor="start">R</text>
-  <text x="252.0" y="418.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="end">keep</text>
-  <text x="269.0" y="418.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="end">c</text>
-  <text x="270.0" y="421.0" fill="#24282D" font-family="DejaVu Sans" font-size="8.64" font-weight="normal" text-anchor="start">R</text>
-  <rect x="350.0" y="379.0" width="60.0" height="32.0" rx="3" fill="#E7F0F6" stroke="#A4ADB5" stroke-width=".9" />
-  <text x="381.0" y="400.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">m</text>
-  <text x="382.0" y="403.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">D</text>
-  <rect x="420.0" y="379.0" width="60.0" height="32.0" rx="3" fill="#F5F5F5" stroke="#A4ADB5" stroke-width=".9" />
-  <text x="451.0" y="400.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">c</text>
-  <text x="452.0" y="403.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">R</text>
-  <line x1="380.0" y1="346.0" x2="380.0" y2="378.0" stroke="#0072B2" stroke-width="1.6" marker-end="url(#memory)" />
-  <text x="373.0" y="438.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="start">(</text>
-  <text x="393.0" y="438.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">m</text>
-  <text x="394.0" y="441.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">D</text>
-  <text x="408.0" y="438.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="start">,</text>
-  <text x="431.0" y="438.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">c</text>
-  <text x="432.0" y="441.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">R</text>
-  <text x="447.0" y="438.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="start">)</text>
-  <text x="24.0" y="475.0" fill="#24282D" font-family="DejaVu Sans" font-size="13.5" font-weight="bold" text-anchor="start">3. Continue the receiver trial</text>
-  <rect x="24.0" y="493.0" width="162.0" height="37.0" rx="3" fill="white" stroke="#A4ADB5" stroke-width=".9" />
-  <rect x="232.0" y="493.0" width="164.0" height="37.0" rx="3" fill="white" stroke="#A4ADB5" stroke-width=".9" />
-  <rect x="439.0" y="493.0" width="64.0" height="37.0" rx="3" fill="white" stroke="#A4ADB5" stroke-width=".9" />
-  <text x="105.0" y="508.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">Subsequent</text>
-  <text x="105.0" y="523.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">receiver inputs</text>
-  <text x="314.0" y="508.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">Original network</text>
-  <text x="314.0" y="523.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">readout</text>
-  <text x="471.0" y="516.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">Answer</text>
-  <line x1="188.0" y1="511.5" x2="225.0" y2="511.5" stroke="#24282D" stroke-width="1.1" marker-end="url(#flow)" />
-  <line x1="398.0" y1="511.5" x2="432.0" y2="511.5" stroke="#24282D" stroke-width="1.1" marker-end="url(#flow)" />
+  <text x="259.2" y="17.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="bold" text-anchor="middle">One fixed network, two trials</text>
+  <text x="86.0" y="47.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="bold" text-anchor="middle">Match current content</text>
+  <text x="260.0" y="47.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="bold" text-anchor="middle">Exchange memory</text>
+  <text x="436.0" y="47.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="bold" text-anchor="middle">Continue computation</text>
+  <path id="step-match-to-exchange" d="M 166.0,43.0 L 179.0,43.0" fill="none" stroke="#24282D" stroke-width="1.0" stroke-linejoin="round" marker-end="url(#flow)" />
+  <path id="step-exchange-to-continue" d="M 343.0,43.0 L 357.0,43.0" fill="none" stroke="#24282D" stroke-width="1.0" stroke-linejoin="round" marker-end="url(#flow)" />
+  <text x="12.0" y="88.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="start">Donor</text>
+  <text x="25.0" y="116.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">p</text>
+  <text x="26.0" y="119.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">D</text>
+  <path id="D-input-to-history" d="M 41.0,112.0 L 60.0,112.0" fill="none" stroke="#24282D" stroke-width="1.0" stroke-linejoin="round" marker-end="url(#flow)" />
+  <text x="82.0" y="116.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">H</text>
+  <text x="83.0" y="119.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">D</text>
+  <path id="D-history-to-content" d="M 99.0,112.0 L 129.0,112.0" fill="none" stroke="#24282D" stroke-width="1.0" stroke-linejoin="round" marker-end="url(#flow)" />
+  <text x="145.0" y="116.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="middle">q</text>
+  <text x="12.0" y="152.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="start">Receiver</text>
+  <text x="25.0" y="180.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">p</text>
+  <text x="26.0" y="183.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">R</text>
+  <path id="R-input-to-history" d="M 41.0,176.0 L 60.0,176.0" fill="none" stroke="#24282D" stroke-width="1.0" stroke-linejoin="round" marker-end="url(#flow)" />
+  <text x="82.0" y="180.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">H</text>
+  <text x="83.0" y="183.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">R</text>
+  <path id="R-history-to-content" d="M 99.0,176.0 L 129.0,176.0" fill="none" stroke="#24282D" stroke-width="1.0" stroke-linejoin="round" marker-end="url(#flow)" />
+  <text x="145.0" y="180.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="middle">q</text>
+  <text x="86.0" y="217.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">Same current</text>
+  <text x="86.0" y="233.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">permutation</text>
+  <text x="183.0" y="69.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="start">m = memory state</text>
+  <text x="183.0" y="83.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="start">c = control state</text>
+  <text x="213.0" y="107.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">Receiver</text>
+  <text x="213.0" y="122.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">(before)</text>
+  <text x="303.0" y="107.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">Donor</text>
+  <g id="receiver-native-memory">
+    <rect x="181.0" y="132.0" width="30.0" height="25.0" rx="2" fill="#F5F5F5" stroke="#A4ADB5" stroke-width=".8" />
+    <text x="197.0" y="149.0" font-family="DejaVu Sans" font-size="14" text-anchor="end" fill="#24282D">m</text>
+    <text x="198.0" y="152.5" font-family="DejaVu Sans" font-size="10.08" fill="#24282D">R</text>
+  </g>
+  <g id="receiver-native-control">
+    <rect x="215.0" y="132.0" width="30.0" height="25.0" rx="2" fill="#F5F5F5" stroke="#A4ADB5" stroke-width=".8" />
+    <text x="231.0" y="149.0" font-family="DejaVu Sans" font-size="14" text-anchor="end" fill="#24282D">c</text>
+    <text x="232.0" y="152.5" font-family="DejaVu Sans" font-size="10.08" fill="#24282D">R</text>
+  </g>
+  <g id="donor-memory">
+    <rect x="272.0" y="132.0" width="30.0" height="25.0" rx="2" fill="#E7F0F6" stroke="#A4ADB5" stroke-width=".8" />
+    <text x="288.0" y="149.0" font-family="DejaVu Sans" font-size="14" text-anchor="end" fill="#24282D">m</text>
+    <text x="289.0" y="152.5" font-family="DejaVu Sans" font-size="10.08" fill="#24282D">D</text>
+  </g>
+  <g id="donor-control">
+    <rect x="306.0" y="132.0" width="30.0" height="25.0" rx="2" fill="#F5F5F5" stroke="#A4ADB5" stroke-width=".8" />
+    <text x="322.0" y="149.0" font-family="DejaVu Sans" font-size="14" text-anchor="end" fill="#24282D">c</text>
+    <text x="323.0" y="152.5" font-family="DejaVu Sans" font-size="10.08" fill="#24282D">D</text>
+  </g>
+  <g id="receiver-after-memory">
+    <rect x="272.0" y="183.0" width="30.0" height="25.0" rx="2" fill="#E7F0F6" stroke="#A4ADB5" stroke-width=".8" />
+    <text x="288.0" y="200.0" font-family="DejaVu Sans" font-size="14" text-anchor="end" fill="#24282D">m</text>
+    <text x="289.0" y="203.5" font-family="DejaVu Sans" font-size="10.08" fill="#24282D">D</text>
+  </g>
+  <g id="receiver-after-control">
+    <rect x="306.0" y="183.0" width="30.0" height="25.0" rx="2" fill="#F5F5F5" stroke="#A4ADB5" stroke-width=".8" />
+    <text x="322.0" y="200.0" font-family="DejaVu Sans" font-size="14" text-anchor="end" fill="#24282D">c</text>
+    <text x="323.0" y="203.5" font-family="DejaVu Sans" font-size="10.08" fill="#24282D">R</text>
+  </g>
+  <path id="retain-receiver-state" d="M 245.0,144.5 L 258.0,144.5 L 258.0,195.5 L 271.0,195.5" fill="none" stroke="#24282D" stroke-width="1.0" stroke-linejoin="round" marker-end="url(#flow)" data-from="receiver-native" data-to="receiver-after" />
+  <path id="copy-donor-memory" d="M 287.0,157.5 L 287.0,182.5" fill="none" stroke="#0072B2" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#memory)" data-from="donor-memory" data-to="receiver-after-memory" />
+  <text x="260.0" y="226.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">Receiver after exchange:</text>
+  <g id="receiver-after">
+    <text x="271.0" y="246.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="start">(</text>
+    <text x="289.0" y="246.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">m</text>
+    <text x="290.0" y="249.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">D</text>
+    <text x="303.0" y="246.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="start">,</text>
+    <text x="321.0" y="246.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="end">c</text>
+    <text x="322.0" y="249.5" fill="#24282D" font-family="DejaVu Sans" font-size="10.08" font-weight="normal" text-anchor="start">R</text>
+    <text x="333.0" y="246.0" fill="#24282D" font-family="DejaVu Sans" font-size="14" font-weight="normal" text-anchor="start">)</text>
+  </g>
+  <g id="receiver-inputs">
+    <text x="438.0" y="97.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">Subsequent</text>
+    <text x="438.0" y="113.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">receiver inputs</text>
+  </g>
+  <g id="continued-network">
+    <rect x="368.0" y="145.0" width="140.0" height="40.0" rx="2" fill="white" stroke="#A4ADB5" stroke-width=".8" />
+    <text x="438.0" y="160.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">Continue same</text>
+    <text x="438.0" y="176.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">recurrent network</text>
+  </g>
+  <path id="joint-state-to-recurrence" d="M 341.0,242.0 L 354.0,242.0 L 354.0,165.0 L 367.0,165.0" fill="none" stroke="#24282D" stroke-width="1.0" stroke-linejoin="round" marker-end="url(#flow)" data-from="receiver-after" data-to="continued-network" />
+  <path id="future-inputs-to-recurrence" d="M 438.0,120.0 L 438.0,144.0" fill="none" stroke="#24282D" stroke-width="1.0" stroke-linejoin="round" marker-end="url(#flow)" data-from="receiver-inputs" data-to="continued-network" />
+  <g id="original-readout">
+    <rect x="380.0" y="202.0" width="116.0" height="24.0" rx="2" fill="white" stroke="#A4ADB5" stroke-width=".8" />
+    <text x="438.0" y="218.5" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle">Original readout</text>
+  </g>
+  <path id="recurrence-to-readout" d="M 438.0,186.0 L 438.0,201.0" fill="none" stroke="#24282D" stroke-width="1.0" stroke-linejoin="round" marker-end="url(#flow)" data-from="continued-network" data-to="original-readout" />
+  <text x="438.0" y="254.0" fill="#24282D" font-family="DejaVu Sans" font-size="12" font-weight="normal" text-anchor="middle" id="answer">Answer</text>
+  <path id="readout-to-answer" d="M 438.0,227.0 L 438.0,239.0" fill="none" stroke="#24282D" stroke-width="1.0" stroke-linejoin="round" marker-end="url(#flow)" data-from="original-readout" data-to="answer" />
 </svg>

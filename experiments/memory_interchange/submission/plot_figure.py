@@ -25,7 +25,7 @@ HERE = Path(__file__).resolve().parent
 FIG = HERE / 'figures'
 ROOT = HERE.parents[2]
 SEEDS = tuple(range(101, 107))
-SIZES = {'A': (7.2, 7.5), 'B': (3.45, 3.5), 'C': (3.45, 4.1), 'D': (3.45, 4.45)}
+SIZES = {'A': (7.2, 3.6), 'B': (3.45, 3.5), 'C': (3.45, 4.1), 'D': (3.45, 4.45)}
 WITHIN, CROSS, NATIVE = '#0072B2', '#D55E00', '#68549A'
 INK, LIGHT = '#24282D', '#E4E8EC'
 FONT = 12
@@ -127,108 +127,132 @@ def canvas(width, height, bottom=52, top=22):
     return fig, ax
 
 
-def schematic(width=7.2, height=7.5):
-    # These examples appear only in captions.txt. Pure list checks, no models.
+def schematic(width=7.2, height=3.6):
+    # Verified mathematical example is confined to the caption.
     q = [2, 4, 1, 7, 3, 6, 5]
     p_d, p_r = [3, 1, 5, 2, 7, 6, 4], [6, 4, 7, 1, 5, 2, 3]
-    assert [p_d.index(j) + 1 for j in range(1, 8)] == q  # ctx0: A then N
-    assert [8 - j for j in p_r] == q                   # ctx1: N then A
-    assert p_d != p_r
+    assert [p_d.index(j) + 1 for j in range(1, 8)] == q
+    assert [8 - j for j in p_r] == q and p_d != p_r
     w, h = width * 72, height * 72
-    sx, sy = w / 518.4, h / 540
+    sx, sy = w / 518.4, h / 259.2
     svg = ET.Element('svg', xmlns='http://www.w3.org/2000/svg',
                      width=f'{w}pt', height=f'{h}pt', viewBox=f'0 0 {w} {h}')
     defs = ET.SubElement(svg, 'defs')
     for name, color in [('flow', INK), ('memory', WITHIN)]:
-        marker = ET.SubElement(defs, 'marker', id=name, markerWidth='7', markerHeight='7',
-                               refX='6', refY='3.5', orient='auto', markerUnits='userSpaceOnUse')
-        ET.SubElement(marker, 'path', d='M0,0 L7,3.5 L0,7 Z', fill=color)
-    def txt(x, y, s, size=FONT, bold=False, anchor='start', color=INK):
-        e = ET.SubElement(svg, 'text', x=str(x*sx), y=str(y*sy), fill=color,
-            **{'font-family': 'DejaVu Sans', 'font-size': str(size),
-               'font-weight': 'bold' if bold else 'normal', 'text-anchor': anchor})
-        e.text = s
+        marker = ET.SubElement(defs, 'marker', id=name, markerWidth='6', markerHeight='6',
+                               refX='5.5', refY='3', orient='auto', markerUnits='userSpaceOnUse')
+        ET.SubElement(marker, 'path', d='M0,0 L6,3 L0,6 Z', fill=color)
+    parent = svg
+    def txt(x, y, s, size=FONT, bold=False, anchor='start', color=INK, ident=None):
+        attrs = {'x':str(x*sx), 'y':str(y*sy), 'fill':color,
+                 'font-family':'DejaVu Sans', 'font-size':str(size),
+                 'font-weight':'bold' if bold else 'normal', 'text-anchor':anchor}
+        if ident: attrs['id'] = ident
+        e = ET.SubElement(parent, 'text', attrs); e.text = s
         return e
-    def math(x, y, base, sub, size=14, anchor='middle', color=INK):
-        # Explicit positions preserve real subscripts in Cairo and SVG editors.
-        # Cairo does not consistently implement SVG baseline-shift.
-        txt(x+1, y, base, size, anchor='end', color=color)
-        return txt(x+2, y+size*.25, sub, size*.72, color=color)
-    def arrow(x1, y1, x2, y2, memory=False):
-        ET.SubElement(svg, 'line', x1=str(x1*sx), y1=str(y1*sy),
-            x2=str(x2*sx), y2=str(y2*sy), stroke=WITHIN if memory else INK,
-            **{'stroke-width': '1.6' if memory else '1.1',
-               'marker-end': 'url(#memory)' if memory else 'url(#flow)'})
-    def box(x, y, bw, bh, fill='white', stroke='#A4ADB5'):
-        ET.SubElement(svg, 'rect', x=str(x*sx), y=str(y*sy), width=str(bw*sx), height=str(bh*sy),
-                      rx='3', fill=fill, stroke=stroke, **{'stroke-width': '.9'})
-    def state(x, y, base, sub, memory=False):
-        box(x, y, 60, 32, '#E7F0F6' if memory else '#F5F5F5')
-        math(x+30, y+21, base, sub)
-    txt(24, 20, 'One fixed network · two trials', bold=True)
-    # Separate rule table, no enclosing frame.
-    for x, name in [(84, 'Rule context'), (280, 'Cue A'), (435, 'Cue B')]:
-        txt(x, 48, name, bold=True, anchor='middle')
-    ET.SubElement(svg, 'line', x1=str(24*sx), y1=str(56*sy), x2=str(495*sx), y2=str(56*sy),
-                  stroke=LIGHT, **{'stroke-width': '.9'})
-    for y, context, a, b in [(75, '0', 'inversion', 'complementation'),
-                              (96, '1', 'complementation', 'inversion')]:
-        for x, value in [(84, context), (280, a), (435, b)]:
-            txt(x, y, value, anchor='middle')
-    # 1: histories lead to the same task-defined content, not the same state.
-    txt(24, 129, '1. Different inputs and histories, same q', size=13.5, bold=True)
-    for x, name in [(135, 'Initial input'), (270, 'History'), (420, 'Current content')]:
-        txt(x, 153, name, anchor='middle')
-    for y, role, sub in [(181, 'Donor', 'D'), (219, 'Receiver', 'R')]:
-        txt(24, y, role)
-        math(135, y, 'p', sub)
-        math(270, y-15, 'H', sub, size=13)
-        arrow(171, y-4, 365, y-4)
-        txt(420, y, 'q', size=14, anchor='middle')
-    # 2: actual native components and a direct donor-memory -> receiver-slot arrow.
-    txt(24, 255, '2. Exchange the memory component', size=13.5, bold=True)
-    txt(24, 279, 'm = memory state')
-    txt(265, 279, 'c = control state')
-    txt(350, 303, 'Donor trial')
-    state(350, 314, 'm', 'D', memory=True)
-    state(420, 314, 'c', 'D')
-    txt(24, 367, 'Receiver before')
-    state(24, 379, 'm', 'R')
-    state(94, 379, 'c', 'R')
-    arrow(175, 395, 331, 395)
-    txt(252, 382, 'replace', anchor='end')
-    math(268, 382, 'm', 'R', size=12)
-    txt(252, 418, 'keep', anchor='end')
-    math(268, 418, 'c', 'R', size=12)
-    state(350, 379, 'm', 'D', memory=True)
-    state(420, 379, 'c', 'R')
-    arrow(380, 346, 380, 378, memory=True)
-    txt(373, 438, '(', size=14)
-    math(392, 438, 'm', 'D')
-    txt(408, 438, ',', size=14)
-    math(430, 438, 'c', 'R')
-    txt(447, 438, ')', size=14)
-    # 3: receiver future inputs and original readout; no separate-network cartoon.
-    txt(24, 475, '3. Continue the receiver trial', size=13.5, bold=True)
-    for x, bw in [(24, 162), (232, 164), (439, 64)]:
-        box(x, 493, bw, 37)
-    txt(105, 508, 'Subsequent', anchor='middle')
-    txt(105, 523, 'receiver inputs', anchor='middle')
-    txt(314, 508, 'Original network', anchor='middle')
-    txt(314, 523, 'readout', anchor='middle')
-    txt(471, 516, 'Answer', anchor='middle')
-    arrow(188, 511.5, 225, 511.5)
-    arrow(398, 511.5, 432, 511.5)
+    def math(x, y, base, sub, size=14):
+        txt(x+1, y, base, size, anchor='end')
+        txt(x+2, y+size*.25, sub, size*.72)
+    def edge(points, ident, source=None, target=None, memory=False):
+        attrs = {'id':ident,
+            'd':'M '+' L '.join(f'{x*sx},{y*sy}' for x,y in points),
+            'fill':'none', 'stroke':WITHIN if memory else INK,
+            'stroke-width':'1.8' if memory else '1.0',
+            'stroke-linejoin':'round',
+            'marker-end':'url(#memory)' if memory else 'url(#flow)'}
+        if source: attrs['data-from'] = source
+        if target: attrs['data-to'] = target
+        ET.SubElement(parent, 'path', attrs)
+    def box(x, y, bw, bh, fill='white'):
+        ET.SubElement(parent, 'rect', x=str(x*sx), y=str(y*sy), width=str(bw*sx),
+            height=str(bh*sy), rx='2', fill=fill, stroke='#A4ADB5', **{'stroke-width':'.8'})
+    def slot(x, y, base, sub, ident, memory=False):
+        group = ET.SubElement(parent, 'g', id=ident)
+        ET.SubElement(group, 'rect', x=str(x*sx), y=str(y*sy), width=str(30*sx),
+            height=str(25*sy), rx='2', fill='#E7F0F6' if memory else '#F5F5F5',
+            stroke='#A4ADB5', **{'stroke-width':'.8'})
+        # Explicit glyph positions retain editable, properly lowered subscripts.
+        e = ET.SubElement(group, 'text', x=str((x+16)*sx), y=str((y+17)*sy),
+            **{'font-family':'DejaVu Sans','font-size':'14','text-anchor':'end','fill':INK})
+        e.text = base
+        e = ET.SubElement(group, 'text', x=str((x+17)*sx), y=str((y+20.5)*sy),
+            **{'font-family':'DejaVu Sans','font-size':'10.08','fill':INK})
+        e.text = sub
+    txt(w/sx/2, 17, 'One fixed network, two trials', bold=True, anchor='middle')
+    for x, title in [(86,'Match current content'), (260,'Exchange memory'),
+                     (436,'Continue computation')]:
+        txt(x, 47, title, bold=True, anchor='middle')
+    edge([(166,43),(179,43)],'step-match-to-exchange')
+    edge([(343,43),(357,43)],'step-exchange-to-continue')
+    # Left: distinct initial inputs/histories, identical task-defined content q.
+    for y, role, sub in [(88,'Donor','D'),(152,'Receiver','R')]:
+        txt(12, y, role)
+        math(24, y+28, 'p', sub)
+        edge([(41,y+24),(60,y+24)],f'{sub}-input-to-history')
+        math(81, y+28, 'H', sub)
+        edge([(99,y+24),(129,y+24)],f'{sub}-history-to-content')
+        txt(145, y+28, 'q', size=14, anchor='middle')
+    txt(86, 217, 'Same current', anchor='middle')
+    txt(86, 233, 'permutation', anchor='middle')
+    # Middle: keep original c_R; only donor m_D is copied to the receiver slot.
+    txt(183, 69, 'm = memory state')
+    txt(183, 83, 'c = control state')
+    txt(213, 107, 'Receiver', anchor='middle')
+    txt(213, 122, '(before)', anchor='middle')
+    txt(303, 107, 'Donor', anchor='middle')
+    slot(181,132,'m','R','receiver-native-memory')
+    slot(215,132,'c','R','receiver-native-control')
+    slot(272,132,'m','D','donor-memory',memory=True)
+    slot(306,132,'c','D','donor-control')
+    slot(272,183,'m','D','receiver-after-memory',memory=True)
+    slot(306,183,'c','R','receiver-after-control')
+    edge([(245,144.5),(258,144.5),(258,195.5),(271,195.5)],
+         'retain-receiver-state','receiver-native','receiver-after')
+    edge([(287,157.5),(287,182.5)],'copy-donor-memory',
+         'donor-memory','receiver-after-memory',memory=True)
+    txt(260, 226, 'Receiver after exchange:', anchor='middle')
+    parent = ET.SubElement(svg,'g',id='receiver-after')
+    # A compact, editable equation is the source of the continuation edge.
+    txt(271,246,'(',size=14)
+    math(288,246,'m','D')
+    txt(303,246,',',size=14)
+    math(320,246,'c','R')
+    txt(333,246,')',size=14)
+    parent = svg
+    # Right: BOTH the exchanged joint state and receiver future inputs feed
+    # continued recurrence, which precedes the original readout and answer.
+    parent = ET.SubElement(svg,'g',id='receiver-inputs')
+    txt(438,97,'Subsequent',anchor='middle')
+    txt(438,113,'receiver inputs',anchor='middle')
+    parent = svg
+    parent = ET.SubElement(svg,'g',id='continued-network')
+    box(368,145,140,40)
+    txt(438,160,'Continue same',anchor='middle')
+    txt(438,176,'recurrent network',anchor='middle')
+    parent = svg
+    edge([(341,242),(354,242),(354,165),(367,165)],'joint-state-to-recurrence',
+         'receiver-after','continued-network')
+    edge([(438,120),(438,144)],'future-inputs-to-recurrence',
+         'receiver-inputs','continued-network')
+    parent = ET.SubElement(svg,'g',id='original-readout')
+    box(380,202,116,24)
+    txt(438,218.5,'Original readout',anchor='middle')
+    parent = svg
+    edge([(438,186),(438,201)],'recurrence-to-readout','continued-network','original-readout')
+    txt(438,254,'Answer',anchor='middle',ident='answer')
+    edge([(438,227),(438,239)],'readout-to-answer','original-readout','answer')
     ET.indent(svg, space='  ')
     path = FIG / 'panel_A.svg'
-    ET.ElementTree(svg).write(path, encoding='unicode', xml_declaration=True)
-    cairosvg.svg2pdf(url=str(path), write_to=str(FIG / 'panel_A.pdf'))
+    ET.ElementTree(svg).write(path,encoding='unicode',xml_declaration=True)
+    cairosvg.svg2pdf(url=str(path),write_to=str(FIG/'panel_A.pdf'))
     finish_pdf('A').close()
-    DRAWN['A'] = {'width_in': width, 'height_in': height,
-                  'ordinary_font_pt': 12, 'step_heading_pt': 13.5,
-                  'math_base_pt': [12,13,14], 'math_subscript_pt': [8.64,9.36,10.08],
-                  'math_example_checked': True,
-                  'memory_arrow': 'donor m_D directly to receiver after-exchange memory slot'}
+    DRAWN['A']={'width_in':width,'height_in':height,'layout':'three regions, left to right',
+        'ordinary_font_pt':12,'region_heading_pt':12,'math_base_pt':14,'math_subscript_pt':10.08,
+        'math_example_checked':True,'rules':'in caption only',
+        'memory_arrow':'donor m_D directly to receiver after-exchange memory slot',
+        'continuation_edges':[['receiver-after','continued-network'],
+                              ['receiver-inputs','continued-network'],
+                              ['continued-network','original-readout'],['original-readout','answer']]}
 
 
 def behavior(width=3.45, height=3.5):
@@ -362,6 +386,27 @@ def validate(panel):
     tag=lambda s:'{http://www.w3.org/2000/svg}'+s
     assert list(svg.iter(tag('text'))), 'SVG text not editable'
     assert not list(svg.iter(tag('image'))), 'SVG raster image'
+    if panel == 'A':
+        edges={(e.get('data-from'),e.get('data-to')) for e in svg.iter(tag('path'))}
+        for connection in DRAWN['A']['continuation_edges']:
+            assert tuple(connection) in edges, ('Missing continuation connection',connection)
+        for i,a in enumerate(spans):
+            for b in spans[i+1:]:
+                overlap=fitz.Rect(a['bbox']) & fitz.Rect(b['bbox'])
+                assert overlap.is_empty or overlap.width<=.7 or overlap.height<=.7, (
+                    'Overlapping diagram text',a['text'],b['text'])
+        # Physical arrow shafts must not pass through any label or subscript.
+        for path in svg.iter(tag('path')):
+            if not path.get('id'): continue
+            points=[tuple(map(float,v)) for v in re.findall(r'[ML]\s*([-\d.]+),([-\d.]+)',path.get('d',''))]
+            for start,end in zip(points,points[1:]):
+                segment=fitz.Rect(min(start[0],end[0])-.2,min(start[1],end[1])-.2,
+                                  max(start[0],end[0])+.2,max(start[1],end[1])+.2)
+                for label in spans:
+                    assert (segment & fitz.Rect(label['bbox'])).is_empty, (
+                        'Arrow crosses diagram text',path.get('id'),label['text'])
+        DRAWN['A']['text_overlap_checks']='passed'
+        DRAWN['A']['arrow_text_intersection_checks']='passed'
     DRAWN[panel].update({'pdf_points':[page.rect.width,page.rect.height],
         'minimum_ordinary_pdf_pt':min(s['size'] for s in spans if s['size']>=11.99),
         'embedded_fonts':sorted(set(fonts)),'raster_objects':0,'editable_svg_text':True,
@@ -378,6 +423,15 @@ def check_protected():
     return len(protected)
 
 
+def check_panel_a_revision():
+    path=HERE/'archive/panel_A_portrait_2026-10-17/protected_files.json'
+    if not path.exists():return 0
+    protected=json.loads(path.read_text())
+    for p,digest in protected.items():
+        assert sha(HERE/p)==digest,f'Non-A asset changed during A revision: {p}'
+    return len(protected)
+
+
 def run():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--panel',choices=['A','B','C','D','all'],default='all')
@@ -387,6 +441,7 @@ def run():
     if args.panel=='all' and (args.width or args.height):
         parser.error('Set width/height for one panel at a time; text is never scaled.')
     sources=check_inputs(); check_protected()
+    if args.panel=='A':check_panel_a_revision()
     funcs={'A':schematic,'B':behavior,'C':translation,'D':geometry}
     selected=list(funcs) if args.panel=='all' else [args.panel]
     FIG.mkdir(exist_ok=True)
@@ -396,6 +451,7 @@ def run():
         validate(panel)
         print(f'{panel}: {DRAWN[panel]["width_in"]} x {DRAWN[panel]["height_in"]} in; fonts >=12 pt; PDF/SVG/PNG saved.')
     protected_count=check_protected()
+    non_a_protected=check_panel_a_revision() if args.panel=='A' else None
     report_path=HERE/'figure_validation.json'
     previous=json.loads(report_path.read_text()).get('panels',{}) if report_path.exists() else {}
     previous.update(DRAWN)
@@ -406,6 +462,7 @@ def run():
             'combined_figure_generated':False,'manuscript_compiled':False,
             'drawing_source_sha256':sha(HERE/'plot_figure.py'),
             'figure_notes_sha256':{name:sha(HERE/name) for name in ['captions.txt','figure_README.md'] if (HERE/name).exists()},
+            'non_A_assets_unchanged_during_A_revision':non_a_protected,
             'source_data_sha256':{str(p.relative_to(HERE)):sha(p) for p in (HERE/'data').glob('*') if p.is_file()},
             'panels':previous}
     report_path.write_text(json.dumps(report,indent=2)+'\n')

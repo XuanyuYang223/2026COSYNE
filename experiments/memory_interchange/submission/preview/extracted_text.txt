@@ -1,0 +1,126 @@
+Rule context constrains the interchangeability
+of content-matched memory states
+Summary
+Working memory retains information for use under task rules. If memory states have the same content and
+similar representations, can we use them interchangeably in subsequent computation? Six independently
+initialized recurrent networks were trained on a permutation-based memory task. Each network received a
+permutation of 1 through 7, processed operation cues separated by delays, and answered queries about the
+resulting permutation. The operations included inversion and complementation (replacing each position label
+j with 8−j). A preceding context cue determined whether A meant inversion and B complementation, or vice
+versa. Exact permutation relations allowed different initial inputs and histories to reach identical current per-
+mutations. Within each network, we replaced the memory component of the receiver’s hidden state with the
+donor’s while retaining the receiver’s control component, subsequent inputs, and readout. Exchanges within
+the same rule context introduced new errors on 1.7% of all queries, compared with 53.4% across contexts.
+Under identical subsequent inputs, answers after exchange matched the donor’s own answers on > 99.99%
+of queries, including nearly all donor errors. Some paired control states were identical. Translating subse-
+quent cues into their donor-context equivalents increased cross-context accuracy from 42.1% to 97.9% on
+held-out permutations; the same translation without exchange reduced original-task accuracy from 97.9% to
+42.1%. Linear centered kernel alignment (CKA) distributions largely overlapped between within-context and
+cross-context pairs (medians approximately 0.892 and 0.889). Adding CKA to a baseline accounting for task
+conditions, native performance, content decoding, and input/control-state distances did not consistently im-
+prove loss predictions for held-out networks and condition pairs. These results suggest that content-matched
+memory states can carry different information about how subsequent cues are interpreted. In these networks,
+matching content and high CKA did not guarantee functional interchangeability, motivating causal tests when
+interpreting neural population representations.
+Additional Detail
+The intervention uses two trials in the same trained network (Fig. 1A). Their initial permutations and cue
+histories can differ while producing exactly the same current permutation. The architecture partitions the
+hidden state into memory m and control c. We replace mR with mD in native coordinates, then use the receiver’s
+subsequent inputs and the unchanged network readout. Retaining cR speciﬁes a component intervention; it
+does not establish that the receiver’s functional rule is retained. Some paired control states are exactly equal.
+Intervention deﬁnitions and scoring matter for interpretation [2].
+New errors count native-correct, exchange-wrong answers divided by all evaluated queries (Fig. 1B; 134
+B1 permutations, 19 orbits). Means weight networks equally; within each network, condition pairs, both
+directions, delays d = 0,10, and sufﬁxes NN/NA/NB retain their original weights. Each permutation has
+seven item-to-position and seven position-to-item queries. Cue translation swaps A/B and preserves N. Both
+treatments in Fig. 1C are scored against the original receiver target, including NN. The no-exchange control
+is native, unpatched activity. Its 362 B_reserved permutations (51 orbits) were held out from earlier B1
+exploration; this submission reuses saved results.
+Linear CKA [1] uses content-aligned memory states from the separate geometry set G. Figure 1D uses only
+d = 0, with each network–unordered-condition pair counted once across sufﬁxes. Its pooled median is not the
+mean of network medians. The original held-out-network/unseen-pair predictor comparison gave mean MAE
+improvement −0.0149 nat with CKA (one of six folds positive); the original reﬁt-bootstrap 95% interval was
+very wide, [−42.56,87.78] nat. This limits precision and does not show that CKA is generally uninforma-
+tive. Network 106 and weak native conditions remain included. Registered GPU checks passed; the original
+strict CPU ﬂoat32 logit tolerance failed (ﬂoat64 agreed; compared argmax answers were unchanged). These
+ﬁndings concern the tested networks and continuations.
+
+
+A Task and memory interchange
+Context 0: A = inversion; B = complement
+Context 1: A = complement; B = inversion
+One trained RNN · fixed weights
+Donor trial · context 0
+[3 1 5 2 7 6 4]
+A N
+q
+mᴅ
+cᴅ
+Receiver trial · context 1
+[6 4 7 1 5 2 3]
+N A
+q
+mʀ
+cʀ
+Identical current q = [2 4 1 7 3 6 5]
+Replace mʀ ←mᴅ:
+(mᴅ, cʀ)
+Receiver inputs →same RNN →original readout
+Within-context
+Cross-context
+0
+20
+40
+60
+New errors (% of all queries)
+1.7%
+53.4%
+B Context-dependent damage
+Small symbols: 6 networks; ◆: mean
+Original cues
+Translated cues
+0
+50
+100
+Original-task accuracy (%)
+42.1%
+97.9%
+97.9%
+42.1%
+Cross-context exchange
+No exchange (native)
+C
+Cue translation reverses the effect
+B_reserved · all suffixes, including NN
+0.7
+0.8
+0.9
+1.0
+Linear CKA (d = 0)
+0.0
+0.5
+1.0
+Cumulative fraction
+Medians
+0.892 within
+0.889 cross
+Within-context (n=432)
+Cross-context (n=486)
+D Geometry distributions overlap
+Condition pairs pooled across 6 networks
+Figure 1. Rule context changes the functional use of matched memory. A, Two trials in one ﬁxed network reach the same full
+permutation q from different initial inputs and histories (N is a no-operation cue). The exchanged state is (mD,cR); keeping cR
+does not imply retaining the receiver’s functional rule, and cD need not differ from cR. B, New-error percentages use all B1 queries
+as denominator; small symbols show six independently trained networks (seeds 101–106), and diamonds show their equal-weight
+means. C, On B_reserved, translating cues compensates cross-context exchange but impairs native, unexchanged performance on
+the original target. Thin paired lines/small symbols show networks; thick lines/diamonds show equal-weight means. Seed symbols
+in B/C follow the same order: circle, up-triangle, square, down-triangle, ﬁlled plus, X; horizontal offsets separate overlapping
+marks. All prespeciﬁed sufﬁxes, including NN, and both delays contribute to B/C. D, ECDFs pool 432 within-context and 486
+cross-context geometric measurements at d = 0 (72/81 unordered condition pairs per network), with no sufﬁx duplication. These
+are dependent condition-level distributions across six networks, not 918 independent training runs. Blue/orange denote within/cross
+context in B/D. Identical future inputs gave > 99.99% donor-answer agreement, including nearly all donor errors.
+References
+[1] Kornblith, S., Norouzi, M., Lee, H. & Hinton, G. (2019). Similarity of Neural Network Representations Revisited. PMLR 97,
+3519–3529. proceedings.mlr.press/v97/kornblith19a.html
+[2] Zhang, F. & Nanda, N. (2024). Towards Best Practices of Activation Patching in Language Models: Metrics and Methods.
+ICLR. arXiv:2309.16042.

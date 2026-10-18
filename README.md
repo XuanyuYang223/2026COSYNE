@@ -2,7 +2,9 @@
 
 This repository contains the experimental code, protocols, configuration, learning records, reports, summary tables, figures and integrity manifests for the memory-state interchange study.
 
-The latest completed work is the descriptive comparison of memory patches with donor-native outputs in six frozen RNNs. B1 and B_reserved were both previously opened; this audit is not an independent confirmation experiment. The original CKA prediction test and previous numerical failures remain unchanged.
+The latest analysis is the [descriptive wrong-content rescoring](experiments/memory_interchange/wrong_content_recombination/README.md) of the six frozen RNNs, following the donor-native output comparison. B1 and B_reserved were both previously opened; these audits are not independent confirmation experiments. The original CKA prediction test and previous numerical failures remain unchanged.
+
+The [anonymous two-page COSYNE manuscript and four-panel figure](experiments/memory_interchange/submission/README.md) reuse the saved results. That directory includes the PDF, LaTeX, editable SVG schematic, Matplotlib scripts, source audit, exact per-seed values, and reproduction commands. Preparing it involved no training, new network forward passes, or changes to historical experimental results; no conference submission was performed.
 
 ## English documentation
 
